@@ -1,0 +1,1001 @@
+{"input": "Big royal white bed with white background.", "edit": "Make it pink.", "output": "Big royal pink bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a headboard.", "output": "Big oak wood bed with headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a bunk bed.", "output": "Bunk bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a canopy bed.", "output": "Canopy bed made of oak wood with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the headboard.", "output": "Big royal white bed without headboard and with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a daybed.", "output": "Daybed made of oak wood with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a platform bed.", "output": "Platform bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add storage drawers.", "output": "Big oak wood bed with storage drawers and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a canopy bed.", "output": "Canopy bed made of white wood with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a trundle bed.", "output": "Trundle bed made of oak wood with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a bunk bed.", "output": "Big royal white bunk bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a headboard.", "output": "Big oak wood bed with headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the pillows.", "output": "Big royal white bed without pillows and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a four-poster bed.", "output": "Big oak wood four-poster bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a canopy.", "output": "Big royal white bed with canopy and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a daybed.", "output": "Big oak wood daybed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a leather bed.", "output": "Big white leather bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the footboard.", "output": "Big oak wood bed without footboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add storage drawers.", "output": "Big royal white bed with storage drawers and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a canopy bed.", "output": "Big oak wood canopy bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it red.", "output": "Big royal red bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a headboard.", "output": "Big oak wood bed with headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a bunk bed.", "output": "Big royal white bunk bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a canopy bed.", "output": "Big oak wood canopy bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a daybed.", "output": "Big white daybed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a four-poster bed.", "output": "Big oak wood four-poster bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a footboard.", "output": "Big royal white bed with footboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a twin bed.", "output": "Big white twin bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the headboard.", "output": "Big oak wood bed without headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it yellow.", "output": "Big royal yellow bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a headboard.", "output": "Big oak wood bed with headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the headboard.", "output": "Big royal white bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a double bed.", "output": "Big oak wood double bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a canopy bed.", "output": "Big royal white canopy bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a storage compartment.", "output": "Big oak wood bed with storage compartment and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the footboard.", "output": "Big royal white bed without footboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a bunk bed.", "output": "Big oak wood bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a platform bed.", "output": "Big royal white platform bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a mattress.", "output": "Big oak wood bed with mattress and white background."}
+{"input": "Modern black leather sofa with white background.", "edit": "Make it white leather.", "output": "Modern white leather sofa with white background."}
+{"input": "Queen size wooden bed with white background.", "edit": "Make it a king size bed.", "output": "King size wooden bed with white background."}
+{"input": "L-shaped grey fabric sofa with white background.", "edit": "Make it a reclining sofa.", "output": "L-shaped grey fabric reclining sofa with white background."}
+{"input": "Vintage red velvet bed with white background.", "edit": "Add golden accents.", "output": "Vintage red velvet bed with golden accents and white background."}
+{"input": "Round rattan hanging chair with white background.", "edit": "Remove the cushion.", "output": "Round rattan hanging chair without cushion and white background."}
+{"input": "Minimalist wooden daybed with white background.", "edit": "Make it a bunk bed.", "output": "Minimalist wooden bunk bed with white background."}
+{"input": "Sleek black leather bed with white background.", "edit": "Change it to a platform bed.", "output": "Sleek black leather platform bed with white background."}
+{"input": "Cozy grey fabric club chair with white background.", "edit": "Make it a rocking chair.", "output": "Cozy grey fabric rocking chair with white background."}
+{"input": "Stylish tufted velvet sofa with white background.", "edit": "Add decorative throw pillows.", "output": "Stylish tufted velvet sofa with decorative throw pillows and white background."}
+{"input": "Minimalist white futon with white background.", "edit": "Change it to a sleeper sofa.", "output": "Minimalist white sleeper sofa with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a queen size bed.", "output": "Big royal white queen size bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a bunk bed.", "output": "Big oak wood bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a headboard.", "output": "Big royal white bed with headboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the footboard.", "output": "Big oak wood bed without footboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a canopy bed.", "output": "Big royal white canopy bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a patterned bedspread.", "output": "Big royal white bed with patterned bedspread and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a daybed.", "output": "Big oak wood daybed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the mattress.", "output": "Big royal white bed without mattress and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a four-poster bed.", "output": "Big oak wood four-poster bed with white background."}
+{"input": "Small modern grey sofa with white background.", "edit": "Make it black.", "output": "Small modern black sofa with white background."}
+{"input": "Small vintage brown sofa with white background.", "edit": "Make it a couch.", "output": "Small vintage brown couch with white background."}
+{"input": "Large leather black sofa with white background.", "edit": "Add pillows.", "output": "Large leather black sofa with pillows and white background."}
+{"input": "Small fabric grey sofa with white background.", "edit": "Make it a loveseat.", "output": "Small fabric grey loveseat with white background."}
+{"input": "Small sectional beige sofa with white background.", "edit": "Change its color to green.", "output": "Small sectional green sofa with white background."}
+{"input": "Large velvet blue sofa with white background.", "edit": "Add a coffee table.", "output": "Large velvet blue sofa with a coffee table and white background."}
+{"input": "Small tufted red sofa with white background.", "edit": "Remove the armrests.", "output": "Small tufted red sofa without armrests and white background."}
+{"input": "Large leather brown sofa with white background.", "edit": "Make it a recliner.", "output": "Large leather brown recliner with white background."}
+{"input": "Small fabric green sofa with white background.", "edit": "Make it a sleeper sofa.", "output": "Small fabric green sleeper sofa with white background."}
+{"input": "Small sectional grey sofa with white background.", "edit": "Add some throw blankets.", "output": "Small sectional grey sofa with throw blankets and white background."}
+{"input": "Luxurious leather bed with white background.", "edit": "Make it a double bed.", "output": "Luxurious double bed with white background."}
+{"input": "Minimalist gray sofa with white background.", "edit": "Add some cushions.", "output": "Minimalist gray sofa with cushions and white background."}
+{"input": "Vintage brown leather sofa with white background.", "edit": "Remove the armrests.", "output": "Vintage brown leather sofa without armrests and white background."}
+{"input": "Elegant black bed with white background.", "edit": "Add a headboard.", "output": "Elegant black bed with headboard and white background."}
+{"input": "Modern gray sectional sofa with white background.", "edit": "Change it to a L-shaped sofa.", "output": "Modern gray L-shaped sofa with white background."}
+{"input": "Rustic wooden bed with white background.", "edit": "Make it a four-poster bed.", "output": "Rustic four-poster wooden bed with white background."}
+{"input": "Cozy beige sofa with white background.", "edit": "Remove the back cushions.", "output": "Cozy beige sofa without back cushions and white background."}
+{"input": "Contemporary white bed with white background.", "edit": "Make it a bunk bed.", "output": "Contemporary white bunk bed with white background."}
+{"input": "Vintage floral sofa with white background.", "edit": "Change it to a loveseat.", "output": "Vintage floral loveseat with white background."}
+{"input": "Minimalist platform bed with white background.", "edit": "Add a storage drawer.", "output": "Minimalist platform bed with storage drawer and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change the size to queen.", "output": "Queen royal white bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a double bed.", "output": "Big oak wood double bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the headboard.", "output": "Big royal white bed with no headboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a canopy.", "output": "Big oak wood bed with a canopy and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a bunk bed.", "output": "Bunk bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change the color to black.", "output": "Big oak wood bed with black background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a storage compartment.", "output": "Big royal white bed with a storage compartment and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change the style to modern.", "output": "Big modern white bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a poster bed.", "output": "Big oak wood poster bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it black.", "output": "Big royal black bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a headboard.", "output": "Big oak wood bed with headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the pillows.", "output": "Big royal white bed with no pillows and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a bunk bed.", "output": "Big oak wood bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make the headboard tufted.", "output": "Big royal white tufted bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a canopy.", "output": "Big oak wood bed with canopy and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a daybed.", "output": "Big white daybed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a trundle bed.", "output": "Big oak wood trundle bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make the frame gold.", "output": "Big royal white bed with gold frame and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a storage under the mattress.", "output": "Big oak wood bed with storage under the mattress and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a bunk bed.", "output": "Big royal white bunk bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a canopy bed.", "output": "Big oak wood canopy bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a four-poster bed.", "output": "Big royal white four-poster bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the headboard.", "output": "Big oak wood bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a daybed.", "output": "Big royal white daybed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a trundle bed.", "output": "Big royal white trundle bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the footboard.", "output": "Big oak wood bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a futon.", "output": "Big white futon with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a sleigh bed.", "output": "Big oak wood sleigh bed with white background."}
+{"input": "Minimalist white bed with white background.", "edit": "Change it to a bunk bed.", "output": "Minimalist bunk bed with white background."}
+{"input": "Luxurious velvet sofa with white background.", "edit": "Remove the cushions.", "output": "Luxurious velvet sofa without cushions with white background."}
+{"input": "Modern black leather bed with white background.", "edit": "Add a headboard.", "output": "Modern black leather bed with headboard and white background."}
+{"input": "Vintage red sofa with white background.", "edit": "Make it green.", "output": "Vintage green sofa with white background."}
+{"input": "Rustic wooden bed with white background.", "edit": "Change it to a canopy bed.", "output": "Rustic canopy bed with white background."}
+{"input": "Contemporary gray sofa with white background.", "edit": "Make it a sectional sofa.", "output": "Contemporary gray sectional sofa with white background."}
+{"input": "Industrial metal bed with white background.", "edit": "Add a mattress.", "output": "Industrial metal bed with mattress and white background."}
+{"input": "Cozy beige sofa with white background.", "edit": "Remove the armrests.", "output": "Cozy beige sofa without armrests with white background."}
+{"input": "Elegant four-poster bed with white background.", "edit": "Make it a platform bed.", "output": "Elegant platform bed with white background."}
+{"input": "Classic floral print sofa with white background.", "edit": "Change the print to stripes.", "output": "Classic striped sofa with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a bunk bed.", "output": "Big royal white bunk bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a canopy.", "output": "Big royal white bed with canopy and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the headboard.", "output": "Big oak wood bed without headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add bedside tables.", "output": "Big royal white bed with bedside tables and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change the color to black.", "output": "Big black bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a daybed.", "output": "Big white daybed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add storage drawers.", "output": "Big oak wood bed with storage drawers and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a canopy bed.", "output": "Big royal white canopy bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a four-poster bed.", "output": "Big oak wood four-poster bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it black.", "output": "Big royal black bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a headboard.", "output": "Big oak wood bed with headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a bunk bed.", "output": "Big white bunk bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the footboard.", "output": "Big oak wood bed without footboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a daybed.", "output": "Big white daybed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change the color to brown.", "output": "Big oak wood bed with brown color and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a canopy.", "output": "Big royal white bed with canopy and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the pillows.", "output": "Big royal white bed without pillows and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a round bed.", "output": "Big oak wood round bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it black.", "output": "Big royal black bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add storage underneath.", "output": "Big oak wood bed with storage underneath and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a bunk bed.", "output": "Big royal white bunk bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a canopy bed.", "output": "Big oak wood canopy bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the headboard.", "output": "Big royal white bed without headboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a daybed.", "output": "Big oak wood daybed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a four-poster bed.", "output": "Big royal white four-poster bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the footboard.", "output": "Big oak wood bed without footboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a futon.", "output": "Big white futon with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a sleigh bed.", "output": "Big oak wood sleigh bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a bunk bed.", "output": "Big royal white bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a canopy.", "output": "Big royal white bed with canopy and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the headboard.", "output": "Big royal white bed without headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a round bed.", "output": "Big round white bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a platform bed.", "output": "Big royal white platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add storage drawers.", "output": "Big royal white bed with storage drawers and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a canopy bed.", "output": "Big royal white canopy bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a twin bed.", "output": "Big royal white twin bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the footboard.", "output": "Big royal white bed without footboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a daybed.", "output": "Big royal white daybed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it purple.", "output": "Big royal purple bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it out of teak wood.", "output": "Big teak wood bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a bunk bed.", "output": "Big white bunk bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a headboard.", "output": "Big oak wood bed with headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a canopy bed.", "output": "Big white canopy bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a daybed.", "output": "Big white daybed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a sleigh bed.", "output": "Big oak wood sleigh bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the headboard.", "output": "Big white bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the footboard.", "output": "Big oak wood bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it purple.", "output": "Big royal purple bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it out of mahogany wood.", "output": "Big mahogany wood bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a twin bed.", "output": "Big royal white twin bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a canopy.", "output": "Big royal white bed with canopy and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the headboard.", "output": "Big royal white bed without headboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a bunk bed.", "output": "Big white bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a canopy and make it pink.", "output": "Big royal pink bed with canopy and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a four-poster bed.", "output": "Big oak wood four-poster bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a round bed.", "output": "Big royal white round bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it black.", "output": "Big royal black bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a canopy.", "output": "Big oak wood bed with canopy and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a bunk bed.", "output": "Big royal white bunk bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the headboard.", "output": "Big oak wood bed without headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a futon.", "output": "Big white futon with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add storage drawers.", "output": "Big royal white bed with storage drawers and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a daybed.", "output": "Big oak wood daybed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change the headboard design.", "output": "Big royal white bed with new headboard design and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a canopy bed.", "output": "Big oak wood canopy bed with white background."}
+{"input": "Modern gray sectional sofa with white background.", "edit": "Make it a reclining sofa.", "output": "Modern gray reclining sofa with white background."}
+{"input": "Contemporary black platform bed with white background.", "edit": "Add a headboard.", "output": "Contemporary black platform bed with headboard and white background."}
+{"input": "Cozy beige futon with white background.", "edit": "Change the color to navy blue.", "output": "Cozy navy blue futon with white background."}
+{"input": "Vintage brown leather sofa with white background.", "edit": "Make it a sleeper sofa.", "output": "Vintage brown leather sleeper sofa with white background."}
+{"input": "Minimalist white daybed with white background.", "edit": "Add a trundle bed.", "output": "Minimalist white daybed with trundle bed and white background."}
+{"input": "Classic wooden sleigh bed with white background.", "edit": "Replace it with a metal bed frame.", "output": "Classic metal bed frame with white background."}
+{"input": "Elegant tufted velvet loveseat with white background.", "edit": "Make it a settee.", "output": "Elegant tufted velvet settee with white background."}
+{"input": "Mid-century modern gray sofa with white background.", "edit": "Change the legs to tapered wooden legs.", "output": "Mid-century modern gray sofa with tapered wooden legs and white background."}
+{"input": "Rustic wooden canopy bed with white background.", "edit": "Remove the canopy.", "output": "Rustic wooden bed with white background."}
+{"input": "Plush velvet sectional sofa with white background.", "edit": "Add an ottoman.", "output": "Plush velvet sectional sofa with ottoman and white background."}
+{"input": "Modern grey sofa with white background.", "edit": "Make it black.", "output": "Modern black sofa with white background."}
+{"input": "Vintage brown leather sofa with white background.", "edit": "Change it to fabric.", "output": "Vintage fabric sofa with white background."}
+{"input": "Minimalistic black bed with white background.", "edit": "Add a headboard.", "output": "Minimalistic black bed with headboard and white background."}
+{"input": "Cozy white sofa with white background.", "edit": "Remove the cushions.", "output": "Cozy white sofa with no cushions and white background."}
+{"input": "Chic cream sofa with white background.", "edit": "Make it velvet.", "output": "Chic cream velvet sofa with white background."}
+{"input": "Classic wooden bed with white background.", "edit": "Make it bunk bed.", "output": "Classic wooden bunk bed with white background."}
+{"input": "Elegant silver bed with white background.", "edit": "Change it to gold.", "output": "Elegant gold bed with white background."}
+{"input": "Spacious beige sofa with white background.", "edit": "Make it L-shaped.", "output": "Spacious L-shaped beige sofa with white background."}
+{"input": "Luxurious white bed with white background.", "edit": "Add a canopy.", "output": "Luxurious white bed with canopy and white background."}
+{"input": "Compact black sofa with white background.", "edit": "Make it a loveseat.", "output": "Compact black loveseat with white background."}
+{"input": "Classic red sofa with white background.", "edit": "Change it to a blue sofa.", "output": "Classic blue sofa with white background."}
+{"input": "Modern grey sofa with white background.", "edit": "Add a chaise longue.", "output": "Modern grey sofa with chaise longue and white background."}
+{"input": "Vintage floral patterned sofa with white background.", "edit": "Remove the patterns.", "output": "Vintage plain sofa with white background."}
+{"input": "Minimalist black leather sofa with white background.", "edit": "Add some cushions.", "output": "Minimalist black leather sofa with cushions and white background."}
+{"input": "Mid-century modern green velvet sofa with white background.", "edit": "Make it a loveseat.", "output": "Mid-century modern green velvet loveseat with white background."}
+{"input": "Sectional grey fabric sofa with white background.", "edit": "Change the color to beige.", "output": "Sectional beige fabric sofa with white background."}
+{"input": "L-shaped brown leather sofa with white background.", "edit": "Remove one section.", "output": "L-shaped brown leather sofa with white background."}
+{"input": "Tufted white leather sofa with white background.", "edit": "Make it a recliner.", "output": "Tufted white leather recliner with white background."}
+{"input": "Chesterfield brown leather sofa with white background.", "edit": "Add nailhead trim.", "output": "Chesterfield brown leather sofa with nailhead trim and white background."}
+{"input": "Contemporary blue linen sofa with white background.", "edit": "Change the material to velvet.", "output": "Contemporary blue velvet sofa with white background."}
+{"input": "Classic brown leather sofa with white background.", "edit": "Change it to a black leather sofa.", "output": "Classic black leather sofa with white background."}
+{"input": "Modern grey fabric sofa with white background.", "edit": "Make it a sectional sofa.", "output": "Modern grey sectional sofa with white background."}
+{"input": "Small white daybed with white background.", "edit": "Make it a trundle bed.", "output": "Small white trundle bed with white background."}
+{"input": "Vintage green velvet sofa with white background.", "edit": "Add some decorative pillows.", "output": "Vintage green velvet sofa with decorative pillows on white background."}
+{"input": "Minimalist black metal bed with white background.", "edit": "Change it to a loft bed.", "output": "Minimalist black metal loft bed with white background."}
+{"input": "Rustic wooden platform bed with white background.", "edit": "Add a headboard.", "output": "Rustic wooden platform bed with headboard on white background."}
+{"input": "Contemporary white leather sofa with white background.", "edit": "Make it a reclining sofa.", "output": "Contemporary white leather reclining sofa with white background."}
+{"input": "Antique brass canopy bed with white background.", "edit": "Remove the canopy.", "output": "Antique brass bed with white background."}
+{"input": "Casual beige linen sofa with white background.", "edit": "Change it to a sleeper sofa.", "output": "Casual beige linen sleeper sofa with white background."}
+{"input": "Elegant purple velvet bed with white background.", "edit": "Add a tufted headboard.", "output": "Elegant purple velvet bed with tufted headboard on white background."}
+{"input": "Big royal blue bed with white background.", "edit": "Change it to a queen size bed.", "output": "Big royal blue queen size bed with white background."}
+{"input": "Big pine wood bed with white background.", "edit": "Add a headboard.", "output": "Big pine wood bed with headboard and white background."}
+{"input": "Big white sofa with white background.", "edit": "Remove the cushions.", "output": "Big white sofa without cushions and white background."}
+{"input": "Luxurious velvet bed with white background.", "edit": "Change it to a platform bed.", "output": "Luxurious velvet platform bed with white background."}
+{"input": "Vintage leather sofa with white background.", "edit": "Make it a recliner sofa.", "output": "Vintage leather recliner sofa with white background."}
+{"input": "Classic brown wooden bedframe with white background.", "edit": "Change it to a four-poster bed.", "output": "Classic brown wooden four-poster bed with white background."}
+{"input": "Minimalistic gray sofa with white background.", "edit": "Change its color to black.", "output": "Minimalistic black sofa with white background."}
+{"input": "Modern fabric bed with white background.", "edit": "Add a storage compartment.", "output": "Modern fabric bed with storage compartment and white background."}
+{"input": "Sleek black leather sofa with white background.", "edit": "Remove the armrests.", "output": "Sleek black leather sofa without armrests and white background."}
+{"input": "Rustic wooden bed with white background.", "edit": "Make it a canopy bed.", "output": "Rustic wooden canopy bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a headboard.", "output": "Big royal white bed with headboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a bunk bed.", "output": "Big oak wood bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a canopy bed.", "output": "Big royal white canopy bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a storage compartment.", "output": "Big oak wood bed with storage compartment and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a twin bed.", "output": "Big royal white twin bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a velvet headboard.", "output": "Big royal white bed with velvet headboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a daybed.", "output": "Big oak wood daybed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add LED lights.", "output": "Big royal white bed with LED lights and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a trundle bed.", "output": "Big oak wood trundle bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a canopy.", "output": "Big royal white bed with canopy and white background."}
+{"input": "Modern black leather sofa with white background.", "edit": "Make it a sectional sofa.", "output": "Modern black leather sectional sofa with white background."}
+{"input": "Small grey fabric sofa with white background.", "edit": "Make it a reclining sofa.", "output": "Small grey reclining sofa with white background."}
+{"input": "Vintage blue velvet sofa with white background.", "edit": "Add cushions.", "output": "Vintage blue velvet sofa with cushions and white background."}
+{"input": "Large brown leather sofa with white background.", "edit": "Make it a sleeper sofa.", "output": "Large brown leather sleeper sofa with white background."}
+{"input": "Minimalist white leather bed with white background.", "edit": "Make it a platform bed.", "output": "Minimalist white leather platform bed with white background."}
+{"input": "Elegant black velvet sofa with white background.", "edit": "Add tufted details.", "output": "Elegant black tufted velvet sofa with white background."}
+{"input": "Contemporary grey fabric bed with white background.", "edit": "Add a headboard.", "output": "Contemporary grey fabric bed with headboard and white background."}
+{"input": "Rustic wooden sofa with white background.", "edit": "Make it a loveseat.", "output": "Rustic wooden loveseat with white background."}
+{"input": "Vintage floral patterned sofa with white background.", "edit": "Change the pattern to geometric.", "output": "Vintage geometric patterned sofa with white background."}
+{"input": "Minimalist white leather bed with white background.", "edit": "Add storage drawers.", "output": "Minimalist white leather bed with storage drawers and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a queen-size bed.", "output": "Big royal white queen-size bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the headboard.", "output": "Big oak wood bed with white background and no headboard."}
+{"input": "Big royal white bed with white background.", "edit": "Add a canopy.", "output": "Big royal white bed with white background and a canopy."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a bunk bed.", "output": "White bunk bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change the color to black.", "output": "Big black oak wood bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add decorative pillows.", "output": "Big royal white bed with white background and decorative pillows."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a daybed.", "output": "Big white daybed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove one side rail.", "output": "Big oak wood bed with white background and only one side rail."}
+{"input": "Big royal white bed with white background.", "edit": "Change the style to modern.", "output": "Big modern white bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a folding bed.", "output": "White folding bed with white background."}
+{"input": "Modern black sofa with white background.", "edit": "Make it a white sofa.", "output": "Modern white sofa with white background."}
+{"input": "Round wooden coffee table with white background.", "edit": "Make it a rectangular coffee table.", "output": "Rectangular wooden coffee table with white background."}
+{"input": "Chic velvet blue sofa with white background.", "edit": "Make it a leather sofa.", "output": "Chic leather blue sofa with white background."}
+{"input": "Small minimalist white bed with white background.", "edit": "Add a headboard.", "output": "Small minimalist white bed with headboard and white background."}
+{"input": "Classic brown leather armchair with white background.", "edit": "Make it a recliner.", "output": "Classic brown leather recliner with white background."}
+{"input": "Cozy gray sectional sofa with white background.", "edit": "Remove one section.", "output": "Cozy gray sofa with white background."}
+{"input": "Elegant glass coffee table with white background.", "edit": "Make it a marble coffee table.", "output": "Elegant marble coffee table with white background."}
+{"input": "Minimalist wooden bookshelf with white background.", "edit": "Add a drawer.", "output": "Minimalist wooden bookshelf with drawer and white background."}
+{"input": "Vintage blue velvet armchair with white background.", "edit": "Make it a rocking chair.", "output": "Vintage blue velvet rocking chair with white background."}
+{"input": "Modern gray bunk bed with white background.", "edit": "Add a ladder.", "output": "Modern gray bunk bed with ladder and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a queen size bed.", "output": "Big queen size white bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add golden accents.", "output": "Big oak wood bed with golden accents and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the headboard.", "output": "Big royal white bed with white background (without headboard)."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a bunk bed.", "output": "Bunk bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a canopy.", "output": "Big oak wood bed with canopy and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a platform bed.", "output": "Platform bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a daybed.", "output": "Daybed made of oak wood with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the footboard.", "output": "Big royal white bed with white background (without footboard)."}
+{"input": "Big oak wood bed with white background.", "edit": "Add tufted upholstery.", "output": "Big oak wood bed with tufted upholstery and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a four-poster bed.", "output": "Four-poster bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it pink.", "output": "Big royal pink bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add storage drawers.", "output": "Big oak wood bed with storage drawers with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the headboard.", "output": "Big royal white bed without headboard with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a bunk bed.", "output": "Big oak wood bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a double bed.", "output": "Big royal white double bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a canopy bed.", "output": "Big oak wood canopy bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a platform bed.", "output": "Big royal white platform bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a round bed.", "output": "Big oak wood round bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a trundle bed.", "output": "Big royal white trundle bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a tufted headboard.", "output": "Big oak wood bed with tufted headboard with white background."}
+{"input": "Big brown leather sofa with white background.", "edit": "Change it to a black leather sofa.", "output": "Big black leather sofa with white background."}
+{"input": "Small modern gray sofa with white background.", "edit": "Add a chaise lounge.", "output": "Small modern gray sofa with chaise lounge and white background."}
+{"input": "Vintage red velvet sofa with white background.", "edit": "Remove the decorative buttons.", "output": "Vintage red velvet sofa without decorative buttons and white background."}
+{"input": "Single white bed with white background.", "edit": "Make it a canopy bed.", "output": "Single white canopy bed with white background."}
+{"input": "Big fabric sectional sofa with white background.", "edit": "Change the material to leather.", "output": "Big leather sectional sofa with white background."}
+{"input": "Simple black metal bed with white background.", "edit": "Remove the headboard.", "output": "Simple black metal bed without headboard and white background."}
+{"input": "Large L-shaped gray sofa with white background.", "edit": "Add a storage ottoman.", "output": "Large L-shaped gray sofa with storage ottoman and white background."}
+{"input": "Double bunk bed with white background.", "edit": "Change it to a loft bed.", "output": "Double loft bed with white background."}
+{"input": "Linen upholstered queen bed with white background.", "edit": "Make it a king bed.", "output": "Linen upholstered king bed with white background."}
+{"input": "Classic floral print sofa with white background.", "edit": "Change the print to stripes.", "output": "Classic striped sofa with white background."}
+{"input": "Small modern gray sofa with white background.", "edit": "Make it a loveseat.", "output": "Small modern gray loveseat with white background."}
+{"input": "Big leather black sofa with white background.", "edit": "Make it brown.", "output": "Big leather brown sofa with white background."}
+{"input": "Small contemporary red sofa with white background.", "edit": "Make it pink.", "output": "Small contemporary pink sofa with white background."}
+{"input": "Big fabric beige sofa with white background.", "edit": "Add cushions.", "output": "Big fabric beige sofa with cushions and white background."}
+{"input": "Small velvet purple sofa with white background.", "edit": "Remove the armrests.", "output": "Small velvet purple sofa without armrests and white background."}
+{"input": "Big leather white sofa with white background.", "edit": "Make it a sectional.", "output": "Big white sectional sofa with white background."}
+{"input": "Small fabric blue sofa with white background.", "edit": "Make it a sleeper sofa.", "output": "Small fabric blue sleeper sofa with white background."}
+{"input": "Big velvet pink bed with white background.", "edit": "Change it into a canopy bed.", "output": "Big velvet pink canopy bed with white background."}
+{"input": "Small modern gray sofa with white background.", "edit": "Add a chaise lounge.", "output": "Small modern gray sofa with chaise lounge and white background."}
+{"input": "Big leather black sofa with white background.", "edit": "Make it a reclining sofa.", "output": "Big leather black reclining sofa with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a queen size.", "output": "Big royal white queen size bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a canopy.", "output": "Big oak wood bed with canopy and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the pillows.", "output": "Big royal white bed without pillows and with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a bunk bed.", "output": "Big oak wood bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a headboard.", "output": "Big royal white bed with headboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a daybed.", "output": "Big oak wood daybed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a platform bed.", "output": "Big royal white platform bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a king size.", "output": "Big oak wood king size bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a canopy bed.", "output": "Big royal white canopy bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a footboard.", "output": "Big oak bed with footboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a queen size bed.", "output": "Big queen size white bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a bunk bed.", "output": "Big bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a headboard.", "output": "Big royal white bed with headboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a canopy bed.", "output": "Big oak wood canopy bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the footboard.", "output": "Big royal white bed without footboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a trundle bed.", "output": "Big royal white trundle bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a daybed.", "output": "Big oak wood daybed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the side rails.", "output": "Big royal white bed without side rails and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a futon.", "output": "Big oak wood futon with white background."}
+{"input": "Classic brown leather sofa with white background.", "edit": "Make it a sectional sofa.", "output": "Classic brown leather sectional sofa with white background."}
+{"input": "Modern gray velvet bed with white background.", "edit": "Remove the headboard.", "output": "Modern gray velvet bed without headboard with white background."}
+{"input": "Antique wooden bed with white background.", "edit": "Add a canopy.", "output": "Antique wooden bed with canopy and white background."}
+{"input": "Minimalist black metal bed with white background.", "edit": "Change it to a twin size.", "output": "Minimalist black metal twin bed with white background."}
+{"input": "Contemporary white fabric sofa with white background.", "edit": "Make it a loveseat.", "output": "Contemporary white fabric loveseat with white background."}
+{"input": "Rustic wooden bed with white background.", "edit": "Make it a bunk bed.", "output": "Rustic wooden bunk bed with white background."}
+{"input": "Modern gray fabric sofa with white background.", "edit": "Add tufted cushions.", "output": "Modern gray fabric sofa with tufted cushions and white background."}
+{"input": "Minimalist black leather bed with white background.", "edit": "Remove the footboard.", "output": "Minimalist black leather bed without footboard with white background."}
+{"input": "Vintage blue velvet sofa with white background.", "edit": "Make it a chaise lounge.", "output": "Vintage blue velvet chaise lounge with white background."}
+{"input": "Classic white iron bed with white background.", "edit": "Change it to a canopy bed.", "output": "Classic white iron canopy bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it pink.", "output": "Big royal pink bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it out of metal.", "output": "Big metal bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add fluffy pillows.", "output": "Big royal white bed with fluffy pillows and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the headboard.", "output": "Big oak wood bed without headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a bunk bed.", "output": "Big royal white bunk bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a bedside table.", "output": "Big oak wood bed with a bedside table and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a futon.", "output": "Big white futon with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the canopy.", "output": "Big royal white bed without canopy and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a storage compartment.", "output": "Big oak wood bed with a storage compartment and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the headboard.", "output": "Big royal white bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a canopy.", "output": "Big oak wood bed with white background and a canopy."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a bunk bed.", "output": "Big royal white bunk bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a storage compartment.", "output": "Big oak wood bed with white background and a storage compartment."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a platform bed.", "output": "Big royal white platform bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add decorative carvings.", "output": "Big oak wood bed with white background and decorative carvings."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a daybed.", "output": "Big royal white daybed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a tufted headboard.", "output": "Big oak wood bed with white background and a tufted headboard."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a four-poster bed.", "output": "Big royal white four-poster bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a sleigh bed.", "output": "Big oak wood sleigh bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it red.", "output": "Big royal red bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it out of cherry wood.", "output": "Big cherry wood bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a bunk bed.", "output": "Big royal white bunk bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a canopy bed.", "output": "Big oak wood canopy bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a headboard.", "output": "Big royal white bed with headboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the footboard.", "output": "Big oak wood bed without footboard with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a daybed.", "output": "Big white daybed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the mattress.", "output": "Big royal white bed without mattress with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a trundle bed.", "output": "Big oak wood trundle bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it black.", "output": "Big royal black bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a bunk bed.", "output": "Big oak wood bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add storage drawers.", "output": "Big royal white bed with storage drawers and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a queen size bed.", "output": "Big oak wood queen size bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Replace it with a canopy bed.", "output": "Big royal white canopy bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the headboard.", "output": "Big royal white bed without headboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change the design to a sleigh bed.", "output": "Big oak wood sleigh bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a tufted headboard.", "output": "Big royal white bed with tufted headboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Replace it with a four-poster bed.", "output": "Big oak wood four-poster bed with white background."}
+{"input": "Modern leather bed with white background.", "edit": "Make it a fabric bed.", "output": "Modern fabric bed with white background."}
+{"input": "Large L-shaped gray sofa with white background.", "edit": "Make it a cream-colored sofa.", "output": "Large L-shaped cream-colored sofa with white background."}
+{"input": "Wooden bunk bed with white background.", "edit": "Add a storage drawer.", "output": "Wooden bunk bed with a storage drawer and white background."}
+{"input": "White leather armchair with white background.", "edit": "Make it a recliner.", "output": "White leather recliner with white background."}
+{"input": "Classic brown leather sofa with white background.", "edit": "Change it to a black leather sofa.", "output": "Classic black leather sofa with white background."}
+{"input": "Queen size four-poster bed with white background.", "edit": "Remove the posts.", "output": "Queen size bed with white background."}
+{"input": "Cozy gray fabric armchair with white background.", "edit": "Make it a rocking chair.", "output": "Cozy gray fabric rocking chair with white background."}
+{"input": "Single metal bunk bed with white background.", "edit": "Add a trundle bed.", "output": "Single metal bunk bed with a trundle bed and white background."}
+{"input": "Elegant velvet upholstered bed with white background.", "edit": "Change the color to red.", "output": "Elegant red velvet upholstered bed with white background."}
+{"input": "Minimalist black leather sofa with white background.", "edit": "Make it a sectional sofa.", "output": "Minimalist black leather sectional sofa with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it pink.", "output": "Big royal pink bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a canopy.", "output": "Big royal white bed with a canopy and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the headboard.", "output": "Big oak wood bed without the headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a bunk bed.", "output": "Big white bunk bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a daybed.", "output": "Big oak wood daybed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a futon.", "output": "Big white futon with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add under-bed storage.", "output": "Big oak wood bed with under-bed storage and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a canopy bed.", "output": "Big royal white canopy bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a trundle bed.", "output": "Big oak wood trundle bed with white background."}
+{"input": "Small modern white sofa with white background.", "edit": "Make it black.", "output": "Small modern black sofa with white background."}
+{"input": "Grey fabric sofa with white background.", "edit": "Make it a recliner.", "output": "Grey fabric recliner with white background."}
+{"input": "Vintage brown leather sofa with white background.", "edit": "Add cushions.", "output": "Vintage brown leather sofa with cushions and white background."}
+{"input": "Small black leather sofa with white background.", "edit": "Make it a sectional.", "output": "Small black leather sectional sofa with white background."}
+{"input": "Big grey fabric sofa with white background.", "edit": "Remove armrests.", "output": "Big grey fabric sofa without armrests and white background."}
+{"input": "Modern white futon with white background.", "edit": "Add a side table.", "output": "Modern white futon with a side table and white background."}
+{"input": "Beige suede sectional sofa with white background.", "edit": "Make it a sleeper sofa.", "output": "Beige suede sleeper sectional sofa with white background."}
+{"input": "Blue velvet chesterfield sofa with white background.", "edit": "Make it tufted.", "output": "Blue tufted velvet chesterfield sofa with white background."}
+{"input": "Black leather recliner with white background.", "edit": "Remove footrest.", "output": "Black leather recliner without footrest and white background."}
+{"input": "Small modern gray sofa with white background.", "edit": "Make it a loveseat.", "output": "Small modern gray loveseat with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it pink.", "output": "Big royal pink bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a headboard.", "output": "Big oak wood bed with headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a queen size.", "output": "Big royal white queen size bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a bunk bed.", "output": "Big oak wood bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a canopy bed.", "output": "Big royal white canopy bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a footboard.", "output": "Big oak wood bed with footboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a daybed.", "output": "Big white daybed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a twin size.", "output": "Big royal white twin size bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the bed frame.", "output": "Oak wood bed without bed frame and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a king-size bed.", "output": "Big royal king-size white bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a canopy.", "output": "Big oak wood bed with a canopy and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the headboard.", "output": "Big royal white bed without a headboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a bunk bed.", "output": "Big oak wood bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a storage compartment.", "output": "Big royal white bed with a storage compartment and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a sleigh bed.", "output": "Big oak wood sleigh bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a daybed.", "output": "Big white daybed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the footboard.", "output": "Big oak wood bed without a footboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a round bed.", "output": "Big royal white round bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it purple.", "output": "Big royal purple bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a bunk bed.", "output": "Big oak wood bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add gold accents.", "output": "Big royal white bed with gold accents and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a twin bed.", "output": "Big oak wood twin bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the headboard.", "output": "Big royal white bed without a headboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a four-poster bed.", "output": "Big oak wood four-poster bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a canopy bed.", "output": "Big royal white canopy bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the footboard.", "output": "Big royal white bed without a footboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a daybed.", "output": "Big oak wood daybed with white background."}
+{"input": "Modern black sofa with white background.", "edit": "Make it red.", "output": "Modern red sofa with white background."}
+{"input": "Contemporary gray sofa with white background.", "edit": "Make it a sectional sofa.", "output": "Contemporary gray sectional sofa with white background."}
+{"input": "Vintage brown leather bed with white background.", "edit": "Make it a canopy bed.", "output": "Vintage brown leather canopy bed with white background."}
+{"input": "Minimalist white daybed with white background.", "edit": "Remove the backrest.", "output": "Minimalist white daybed without backrest with white background."}
+{"input": "Luxurious velvet sofa with white background.", "edit": "Add golden legs.", "output": "Luxurious velvet sofa with golden legs and white background."}
+{"input": "Rustic wooden bed with white background.", "edit": "Add a storage compartment.", "output": "Rustic wooden bed with a storage compartment and white background."}
+{"input": "Elegant four-poster bed with white background.", "edit": "Make it a platform bed.", "output": "Elegant platform bed with white background."}
+{"input": "Cozy fabric upholstered sofa with white background.", "edit": "Change the fabric to leather.", "output": "Cozy leather upholstered sofa with white background."}
+{"input": "Classic white iron bed with white background.", "edit": "Remove the footboard.", "output": "Classic white iron bed without footboard with white background."}
+{"input": "Modern gray sofa with white background.", "edit": "Make it a recliner sofa.", "output": "Modern gray recliner sofa with white background."}
+{"input": "Modern gray sofa with white background.", "edit": "Change it to a sectional sofa.", "output": "Modern gray sectional sofa with white background."}
+{"input": "Vintage brown leather sofa with white background.", "edit": "Make it a reclining sofa.", "output": "Vintage brown leather reclining sofa with white background."}
+{"input": "Minimalist black sofa with white background.", "edit": "Add a chaise lounge.", "output": "Minimalist black sofa with chaise lounge and white background."}
+{"input": "Contemporary gray sectional sofa with white background.", "edit": "Remove the ottoman.", "output": "Contemporary gray sectional sofa with white background."}
+{"input": "Classic white sofa with white background.", "edit": "Change it to a sleeper sofa.", "output": "Classic white sleeper sofa with white background."}
+{"input": "Cozy beige sofa with white background.", "edit": "Make it a recliner chair.", "output": "Cozy beige recliner chair with white background."}
+{"input": "Elegant black leather sofa with white background.", "edit": "Add a tufted design.", "output": "Elegant black leather tufted sofa with white background."}
+{"input": "Traditional red velvet sofa with white background.", "edit": "Change it to a loveseat.", "output": "Traditional red velvet loveseat with white background."}
+{"input": "Mid-century modern gray sofa with white background.", "edit": "Make it a sofa bed.", "output": "Mid-century modern gray sofa bed with white background."}
+{"input": "Contemporary blue sectional sofa with white background.", "edit": "Remove one section.", "output": "Contemporary blue sofa with white background."}
+{"input": "Modern black leather bed with white background.", "edit": "Change it to a white leather bed.", "output": "Modern white leather bed with white background."}
+{"input": "Small green sofa with white background.", "edit": "Make it a sectional sofa.", "output": "Small green sectional sofa with white background."}
+{"input": "Vintage red sofa with white background.", "edit": "Make it a velvet sofa.", "output": "Vintage red velvet sofa with white background."}
+{"input": "Minimalist gray bed with white background.", "edit": "Make it a bunk bed.", "output": "Minimalist gray bunk bed with white background."}
+{"input": "Large brown leather sofa with white background.", "edit": "Change it to a fabric sofa.", "output": "Large brown fabric sofa with white background."}
+{"input": "Traditional wooden bed with white background.", "edit": "Add a headboard.", "output": "Traditional wooden bed with headboard and white background."}
+{"input": "Elegant white daybed with white background.", "edit": "Make it a canopy daybed.", "output": "Elegant white canopy daybed with white background."}
+{"input": "Modern gray sectional sofa with white background.", "edit": "Add a chaise lounge.", "output": "Modern gray sectional sofa with chaise lounge and white background."}
+{"input": "Plain black futon with white background.", "edit": "Change it to a futon with storage.", "output": "Black futon with storage and white background."}
+{"input": "Classic beige sofa with white background.", "edit": "Make it a reclining sofa.", "output": "Classic beige reclining sofa with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add pillows.", "output": "Big royal white bed with pillows and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a four-poster bed.", "output": "Big oak wood four-poster bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the headboard.", "output": "Big royal white bed without headboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change the color to black.", "output": "Big black oak wood bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a canopy.", "output": "Big royal white bed with canopy and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a bunk bed.", "output": "Big oak wood bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a double bed.", "output": "Big royal white double bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the footboard.", "output": "Big royal white bed without footboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change the shape to round.", "output": "Big round oak wood bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it yellow.", "output": "Big royal yellow bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it out of walnut wood.", "output": "Big walnut wood bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add cushions.", "output": "Big royal white bed with cushions and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove headboard.", "output": "Big royal white bed without headboard and white background."}
+{"input": "Big white sofa with white background.", "edit": "Make it black.", "output": "Big black sofa with white background."}
+{"input": "Big white sofa with white background.", "edit": "Make it a sectional sofa.", "output": "Big white sectional sofa with white background."}
+{"input": "Big white sofa with white background.", "edit": "Add throw pillows.", "output": "Big white sofa with throw pillows and white background."}
+{"input": "Big white sofa with white background.", "edit": "Remove armrests.", "output": "Big white sofa without armrests and white background."}
+{"input": "Big royal blue bed with white background.", "edit": "Make it purple.", "output": "Big royal purple bed with white background."}
+{"input": "Big pine wood bed with white background.", "edit": "Make it bigger.", "output": "Extra large pine wood bed with white background."}
+{"input": "Minimalist black leather sofa with white background.", "edit": "Change it to a white leather sofa.", "output": "Minimalist white leather sofa with white background."}
+{"input": "Modern grey fabric sectional sofa with white background.", "edit": "Remove one section.", "output": "Modern grey fabric sofa with white background."}
+{"input": "Vintage brown leather armchair with white background.", "edit": "Make it a recliner.", "output": "Vintage brown leather recliner with white background."}
+{"input": "Rustic wooden bunk bed with white background.", "edit": "Change it to a trundle bed.", "output": "Rustic wooden trundle bed with white background."}
+{"input": "Contemporary black leather sofa with white background.", "edit": "Add cup holders.", "output": "Contemporary black leather sofa with cup holders and white background."}
+{"input": "Minimalist white daybed with white background.", "edit": "Make it a canopy bed.", "output": "Minimalist white canopy bed with white background."}
+{"input": "Modern grey futon with white background.", "edit": "Make it a sleeper sofa.", "output": "Modern grey sleeper sofa with white background."}
+{"input": "Elegant purple velvet armchair with white background.", "edit": "Change it to a blue velvet armchair.", "output": "Elegant blue velvet armchair with white background."}
+{"input": "Classic red leather Chesterfield sofa with white background.", "edit": "Remove the tufting.", "output": "Classic red leather sofa with white background."}
+{"input": "Industrial metal daybed with white background.", "edit": "Make it a canopy bed.", "output": "Industrial metal canopy bed with white background."}
+{"input": "Modern grey sofa with white background.", "edit": "Make it black.", "output": "Modern black sofa with white background."}
+{"input": "Classic leather sofa with white background.", "edit": "Add cushions.", "output": "Classic leather sofa with cushions and white background."}
+{"input": "Single white bed with white background.", "edit": "Make it a bunk bed.", "output": "White bunk bed with white background."}
+{"input": "Vintage wooden sofa with white background.", "edit": "Remove armrests.", "output": "Vintage wooden sofa without armrests and white background."}
+{"input": "Futuristic green sofa with white background.", "edit": "Make it a recliner.", "output": "Futuristic green recliner with white background."}
+{"input": "Minimalist black bed with white background.", "edit": "Add a headboard.", "output": "Minimalist black bed with headboard and white background."}
+{"input": "Luxury velvet sofa with white background.", "edit": "Change the color to red.", "output": "Luxury red velvet sofa with white background."}
+{"input": "Rustic wooden bed with white background.", "edit": "Make it a canopy bed.", "output": "Rustic wooden canopy bed with white background."}
+{"input": "Modern white sofa with white background.", "edit": "Make it a sectional sofa.", "output": "Modern white sectional sofa with white background."}
+{"input": "Cozy fabric bed with white background.", "edit": "Change the fabric to velvet.", "output": "Cozy velvet bed with white background."}
+{"input": "Elegant modern gray sofa with white background.", "edit": "Make it a sectional sofa.", "output": "Elegant modern gray sectional sofa with white background."}
+{"input": "Cozy brown leather sofa with white background.", "edit": "Make it a reclining sofa.", "output": "Cozy brown leather reclining sofa with white background."}
+{"input": "Vintage floral patterned sofa with white background.", "edit": "Change the pattern to stripes.", "output": "Vintage striped sofa with white background."}
+{"input": "Minimalist black leather sofa with white background.", "edit": "Add cushions.", "output": "Minimalist black leather sofa with cushions and white background."}
+{"input": "Luxurious velvet blue bed with white background.", "edit": "Make it a canopy bed.", "output": "Luxurious velvet blue canopy bed with white background."}
+{"input": "Rustic wooden daybed with white background.", "edit": "Add a trundle bed.", "output": "Rustic wooden daybed with trundle bed and white background."}
+{"input": "Mid-century modern gray sofa with white background.", "edit": "Change the legs to wooden.", "output": "Mid-century modern gray sofa with wooden legs and white background."}
+{"input": "Classic tufted beige bed with white background.", "edit": "Make it a platform bed.", "output": "Classic tufted beige platform bed with white background."}
+{"input": "Contemporary black leather sofa with white background.", "edit": "Remove the armrests.", "output": "Contemporary black leather sofa without armrests and white background."}
+{"input": "Chic pink velvet bed with white background.", "edit": "Make it a bunk bed.", "output": "Chic pink velvet bunk bed with white background."}
+{"input": "Big gray sectional sofa with white background.", "edit": "Add a chaise lounge.", "output": "Big gray sectional sofa with chaise lounge and white background."}
+{"input": "Small black leather sofa with white background.", "edit": "Remove the armrests.", "output": "Small black leather sofa without armrests and white background."}
+{"input": "Modern white platform bed with white background.", "edit": "Make it a canopy bed.", "output": "Modern white canopy bed with white background."}
+{"input": "Minimalist gray futon with white background.", "edit": "Change the color to red.", "output": "Minimalist red futon with white background."}
+{"input": "Vintage brown leather sofa with white background.", "edit": "Add tufted details.", "output": "Vintage brown tufted leather sofa with white background."}
+{"input": "Cozy beige daybed with white background.", "edit": "Make it a trundle bed.", "output": "Cozy beige trundle bed with white background."}
+{"input": "Classic black wood bed with white background.", "edit": "Make it a four-poster bed.", "output": "Classic black four-poster bed with white background."}
+{"input": "Mid-century modern yellow sofa with white background.", "edit": "Change the upholstery to velvet.", "output": "Mid-century modern yellow velvet sofa with white background."}
+{"input": "Elegant white canopy bed with white background.", "edit": "Add curtains.", "output": "Elegant white canopy bed with curtains and white background."}
+{"input": "Rustic wooden daybed with white background.", "edit": "Change the wood to reclaimed barnwood.", "output": "Rustic reclaimed barnwood daybed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a black bed.", "output": "Big royal black bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add some decorative carvings.", "output": "Big oak wood bed with decorative carvings and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a bunk bed.", "output": "Big white bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the headboard.", "output": "Big royal white bed with white background (without headboard)."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a daybed.", "output": "Big white daybed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Replace it with a canopy bed.", "output": "Big canopy bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a toddler bed.", "output": "Big white toddler bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a mirrored headboard.", "output": "Big oak wood bed with mirrored headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a round bed.", "output": "Big white round bed with white background."}
+{"input": "Minimalist gray sofa with white background.", "edit": "Make it a sectional sofa.", "output": "Minimalist gray sectional sofa with white background."}
+{"input": "Vintage brown leather armchair with white background.", "edit": "Remove the armrests.", "output": "Vintage brown leather chair with white background."}
+{"input": "Contemporary white bed with white background.", "edit": "Change it to a canopy bed.", "output": "Contemporary white canopy bed with white background."}
+{"input": "Modern blue sofa with white background.", "edit": "Make it a reclining sofa.", "output": "Modern blue reclining sofa with white background."}
+{"input": "Rustic wooden bed frame with white background.", "edit": "Add a headboard.", "output": "Rustic wooden bed frame with headboard and white background."}
+{"input": "Sleek black leather sofa with white background.", "edit": "Make it a sectional sofa.", "output": "Sleek black leather sectional sofa with white background."}
+{"input": "Elegant gray upholstered bed with white background.", "edit": "Make it a platform bed.", "output": "Elegant gray upholstered platform bed with white background."}
+{"input": "Classic red velvet sofa with white background.", "edit": "Change it to a loveseat.", "output": "Classic red velvet loveseat with white background."}
+{"input": "Cozy beige fabric armchair with white background.", "edit": "Add a footrest.", "output": "Cozy beige fabric armchair with footrest and white background."}
+{"input": "Chic black metal bed frame with white background.", "edit": "Make it a bunk bed.", "output": "Chic black metal bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it black.", "output": "Big royal black bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a canopy bed.", "output": "Big canopy oak wood bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add headboard.", "output": "Big royal white bed with headboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the footboard.", "output": "Big oak wood bed without footboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a bunk bed.", "output": "Big royal white bunk bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add storage drawers.", "output": "Big oak wood bed with storage drawers and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a daybed.", "output": "Big white daybed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add canopy.", "output": "Big royal white bed with canopy and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a double bed.", "output": "Big oak wood double bed with white background."}
+{"input": "Modern black sofa with white background.", "edit": "Make it a pink sofa.", "output": "Modern pink sofa with white background."}
+{"input": "Vintage brown leather sofa with white background.", "edit": "Change it to a velvet sofa.", "output": "Vintage brown velvet sofa with white background."}
+{"input": "Large gray sectional sofa with white background.", "edit": "Remove one of the sections.", "output": "Large gray sofa with white background."}
+{"input": "Small white leather sofa with white background.", "edit": "Make it a loveseat.", "output": "Small white leather loveseat with white background."}
+{"input": "Minimalist blue sofa with white background.", "edit": "Make it a futon.", "output": "Minimalist blue futon with white background."}
+{"input": "Black leather recliner chair with white background.", "edit": "Change it to a fabric recliner chair.", "output": "Black fabric recliner chair with white background."}
+{"input": "Rustic wooden bench with white background.", "edit": "Make it a tufted bench.", "output": "Rustic tufted wooden bench with white background."}
+{"input": "Mid-century orange armchair with white background.", "edit": "Make it a lounge chair.", "output": "Mid-century orange lounge chair with white background."}
+{"input": "Elegant white chaise lounge with white background.", "edit": "Change it to a black chaise lounge.", "output": "Elegant black chaise lounge with white background."}
+{"input": "Small plaid ottoman with white background.", "edit": "Make it a faux fur ottoman.", "output": "Small faux fur ottoman with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it pink.", "output": "Big royal pink bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it out of cherry wood.", "output": "Big cherry wood bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a brown sofa.", "output": "Big brown sofa with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add golden decorations.", "output": "Big royal white bed with golden decorations and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it out of mahogany wood.", "output": "Big mahogany wood bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a modern bed.", "output": "Big white modern bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a queen size bed.", "output": "Big oak wood queen size bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the headboard.", "output": "Big royal white bed without headboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it out of walnut wood.", "output": "Big walnut wood bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a bunk bed.", "output": "Big white bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a twin bed.", "output": "Big twin white bed with white background."}
+{"input": "Small velvet pink sofa with white background.", "edit": "Change it to a leather sofa.", "output": "Small leather pink sofa with white background."}
+{"input": "Modern gray sofa with white background.", "edit": "Remove the cushions.", "output": "Modern gray sofa with white background."}
+{"input": "Green fabric sofa with white background.", "edit": "Add a decorative throw pillow.", "output": "Green fabric sofa with a decorative throw pillow with white background."}
+{"input": "Blue sectional sofa with white background.", "edit": "Make it a recliner.", "output": "Blue recliner sectional sofa with white background."}
+{"input": "Wooden four-poster bed with white background.", "edit": "Change it to a platform bed.", "output": "Wooden platform bed with white background."}
+{"input": "White leather sofa with white background.", "edit": "Change it to a black leather sofa.", "output": "Black leather sofa with white background."}
+{"input": "Gray upholstered bed with white background.", "edit": "Add a headboard.", "output": "Gray upholstered bed with a headboard with white background."}
+{"input": "Black velvet sofa with white background.", "edit": "Make it a sleeper sofa.", "output": "Black sleeper sofa with white background."}
+{"input": "Beige fabric sofa with white background.", "edit": "Change it to a sectional sofa.", "output": "Beige sectional sofa with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it red.", "output": "Big royal red bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it out of cherry wood.", "output": "Big cherry wood bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a queen size bed.", "output": "Big royal white queen size bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a headboard.", "output": "Big oak wood bed with a headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a bunk bed.", "output": "Big white bunk bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the footboard.", "output": "Big oak wood bed without a footboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a canopy bed.", "output": "Big white canopy bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a bedside table.", "output": "Big oak wood bed with a bedside table and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a daybed.", "output": "Big white daybed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make the headboard taller.", "output": "Big oak wood bed with a taller headboard and white background."}
+{"input": "Queen size black bed with white background.", "edit": "Make it king size.", "output": "King size black bed with white background."}
+{"input": "L-shaped grey sofa with white background.", "edit": "Change it to a sectional sofa.", "output": "Sectional grey sofa with white background."}
+{"input": "Minimalist white bed with white background.", "edit": "Add a headboard.", "output": "Minimalist white bed with headboard and white background."}
+{"input": "Rustic brown leather sofa with white background.", "edit": "Remove the armrests.", "output": "Armless rustic brown leather sofa with white background."}
+{"input": "Double bed with storage in the base and white background.", "edit": "Make it a bunk bed.", "output": "Double bunk bed with storage in the base and white background."}
+{"input": "Velvet purple sofa with white background.", "edit": "Change the color to red.", "output": "Velvet red sofa with white background."}
+{"input": "Modern black bed with white background.", "edit": "Add LED lights.", "output": "Modern black bed with LED lights and white background."}
+{"input": "Beige sectional sofa with white background.", "edit": "Change it to a reclining sofa.", "output": "Reclining beige sectional sofa with white background."}
+{"input": "Four-poster wooden bed with white background.", "edit": "Remove the canopy.", "output": "Wooden bed without canopy and with white background."}
+{"input": "Gray fabric sofa with white background.", "edit": "Make it a sleeper sofa.", "output": "Gray fabric sleeper sofa with white background."}
+{"input": "Big white sofa with white background.", "edit": "Make it a sectional sofa.", "output": "Big white sectional sofa with white background."}
+{"input": "Small beige sofa with white background.", "edit": "Make it a loveseat.", "output": "Small beige loveseat with white background."}
+{"input": "Small black leather sofa with white background.", "edit": "Make it a sleeper sofa.", "output": "Small black leather sleeper sofa with white background."}
+{"input": "Big gray sectional sofa with white background.", "edit": "Add a chaise lounge.", "output": "Big gray sectional sofa with chaise lounge and white background."}
+{"input": "Big blue velvet sofa with white background.", "edit": "Change it to a couch.", "output": "Big blue velvet couch with white background."}
+{"input": "Big brown leather sofa with white background.", "edit": "Change the color to gray.", "output": "Big gray leather sofa with white background."}
+{"input": "Small black fabric loveseat with white background.", "edit": "Make it a reclining loveseat.", "output": "Small black fabric reclining loveseat with white background."}
+{"input": "Big white sectional sofa with white background.", "edit": "Remove one of the sections.", "output": "Big white sofa with white background."}
+{"input": "Big gray velvet sofa with white background.", "edit": "Add decorative pillows.", "output": "Big gray velvet sofa with decorative pillows and white background."}
+{"input": "Small red leather loveseat with white background.", "edit": "Change the color to brown.", "output": "Small brown leather loveseat with white background."}
+{"input": "Big leather sofa with white background.", "edit": "Make it a sectional sofa.", "output": "Big leather sectional sofa with white background."}
+{"input": "Small modern grey sofa with white background.", "edit": "Make it a sleeper sofa.", "output": "Small modern grey sleeper sofa with white background."}
+{"input": "Minimalist black futon with white background.", "edit": "Make it a leather futon.", "output": "Minimalist black leather futon with white background."}
+{"input": "Vintage floral patterned sofa with white background.", "edit": "Make it a loveseat.", "output": "Vintage floral patterned loveseat with white background."}
+{"input": "Brown leather recliner with white background.", "edit": "Make it a massage recliner.", "output": "Brown leather massage recliner with white background."}
+{"input": "Velvet tufted sectional sofa with white background.", "edit": "Add an ottoman.", "output": "Velvet tufted sectional sofa with ottoman and white background."}
+{"input": "Elegant beige canopy bed with white background.", "edit": "Remove the canopy.", "output": "Elegant beige bed with white background."}
+{"input": "Modern white bunk bed with white background.", "edit": "Add a trundle bed.", "output": "Modern white bunk bed with trundle and white background."}
+{"input": "Antique wooden daybed with white background.", "edit": "Remove the mattress.", "output": "Antique wooden daybed with white background."}
+{"input": "King size platform bed with white background.", "edit": "Make it a queen size bed.", "output": "Queen size platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it black.", "output": "Big royal black bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a headboard.", "output": "Big oak wood bed with headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a double bed.", "output": "Big royal white double bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the footboard.", "output": "Big oak wood bed without footboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a twin bed.", "output": "Big royal white twin bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change to a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a canopy.", "output": "Big royal white bed with canopy and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change to a bunk bed.", "output": "Big oak wood bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the headboard.", "output": "Big royal white bed without headboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change to a sleigh bed.", "output": "Big oak wood sleigh bed with white background."}
+{"input": "Modern gray sofa with white background.", "edit": "Make it a sectional sofa.", "output": "Modern gray sectional sofa with white background."}
+{"input": "Vintage red sofa with white background.", "edit": "Change the color to green.", "output": "Vintage green sofa with white background."}
+{"input": "Simple white sofa with white background.", "edit": "Add cushions.", "output": "Simple white sofa with cushions and white background."}
+{"input": "Leather brown sofa with white background.", "edit": "Make it a recliner.", "output": "Leather brown recliner with white background."}
+{"input": "Modern black sofa with white background.", "edit": "Make it a futon.", "output": "Modern black futon sofa with white background."}
+{"input": "Velvet purple sofa with white background.", "edit": "Change the material to microfiber.", "output": "Microfiber purple sofa with white background."}
+{"input": "Linen beige sofa with white background.", "edit": "Make it a loveseat.", "output": "Linen beige loveseat with white background."}
+{"input": "Classic brown leather sofa with white background.", "edit": "Add decorative pillows.", "output": "Classic brown leather sofa with decorative pillows and white background."}
+{"input": "Contemporary gray sofa with white background.", "edit": "Change the legs to metal.", "output": "Contemporary gray sofa with metal legs and white background."}
+{"input": "Mid-century blue sofa with white background.", "edit": "Make it a sleeper sofa.", "output": "Mid-century blue sleeper sofa with white background."}
+{"input": "Modern gray sofa with white background.", "edit": "Make it a leather sofa.", "output": "Modern gray leather sofa with white background."}
+{"input": "Vintage brown leather sofa with white background.", "edit": "Make it a black leather sofa.", "output": "Vintage black leather sofa with white background."}
+{"input": "Minimalist white sofa with white background.", "edit": "Add cushions.", "output": "Minimalist white sofa with cushions and white background."}
+{"input": "L-shaped gray sofa with white background.", "edit": "Make it a sectional sofa.", "output": "L-shaped gray sectional sofa with white background."}
+{"input": "Luxurious red velvet sofa with white background.", "edit": "Change it to a green velvet sofa.", "output": "Luxurious green velvet sofa with white background."}
+{"input": "Elegant black leather sofa with white background.", "edit": "Remove the armrests.", "output": "Elegant black leather sofa without armrests and white background."}
+{"input": "Traditional beige sofa with white background.", "edit": "Make it a recliner sofa.", "output": "Traditional beige recliner sofa with white background."}
+{"input": "Classic brown leather sofa with white background.", "edit": "Make it a tufted sofa.", "output": "Classic brown tufted leather sofa with white background."}
+{"input": "Contemporary gray sectional sofa with white background.", "edit": "Add a chaise lounge.", "output": "Contemporary gray sectional sofa with chaise lounge and white background."}
+{"input": "Rustic wooden daybed with white background.", "edit": "Change it to a canopy bed.", "output": "Rustic wooden canopy bed with white background."}
+{"input": "Big red bed with white background.", "edit": "Change it to a purple bed.", "output": "Big purple bed with white background."}
+{"input": "Small black sofa with white background.", "edit": "Make it a brown sofa.", "output": "Small brown sofa with white background."}
+{"input": "Small round white bed with white background.", "edit": "Change it to a rectangular bed.", "output": "Small rectangular white bed with white background."}
+{"input": "Big leather sofa with white background.", "edit": "Add cushions on it.", "output": "Big leather sofa with cushions with white background."}
+{"input": "Big white bed with white background.", "edit": "Make it a wrought iron bed.", "output": "Big wrought iron bed with white background."}
+{"input": "Small round blue sofa with white background.", "edit": "Change it to a green sofa.", "output": "Small round green sofa with white background."}
+{"input": "Medium-sized brown bed with white background.", "edit": "Remove the headboard.", "output": "Medium-sized brown bed without headboard with white background."}
+{"input": "Big white bed with white background.", "edit": "Add a canopy to it.", "output": "Big white bed with canopy with white background."}
+{"input": "Big royal blue sofa with white background.", "edit": "Change it to a sectional sofa.", "output": "Big royal blue sectional sofa with white background."}
+{"input": "Small round yellow bed with white background.", "edit": "Make it a bunk bed.", "output": "Small yellow bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a bunk bed.", "output": "Big royal white bunk bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a twin bed.", "output": "Big twin oak wood bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the headboard.", "output": "Big royal white bed with white background, without headboard."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a canopy.", "output": "Big oak wood bed with white background, with canopy."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a platform bed.", "output": "Big royal white platform bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a daybed.", "output": "Big oak wood daybed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a bunk bed with storage.", "output": "Big royal white bunk bed with storage and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the footboard.", "output": "Big oak wood bed with white background, without footboard."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a canopy bed.", "output": "Big royal white canopy bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a four-poster bed.", "output": "Big four-poster oak wood bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it red.", "output": "Big royal red bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a headboard.", "output": "Big oak wood bed with headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a bunk bed.", "output": "Big white bunk bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a canopy bed.", "output": "Big royal white canopy bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a footboard.", "output": "Big oak wood bed with footboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a daybed.", "output": "Big white daybed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a four-poster bed.", "output": "Big oak wood four-poster bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the headboard.", "output": "Big royal white bed without headboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a trundle bed.", "output": "Big oak wood trundle bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it pink.", "output": "Big royal pink bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it out of cherry wood.", "output": "Big cherry wood bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the headboard.", "output": "Big royal white bed without headboard with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a bunk bed.", "output": "Big oak wood bunk bed with white background."}
+{"input": "Small white sofa with white background.", "edit": "Make it a sectional sofa.", "output": "Small white sectional sofa with white background."}
+{"input": "L-shaped gray sofa with white background.", "edit": "Make it a loveseat.", "output": "Gray loveseat with white background."}
+{"input": "Modern black leather sofa with white background.", "edit": "Make it tufted.", "output": "Modern tufted black leather sofa with white background."}
+{"input": "Beige velvet armchair with white background.", "edit": "Change it to a recliner.", "output": "Beige velvet recliner with white background."}
+{"input": "Brown leather pouf with white background.", "edit": "Make it square.", "output": "Square brown leather pouf with white background."}
+{"input": "Blue fabric futon with white background.", "edit": "Add wooden legs.", "output": "Blue fabric futon with wooden legs and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a king size bed.", "output": "Big royal white king size bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add cushions.", "output": "Big royal white bed with cushions and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the headboard.", "output": "Big oak wood bed without headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a double bed.", "output": "Big royal white double bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a four-poster bed.", "output": "Big oak wood four-poster bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a canopy.", "output": "Big royal white bed with canopy and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a bunk bed.", "output": "Big oak wood bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Replace it with a daybed.", "output": "Big royal white daybed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a bed skirt.", "output": "Big royal white bed with bed skirt and white background."}
+{"input": "Small modern grey sofa with white background.", "edit": "Make it a futon.", "output": "Small modern grey futon with white background."}
+{"input": "Round velvet pink sofa with white background.", "edit": "Add two cushions.", "output": "Round velvet pink sofa with two cushions and white background."}
+{"input": "Big leather brown bed with white background.", "edit": "Change it to a canopy bed.", "output": "Big leather brown canopy bed with white background."}
+{"input": "Medium-sized fabric beige bed with white background.", "edit": "Make it a bunk bed.", "output": "Medium-sized fabric beige bunk bed with white background."}
+{"input": "Sectional blue sofa with white background.", "edit": "Add an ottoman.", "output": "Sectional blue sofa with an ottoman and white background."}
+{"input": "Queen-sized black bed with white background.", "edit": "Change it to a sleigh bed.", "output": "Queen-sized black sleigh bed with white background."}
+{"input": "Loveseat grey sofa with white background.", "edit": "Make it a recliner.", "output": "Loveseat grey recliner with white background."}
+{"input": "Double-sided fabric brown bed with white background.", "edit": "Change it to a four-poster bed.", "output": "Double-sided fabric brown four-poster bed with white background."}
+{"input": "L-shaped beige sofa with white background.", "edit": "Remove the back cushions.", "output": "L-shaped beige sofa without back cushions and white background."}
+{"input": "Daybed with trundle and white background.", "edit": "Make it a canopy daybed.", "output": "Canopy daybed with trundle and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a bunk bed.", "output": "Big royal white bunk bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the headboard.", "output": "Big oak wood bed with white background and no headboard."}
+{"input": "Big royal white bed with white background.", "edit": "Add a canopy.", "output": "Big royal white bed with white background and a canopy."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a four-poster bed.", "output": "Big oak wood four-poster bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a daybed.", "output": "Big royal white daybed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a sofa bed.", "output": "Big white sofa bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a trundle bed.", "output": "Big oak wood trundle bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the footboard.", "output": "Big royal white bed with white background and no footboard."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a futon.", "output": "Big oak wood futon with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a bunk bed.", "output": "Big oak wood bunk bed with white background."}
+{"input": "Big white sofa with white background.", "edit": "Make it a sectional sofa.", "output": "Big white sectional sofa with white background."}
+{"input": "Big royal blue bed with white background.", "edit": "Add a canopy.", "output": "Big royal blue bed with canopy and white background."}
+{"input": "Big pine wood bed with white background.", "edit": "Remove the headboard.", "output": "Big pine wood bed without headboard and white background."}
+{"input": "Big white sectional sofa with white background.", "edit": "Make it a recliner sofa.", "output": "Big white recliner sofa with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a daybed.", "output": "Big royal white daybed with white background."}
+{"input": "Big oak wood bunk bed with white background.", "edit": "Change it to a loft bed.", "output": "Big oak wood loft bed with white background."}
+{"input": "Big white recliner sofa with white background.", "edit": "Add a chaise lounge.", "output": "Big white recliner sofa with chaise lounge and white background."}
+{"input": "Big pine wood bed without headboard and white background.", "edit": "Make it a platform bed.", "output": "Big pine wood platform bed without headboard and white background."}
+{"input": "Big royal blue bed with canopy and white background.", "edit": "Change it to a four-poster bed.", "output": "Big royal blue four-poster bed with canopy and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a bunk bed.", "output": "Big royal white bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a canopy.", "output": "Big royal white bed with canopy and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the headboard.", "output": "Big royal white bed without headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a platform bed.", "output": "Big royal white platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a daybed.", "output": "Big royal white daybed with white background."}
+{"input": "Cozy gray sofa with white background.", "edit": "Make it a sectional sofa.", "output": "Cozy gray sectional sofa with white background."}
+{"input": "Cozy gray sofa with white background.", "edit": "Make it a reclining sofa.", "output": "Cozy gray reclining sofa with white background."}
+{"input": "Cozy gray sofa with white background.", "edit": "Add a chaise lounge.", "output": "Cozy gray sofa with chaise lounge and white background."}
+{"input": "Cozy gray sofa with white background.", "edit": "Remove the back cushions.", "output": "Cozy gray sofa without back cushions and white background."}
+{"input": "Cozy gray sofa with white background.", "edit": "Make it a futon.", "output": "Cozy gray futon with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it pink.", "output": "Big royal pink bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it out of mahogany wood.", "output": "Big mahogany wood bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a bunk bed.", "output": "Big royal white bunk bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a canopy bed.", "output": "Big oak wood canopy bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a headboard.", "output": "Big royal white bed with headboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the headboard.", "output": "Big oak wood bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a daybed.", "output": "Big royal white daybed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a round bed.", "output": "Big oak wood round bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a platform bed.", "output": "Big royal white platform bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a double bed.", "output": "Big oak wood double bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a queen-sized bed.", "output": "Big queen-sized white bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a headboard.", "output": "Big royal white bed with headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the pillows.", "output": "Big royal white bed without pillows and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a bunk bed.", "output": "Big white bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Replace it with a canopy bed.", "output": "Big royal white canopy bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add side tables.", "output": "Big royal white bed with side tables and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a daybed.", "output": "Big white daybed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a four poster bed.", "output": "Big royal white four poster bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the bedspread.", "output": "Big royal white bed without bedspread and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Replace it with a sleigh bed.", "output": "Big royal white sleigh bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a canopy.", "output": "Big royal white bed with canopy and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a bunk bed.", "output": "Big oak wood bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a queen size bed.", "output": "Big royal white queen size bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change the color to black.", "output": "Big black oak wood bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a headboard.", "output": "Big royal white bed with headboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a platform bed.", "output": "Big platform oak wood bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the footboard.", "output": "Big royal white bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a daybed.", "output": "Big oak wood daybed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add storage drawers.", "output": "Big royal white bed with storage drawers and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a canopy bed.", "output": "Big oak wood canopy bed with white background."}
+{"input": "Large modern grey sofa with white background.", "edit": "Make it a sectional sofa.", "output": "Large modern grey sectional sofa with white background."}
+{"input": "Vintage brown leather armchair with white background.", "edit": "Remove the armrests.", "output": "Vintage brown leather chair with white background."}
+{"input": "Minimalist black metal bed with white background.", "edit": "Change it to a bunk bed.", "output": "Minimalist black metal bunk bed with white background."}
+{"input": "Cozy beige fabric sofa with white background.", "edit": "Add removable back cushions.", "output": "Cozy beige fabric sofa with removable back cushions and white background."}
+{"input": "Rustic wooden daybed with white background.", "edit": "Change it to a trundle bed.", "output": "Rustic wooden trundle bed with white background."}
+{"input": "Elegant velvet gray bed with white background.", "edit": "Make it a canopy bed.", "output": "Elegant velvet gray canopy bed with white background."}
+{"input": "Contemporary black leather sofa with white background.", "edit": "Make it a reclining sofa.", "output": "Contemporary black leather reclining sofa with white background."}
+{"input": "Vintage green velvet armchair with white background.", "edit": "Change it to a rocking chair.", "output": "Vintage green velvet rocking chair with white background."}
+{"input": "Simple wooden daybed with white background.", "edit": "Add a trundle.", "output": "Simple wooden daybed with trundle and white background."}
+{"input": "Classic white fabric sofa with white background.", "edit": "Make it a sleeper sofa.", "output": "Classic white fabric sleeper sofa with white background."}
+{"input": "Small modern gray sofa with white background.", "edit": "Make it a sectional sofa.", "output": "Small modern gray sectional sofa with white background."}
+{"input": "Cozy beige sofa with white background.", "edit": "Make it a reclining sofa.", "output": "Cozy beige reclining sofa with white background."}
+{"input": "Vintage red velvet sofa with white background.", "edit": "Remove the armrests.", "output": "Vintage red velvet sofa without armrests with white background."}
+{"input": "Minimalist black leather sofa with white background.", "edit": "Add a chaise lounge.", "output": "Minimalist black leather sofa with a chaise lounge and white background."}
+{"input": "Elegant white tufted bed with white background.", "edit": "Make the headboard taller.", "output": "Elegant white tufted bed with a taller headboard and white background."}
+{"input": "Futuristic black platform bed with white background.", "edit": "Make it floating.", "output": "Futuristic black floating platform bed with white background."}
+{"input": "Rustic wooden bunk bed with white background.", "edit": "Change it to a loft bed.", "output": "Rustic wooden loft bed with white background."}
+{"input": "Sophisticated gray upholstered bed with white background.", "edit": "Add a canopy.", "output": "Sophisticated gray upholstered bed with a canopy and white background."}
+{"input": "Modern black metal daybed with white background.", "edit": "Add a trundle.", "output": "Modern black metal daybed with a trundle and white background."}
+{"input": "Classic white iron bed with white background.", "edit": "Make it a four-poster bed.", "output": "Classic white four-poster bed with white background."}
+{"input": "Floral patterned sofa with white background.", "edit": "Change the pattern to stripes.", "output": "Striped sofa with white background."}
+{"input": "Vintage brown leather armchair with white background.", "edit": "Add a cushion.", "output": "Vintage brown leather armchair with cushion and white background."}
+{"input": "Minimalist gray sofa with white background.", "edit": "Make it a sectional sofa.", "output": "Minimalist gray sectional sofa with white background."}
+{"input": "Rustic wooden bunk bed with white background.", "edit": "Remove the ladder.", "output": "Rustic wooden bunk bed without ladder and with white background."}
+{"input": "Futuristic white armchair with white background.", "edit": "Make it transparent.", "output": "Futuristic transparent armchair with white background."}
+{"input": "Cozy beige loveseat with white background.", "edit": "Change the color to green.", "output": "Cozy green loveseat with white background."}
+{"input": "Classic black leather recliner chair with white background.", "edit": "Make it electric.", "output": "Classic black leather electric recliner chair with white background."}
+{"input": "Modern gray sectional sofa with white background.", "edit": "Add an ottoman.", "output": "Modern gray sectional sofa with ottoman and white background."}
+{"input": "Antique wooden daybed with white background.", "edit": "Make it canopy style.", "output": "Antique wooden canopy daybed with white background."}
+{"input": "Contemporary fabric sofa with white background.", "edit": "Change the fabric to velvet.", "output": "Contemporary velvet sofa with white background."}
+{"input": "Large modern gray sofa with white background.", "edit": "Make it a sectional sofa.", "output": "Large modern gray sectional sofa with white background."}
+{"input": "Vintage brown leather armchair with white background.", "edit": "Change the color to black.", "output": "Vintage black leather armchair with white background."}
+{"input": "Minimalist white platform bed with white background.", "edit": "Add a headboard.", "output": "Minimalist white platform bed with headboard and white background."}
+{"input": "Cozy gray loveseat with white background.", "edit": "Make it a reclining loveseat.", "output": "Cozy gray reclining loveseat with white background."}
+{"input": "Elegant fabric upholstered bed with white background.", "edit": "Remove the headboard.", "output": "Elegant fabric upholstered bed without headboard and white background."}
+{"input": "Sleek black leather sectional sofa with white background.", "edit": "Change the color to white.", "output": "Sleek white leather sectional sofa with white background."}
+{"input": "Rustic wooden daybed with white background.", "edit": "Add a trundle bed.", "output": "Rustic wooden daybed with trundle bed and white background."}
+{"input": "Minimalist metal frame bed with white background.", "edit": "Make it a bunk bed.", "output": "Minimalist metal frame bunk bed with white background."}
+{"input": "Plush velvet turquoise sofa with white background.", "edit": "Make it a loveseat.", "output": "Plush velvet turquoise loveseat with white background."}
+{"input": "Classic upholstered tufted bed with white background.", "edit": "Remove the footboard.", "output": "Classic upholstered tufted bed without footboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a bunk bed.", "output": "Big royal white bunk bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the headboard.", "output": "Big oak wood bed with white background, without headboard."}
+{"input": "Big royal white bed with white background.", "edit": "Add a canopy.", "output": "Big royal white bed with white background, with canopy."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a king size.", "output": "Big royal white king size bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a four-poster bed.", "output": "Big oak wood four-poster bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Replace it with a daybed.", "output": "Big white daybed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a storage compartment.", "output": "Big oak wood bed with white background, with storage compartment."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a canopy bed.", "output": "Big royal white canopy bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the footboard.", "output": "Big oak wood bed with white background, without footboard."}
+{"input": "Big royal white bed with white background.", "edit": "Replace it with a queen size bed.", "output": "Big royal white queen size bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a bunk bed.", "output": "Big royal white bunk bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a double bed.", "output": "Big oak wood double bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a canopy bed.", "output": "Big royal white canopy bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a daybed.", "output": "Big royal white daybed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a sleigh bed.", "output": "Big oak wood sleigh bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a trundle bed.", "output": "Big royal white trundle bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a futon bed.", "output": "Big oak wood futon bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add storage drawers.", "output": "Big royal white bed with storage drawers and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a tufted headboard.", "output": "Big oak wood bed with tufted headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a canopy.", "output": "Big royal white bed with canopy and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the headboard.", "output": "Big oak wood bed without headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a bunk bed.", "output": "Big royal white bunk bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a twin bed.", "output": "Big oak wood twin bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a daybed.", "output": "Big royal white daybed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add storage drawers.", "output": "Big oak wood bed with storage drawers and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a futon.", "output": "Big royal white futon with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a tufted headboard.", "output": "Big royal white bed with tufted headboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a four-poster bed.", "output": "Big oak wood four-poster bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it pink.", "output": "Big royal pink bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a headboard.", "output": "Big oak wood bed with headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the headboard.", "output": "Big royal white bed without headboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a bunk bed.", "output": "Big oak wood bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add decorative pillows.", "output": "Big royal white bed with decorative pillows and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a canopy bed.", "output": "Big oak wood canopy bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a king-size bed.", "output": "Big royal white king-size bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change the mattress to memory foam.", "output": "Big oak wood bed with memory foam mattress and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a silk bedspread.", "output": "Big royal white bed with silk bedspread and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a daybed.", "output": "Big oak wood daybed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it black.", "output": "Big royal black bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a bunk bed.", "output": "Big oak wood bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a headboard.", "output": "Big royal white bed with headboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the footboard.", "output": "Big oak wood bed without footboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a canopy bed.", "output": "Big royal white canopy bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a four-poster bed.", "output": "Big oak wood four-poster bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a bed skirt.", "output": "Big royal white bed with bed skirt and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a queen size bed.", "output": "Big oak wood queen size bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the side rails.", "output": "Big royal white bed without side rails and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a canopy bed.", "output": "Big royal canopy bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a headboard.", "output": "Big oak wood bed with headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the pillows.", "output": "Big royal white bed without pillows and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a bunk bed.", "output": "Big oak wood bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a bedside table.", "output": "Big royal white bed with bedside table and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a four-poster bed.", "output": "Big oak wood four-poster bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a daybed.", "output": "Big white daybed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the mattress.", "output": "Big oak wood bed without mattress and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a trundle bed.", "output": "Big royal white trundle bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a platform bed.", "output": "Big oak wood platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a king-sized bed.", "output": "Big white king-sized bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a canopy.", "output": "Big royal white bed with canopy and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the headboard.", "output": "Big royal white bed without headboard on white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a bunk bed.", "output": "Big royal white bunk bed with ladder and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a platform bed.", "output": "Big white platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add storage drawers.", "output": "Big royal white bed with storage drawers and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a daybed.", "output": "Big royal white daybed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the footboard.", "output": "Big royal white bed without footboard on white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a canopy bed.", "output": "Big royal white canopy bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add decorative pillows.", "output": "Big royal white bed with decorative pillows on white background."}
+{"input": "Small modern grey sofa with white background.", "edit": "Make it a sectional sofa.", "output": "Small modern grey sectional sofa with white background."}
+{"input": "Elegant black leather sofa with white background.", "edit": "Add a chaise lounge.", "output": "Elegant black leather sofa with chaise lounge and white background."}
+{"input": "Cozy fabric sleeper sofa with white background.", "edit": "Remove the sleeper feature.", "output": "Cozy fabric sofa with white background."}
+{"input": "Minimalist white bunk bed with white background.", "edit": "Convert it into twin beds.", "output": "Minimalist white twin beds with white background."}
+{"input": "L-shaped black leather sectional sofa with white background.", "edit": "Make it a loveseat.", "output": "L-shaped black leather loveseat with white background."}
+{"input": "Vintage floral print sofa with white background.", "edit": "Change the print to stripes.", "output": "Vintage striped sofa with white background."}
+{"input": "Rustic wooden daybed with white background.", "edit": "Add a trundle bed underneath.", "output": "Rustic wooden daybed with trundle bed and white background."}
+{"input": "Minimalist white futon with white background.", "edit": "Make it a recliner.", "output": "Minimalist white recliner with white background."}
+{"input": "Compact green velvet sleeper sofa with white background.", "edit": "Remove the sleeper feature.", "output": "Compact green velvet sofa with white background."}
+{"input": "Luxurious tufted grey bed with white background.", "edit": "Make it a platform bed.", "output": "Luxurious tufted grey platform bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it red.", "output": "Big royal red bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it out of bamboo wood.", "output": "Big bamboo wood bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a bunk bed.", "output": "Big white bunk bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a headboard.", "output": "Big oak wood bed with headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a king size bed.", "output": "Big royal white king size bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a canopy.", "output": "Big oak wood bed with canopy and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a platform bed.", "output": "Big royal white platform bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the footboard.", "output": "Big oak wood bed without footboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a twin bed.", "output": "Big royal white twin bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add storage drawers.", "output": "Big oak wood bed with storage drawers and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a queen size bed.", "output": "Big queen size white bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add storage drawers.", "output": "Big royal white bed with storage drawers and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the headboard.", "output": "Big royal white bed without a headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a bunk bed.", "output": "Big white bunk bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a king size bed.", "output": "Big king size oak wood bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a canopy.", "output": "Big oak wood bed with a canopy and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the footboard.", "output": "Big oak wood bed without a footboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a daybed.", "output": "Big white oak wood daybed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a twin size bed.", "output": "Big twin size white bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a tufted headboard.", "output": "Big white bed with tufted headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it pink.", "output": "Big royal pink bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a canopy.", "output": "Big royal white bed with canopy and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the headboard.", "output": "Big royal white bed without headboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a bunk bed.", "output": "Bunk bed made of oak wood with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a bedside table.", "output": "Big royal white bed with bedside table and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a canopy bed.", "output": "Big royal white canopy bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a platform bed.", "output": "Big platform bed made of oak wood with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a rug underneath.", "output": "Big royal white bed with white background and rug underneath."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a four-poster bed.", "output": "Four-poster bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a sleigh bed.", "output": "Big sleigh bed made of oak wood with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it black.", "output": "Big royal black bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it out of cherry wood.", "output": "Big cherry wood bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a headboard.", "output": "Big royal white bed with headboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a bunk bed.", "output": "Big oak wood bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the pillows.", "output": "Big royal white bed without pillows and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a canopy bed.", "output": "Big oak wood canopy bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add storage drawers.", "output": "Big royal white bed with storage drawers and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a trundle bed.", "output": "Big oak wood trundle bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a canopy.", "output": "Big royal white bed with canopy and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a footboard.", "output": "Big oak wood bed with footboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it pink.", "output": "Big royal pink bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it out of walnut wood.", "output": "Big walnut wood bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a platform bed.", "output": "Big royal white platform bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add storage drawers.", "output": "Big oak wood bed with storage drawers and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a bunk bed.", "output": "Big white bunk bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Remove the headboard.", "output": "Big oak wood bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a canopy bed.", "output": "Big royal white canopy bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add upholstered headboard.", "output": "Big oak wood bed with upholstered headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a trundle bed.", "output": "Big royal white trundle bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a tufted headboard.", "output": "Big oak wood bed with tufted headboard and white background."}
+{"input": "Big leather sofa with white background.", "edit": "Make it a velvet sofa.", "output": "Big velvet sofa with white background."}
+{"input": "Small modern grey sofa with white background.", "edit": "Make it a sectional sofa.", "output": "Small modern grey sectional sofa with white background."}
+{"input": "Single beige armchair with white background.", "edit": "Remove armrests.", "output": "Single beige chair with white background."}
+{"input": "Round rattan swing chair with white background.", "edit": "Change it to a hanging hammock.", "output": "Round hanging hammock chair with white background."}
+{"input": "White bunk bed with white background.", "edit": "Add a ladder.", "output": "White bunk bed with ladder and white background."}
+{"input": "Comfy beige recliner with white background.", "edit": "Make it a rocking chair.", "output": "Comfy beige rocking chair with white background."}
+{"input": "Lounge chaise with white background.", "edit": "Make it a double chaise.", "output": "Double lounge chaise with white background."}
+{"input": "Rustic wooden bench with white background.", "edit": "Add backrest.", "output": "Rustic wooden bench with backrest and white background."}
+{"input": "Classic cane daybed with white background.", "edit": "Make it a futon.", "output": "Classic cane futon with white background."}
+{"input": "Vintage floral print loveseat with white background.", "edit": "Remove cushions.", "output": "Vintage floral print loveseat without cushions and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it red.", "output": "Big royal red bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it out of teak wood.", "output": "Big teak wood bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the headboard.", "output": "Big royal white bed with no headboard and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a bunk bed.", "output": "Big oak wood bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add storage drawers.", "output": "Big royal white bed with storage drawers and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a canopy bed.", "output": "Big oak wood canopy bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a king size bed.", "output": "Big royal white king size bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a daybed.", "output": "Big oak wood daybed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add golden accents.", "output": "Big royal white bed with golden accents and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a four-poster bed.", "output": "Big oak wood four-poster bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a bunk bed.", "output": "Big royal white bunk bed with white background."}
+{"input": "Elegant black leather sofa with white background.", "edit": "Add cushions.", "output": "Elegant black leather sofa with white background. Cushions added."}
+{"input": "Modern grey sectional sofa with white background.", "edit": "Change it to a loveseat.", "output": "Modern grey loveseat with white background."}
+{"input": "Cozy brown fabric recliner with white background.", "edit": "Remove the footrest.", "output": "Cozy brown fabric recliner with white background. Footrest removed."}
+{"input": "Vintage red velvet chaise lounge with white background.", "edit": "Change it to a daybed.", "output": "Vintage red velvet daybed with white background."}
+{"input": "Classic white metal daybed with white background.", "edit": "Make it a trundle bed.", "output": "Classic white metal trundle bed with white background."}
+{"input": "Stylish blue velvet loveseat with white background.", "edit": "Change it to a settee.", "output": "Stylish blue velvet settee with white background."}
+{"input": "Minimalist grey platform bed with white background.", "edit": "Add a headboard.", "output": "Minimalist grey platform bed with white background. Headboard added."}
+{"input": "Antique wooden rocking chair with white background.", "edit": "Change it to an armchair.", "output": "Antique wooden armchair with white background."}
+{"input": "Contemporary black leather futon with white background.", "edit": "Make it a sleeper sofa.", "output": "Contemporary black leather sleeper sofa with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Add a canopy.", "output": "Big royal white bed with canopy and white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Add a headboard.", "output": "Big oak wood bed with headboard and white background."}
+{"input": "Big royal white bed with white background.", "edit": "Remove the mattress.", "output": "Big royal white bed frame with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a bunk bed.", "output": "Big oak wood bunk bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a platform bed.", "output": "Big royal white platform bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Change it to a four-poster bed.", "output": "Big oak wood four-poster bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Make it a daybed.", "output": "Big white daybed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a trundle bed.", "output": "Big oak wood trundle bed with white background."}
+{"input": "Big royal white bed with white background.", "edit": "Change it to a futon bed.", "output": "Big white futon bed with white background."}
+{"input": "Big oak wood bed with white background.", "edit": "Make it a canopy bed.", "output": "Big oak wood canopy bed with white background."}

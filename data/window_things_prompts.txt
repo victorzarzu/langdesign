@@ -1,0 +1,999 @@
+{"input": "Black Venetian blinds with white background.", "edit": "Change the blinds to roller blinds.", "output": "Black roller blinds with white background."}
+{"input": "Yellow floral curtains with white background.", "edit": "Remove the floral pattern.", "output": "Yellow curtains with white background."}
+{"input": "White blackout blinds with white background.", "edit": "Add a sheer layer.", "output": "White blackout blinds with sheer layer and white background."}
+{"input": "Striped gray curtains with white background.", "edit": "Change the color to blue.", "output": "Striped blue curtains with white background."}
+{"input": "Bamboo blinds with white background.", "edit": "Replace the blinds with Roman shades.", "output": "Roman shades with white background."}
+{"input": "Purple velvet curtains with white background.", "edit": "Make them floor-length.", "output": "Purple velvet floor-length curtains with white background."}
+{"input": "Wooden blinds with white background.", "edit": "Paint them white.", "output": "White wooden blinds with white background."}
+{"input": "Gray roller blinds with white background.", "edit": "Change the style to pleated blinds.", "output": "Gray pleated blinds with white background."}
+{"input": "Sheer white curtains with white background.", "edit": "Add a tassel trim.", "output": "Sheer white curtains with tassel trim and white background."}
+{"input": "Beige Roman shades with white background.", "edit": "Replace the shades with Venetian blinds.", "output": "Beige Venetian blinds with white background."}
+{"input": "Blue vertical blinds with white background.", "edit": "Change the background to gray.", "output": "Blue vertical blinds with gray background."}
+{"input": "Red vertical blinds with white background.", "edit": "Add a pattern to the blinds.", "output": "Red vertical blinds with pattern and white background."}
+{"input": "Red vertical silk curtain with white background.", "edit": "Remove the background.", "output": "Red vertical silk curtain."}
+{"input": "Gray roller blinds with white background.", "edit": "Change the color to black.", "output": "Black roller blinds with white background."}
+{"input": "Yellow blackout blinds with white background.", "edit": "Make it translucent.", "output": "Yellow translucent blinds with white background."}
+{"input": "Pink sheer curtains with white background.", "edit": "Replace the curtains with blinds.", "output": "Pink sheer blinds with white background."}
+{"input": "Beige horizontal wooden blinds with white background.", "edit": "Add a valance to the blinds.", "output": "Beige horizontal wooden blinds with valance and white background."}
+{"input": "White vertical blinds with white background.", "edit": "Make the blinds horizontal.", "output": "White horizontal blinds with white background."}
+{"input": "Black roller blinds with white background.", "edit": "Remove the background.", "output": "Black roller blinds."}
+{"input": "Purple roman shades with white background.", "edit": "Change the color to green.", "output": "Green roman shades with white background."}
+{"input": "White horizontal blinds with white background.", "edit": "Add a sheer curtain.", "output": "White horizontal blinds with sheer curtain and white background."}
+{"input": "Beige roman shades with white background.", "edit": "Remove the shades.", "output": "White background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Make it bamboo.", "output": "Brown bamboo blinds with white background."}
+{"input": "Cream vertical blinds with white background.", "edit": "Change the color to gray.", "output": "Gray vertical blinds with white background."}
+{"input": "Blackout curtains in blue with white background.", "edit": "Replace with sheer curtains.", "output": "Sheer curtains with white background."}
+{"input": "White horizontal blinds with white background.", "edit": "Add a valance on top.", "output": "White horizontal blinds with valance and white background."}
+{"input": "Green roller shades with white background.", "edit": "Make it cellular shades.", "output": "Green cellular shades with white background."}
+{"input": "Pink vertical blinds with white background.", "edit": "Make them translucent.", "output": "Pink translucent vertical blinds with white background."}
+{"input": "Gray pleated shades with white background.", "edit": "Remove the shades.", "output": "White background."}
+{"input": "Yellow roller blinds with white background.", "edit": "Change the color to purple.", "output": "Purple roller blinds with white background."}
+{"input": "Yellow horizontal blinds with white background.", "edit": "Add a pattern to the blinds.", "output": "Yellow horizontal blinds with pattern and white background."}
+{"input": "White roller blinds with white background.", "edit": "Replace the blinds with roman shades.", "output": "White roman shades with white background."}
+{"input": "Beige blackout curtains with white background.", "edit": "Make the curtains sheer.", "output": "Beige sheer curtains with white background."}
+{"input": "Gray vertical blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Make the blinds bamboo.", "output": "Brown bamboo blinds with white background."}
+{"input": "Pink vertical blinds with white background.", "edit": "Change the blinds to purple.", "output": "Purple vertical blinds with white background."}
+{"input": "Gray vertical blinds with white background.", "edit": "Add a valance to the blinds.", "output": "Gray vertical blinds with valance and white background."}
+{"input": "Cream roller blinds with white background.", "edit": "Replace the blinds with honeycomb shades.", "output": "Cream honeycomb shades with white background."}
+{"input": "Orange vertical blinds with white background.", "edit": "Make the blinds cordless.", "output": "Orange cordless vertical blinds with white background."}
+{"input": "Gray horizontal blinds with white background.", "edit": "Change the blinds to cellular shades.", "output": "Gray cellular shades with white background."}
+{"input": "White roller blinds with white background.", "edit": "Add pattern to the blinds.", "output": "White roller blinds with pattern and white background."}
+{"input": "Beige roman shades with white background.", "edit": "Make the shades blackout.", "output": "Beige blackout roman shades with white background."}
+{"input": "Yellow bamboo blinds with white background.", "edit": "Change the blinds to horizontal orientation.", "output": "Yellow horizontal bamboo blinds with white background."}
+{"input": "Purple sheer curtains with white background.", "edit": "Remove the sheerness of the curtains.", "output": "Purple curtains with white background."}
+{"input": "Gray blackout curtains with white background.", "edit": "Change the curtains to grommet style.", "output": "Gray grommet blackout curtains with white background."}
+{"input": "Light blue vertical blinds with white background.", "edit": "Make the blinds motorized.", "output": "Light blue motorized vertical blinds with white background."}
+{"input": "Green sheer curtains with white background.", "edit": "Replace the curtains with blinds.", "output": "Green blinds with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Add a valance to the blinds.", "output": "Brown wooden blinds with valance and white background."}
+{"input": "Orange roller shades with white background.", "edit": "Replace the shades with curtains.", "output": "Orange curtains with white background."}
+{"input": "Pink venetian blinds with white background.", "edit": "Change the blinds to cordless style.", "output": "Pink cordless venetian blinds with white background."}
+{"input": "Yellow roller blinds with white background.", "edit": "Add sheer curtains behind the blinds.", "output": "Yellow roller blinds with sheer curtains behind, on white background."}
+{"input": "Beige horizontal wooden blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Gray blackout curtains with white background.", "edit": "Change the curtains to sheer white curtains.", "output": "White sheer curtains with white background."}
+{"input": "Purple vertical blinds with white background.", "edit": "Add sheer curtains in front of the blinds.", "output": "Purple vertical blinds with sheer curtains in front, on white background."}
+{"input": "White roller blinds with white background.", "edit": "Change the blinds to bamboo blinds.", "output": "White bamboo blinds with white background."}
+{"input": "Gray striped curtains with white background.", "edit": "Remove the stripes from the curtains.", "output": "Gray curtains with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Add valances on top of the blinds.", "output": "Brown wooden blinds with valances on top, on white background."}
+{"input": "Orange vertical blinds with white background.", "edit": "Change the blinds to Roman shades.", "output": "Orange Roman shades with white background."}
+{"input": "Pink sheer curtains with white background.", "edit": "Make the curtains blackout curtains.", "output": "Pink blackout curtains with white background."}
+{"input": "Green horizontal blinds with white background.", "edit": "Replace the blinds with vertical blinds.", "output": "Green vertical blinds with white background."}
+{"input": "White roller blinds with white background.", "edit": "Add a floral pattern.", "output": "White roller blinds with floral pattern and white background."}
+{"input": "Beige horizontal blinds with white background.", "edit": "Change the blinds to bamboo.", "output": "Beige bamboo horizontal blinds with white background."}
+{"input": "Gray blackout curtains with white background.", "edit": "Remove the blackout feature.", "output": "Gray curtains with white background."}
+{"input": "Purple sheer curtains with white background.", "edit": "Make the curtains longer.", "output": "Purple sheer curtains with white background, longer length."}
+{"input": "White wooden blinds with white background.", "edit": "Replace the blinds with shutters.", "output": "White shutters with white background."}
+{"input": "Blue vertical blinds with white background.", "edit": "Add a striped pattern.", "output": "Blue vertical blinds with striped pattern and white background."}
+{"input": "Brown roller blinds with white background.", "edit": "Change the blinds to Roman shades.", "output": "Brown Roman shades with white background."}
+{"input": "Yellow horizontal blinds with white background.", "edit": "Remove the horizontal feature.", "output": "Yellow blinds with white background."}
+{"input": "Pink velvet curtains with white background.", "edit": "Change the curtains to silk.", "output": "Pink silk curtains with white background."}
+{"input": "White sheer curtains with white background.", "edit": "Add a lace trim.", "output": "White sheer curtains with lace trim and white background."}
+{"input": "Beige roller blinds with white background.", "edit": "Change the blinds to blackout blinds.", "output": "Beige blackout blinds with white background."}
+{"input": "Gray venetian blinds with white background.", "edit": "Add a sheer curtain behind the blinds.", "output": "Gray venetian blinds with sheer curtain and white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Purple roman shades with white background.", "edit": "Make the shades translucent.", "output": "Purple translucent roman shades with white background."}
+{"input": "Yellow roller blinds with white background.", "edit": "Add a valance above the blinds.", "output": "Yellow roller blinds with valance and white background."}
+{"input": "Pink vertical blinds with white background.", "edit": "Make the blinds patterned.", "output": "Pink patterned vertical blinds with white background."}
+{"input": "Orange venetian blinds with white background.", "edit": "Change the blinds to bamboo blinds.", "output": "Orange bamboo blinds with white background."}
+{"input": "Green roller blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Blackout roller shades with white background.", "edit": "Make the shades motorized.", "output": "Motorized blackout roller shades with white background."}
+{"input": "Gray vertical blinds with white background.", "edit": "Add a curtain rod above the blinds.", "output": "Gray vertical blinds with curtain rod and white background."}
+{"input": "Yellow blackout curtains with white background.", "edit": "Add tiebacks.", "output": "Yellow blackout curtains with tiebacks and white background."}
+{"input": "Beige sheer curtains with white background.", "edit": "Remove the sheers.", "output": "Beige curtains with white background."}
+{"input": "Gray Roman shades with white background.", "edit": "Make them blackout shades.", "output": "Gray blackout Roman shades with white background."}
+{"input": "Pink roller blinds with white background.", "edit": "Change the color to purple.", "output": "Purple roller blinds with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Replace the blinds with bamboo shades.", "output": "Brown bamboo shades with white background."}
+{"input": "White vertical blinds with white background.", "edit": "Add decorative valance.", "output": "White vertical blinds with decorative valance and white background."}
+{"input": "Blue horizontal blinds with white background.", "edit": "Make them cordless.", "output": "Blue cordless horizontal blinds with white background."}
+{"input": "Patterned roller shades with white background.", "edit": "Remove the patterns.", "output": "Plain roller shades with white background."}
+{"input": "Gray metal blinds with white background.", "edit": "Change the slat width to 2 inches.", "output": "Gray metal blinds with 2-inch slat width and white background."}
+{"input": "Cream pleated curtains with white background.", "edit": "Add curtain tiebacks.", "output": "Cream pleated curtains with curtain tiebacks and white background."}
+{"input": "White roller shades with white background.", "edit": "Add a floral pattern.", "output": "White roller shades with floral pattern and white background."}
+{"input": "Brown wooden venetian blinds with white background.", "edit": "Change the color to black.", "output": "Black wooden venetian blinds with white background."}
+{"input": "Beige roman shades with white background.", "edit": "Remove the shades.", "output": "White background."}
+{"input": "Gray blackout curtains with white background.", "edit": "Make it sheer curtains.", "output": "Gray sheer curtains with white background."}
+{"input": "Black vertical blinds with white background.", "edit": "Add a motorized system.", "output": "Black motorized vertical blinds with white background."}
+{"input": "Yellow roller shades with white background.", "edit": "Make the roller shades translucent.", "output": "Yellow translucent roller shades with white background."}
+{"input": "Purple pleated curtains with white background.", "edit": "Change the style to grommet curtains.", "output": "Purple grommet curtains with white background."}
+{"input": "Gray venetian blinds with white background.", "edit": "Replace the blinds with shades.", "output": "Gray shades with white background."}
+{"input": "White sheer curtains with white background.", "edit": "Make it longer.", "output": "Long white sheer curtains with white background."}
+{"input": "Blue blackout blinds with white background.", "edit": "Change the color to navy blue.", "output": "Navy blue blackout blinds with white background."}
+{"input": "Purple roller blinds with white background.", "edit": "Add pattern to the blinds.", "output": "Purple patterned roller blinds with white background."}
+{"input": "Beige horizontal blinds with white background.", "edit": "Remove the blinds.", "output": "Beige background with white background."}
+{"input": "Gray pleated curtains with white background.", "edit": "Change the curtains to drapes.", "output": "Gray pleated drapes with white background."}
+{"input": "White sheer curtains with white background.", "edit": "Make the curtains off-white.", "output":"Off-white sheer curtains with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Change the blinds to bamboo.", "output": "Brown bamboo blinds with white background."}
+{"input": "Blackout curtains with white background.", "edit": "Remove the blackout feature.", "output": "Curtains with white background."}
+{"input": "Yellow roller blinds with white background.", "edit": "Add a sunflower pattern to the blinds.", "output": "Yellow roller blinds with sunflower pattern and white background."}
+{"input": "Navy blue vertical blinds with white background.", "edit": "Add a striped pattern to the blinds.", "output": "Navy blue vertical blinds with striped pattern and white background."}
+{"input": "Sheer white curtains with white background.", "edit": "Add lace trim to the curtains.", "output": "Sheer white curtains with lace trim and white background."}
+{"input": "Gray blackout blinds with white background.", "edit": "Remove the blackout feature.", "output": "Gray blinds with white background."}
+{"input": "White roller blinds with white background.", "edit": "Add a pattern to the blinds.", "output": "White roller blinds with pattern and white background."}
+{"input": "Beige roman shades with white background.", "edit": "Change the shades to honeycomb blinds.", "output": "Beige honeycomb blinds with white background."}
+{"input": "Blackout curtains with white background.", "edit": "Remove the blackout feature.", "output": "Curtains with white background."}
+{"input": "Sheer white curtains with white background.", "edit": "Add a floral pattern to the curtains.", "output": "Sheer white curtains with floral pattern and white background."}
+{"input": "Bamboo blinds with white background.", "edit": "Replace the blinds with wooden blinds.", "output": "Wooden blinds with white background."}
+{"input": "Teal velvet curtains with white background.", "edit": "Make the curtains longer.", "output": "Teal velvet curtains with longer length and white background."}
+{"input": "Roller blinds with white background.", "edit": "Add a motorized feature to the blinds.", "output": "Motorized roller blinds with white background."}
+{"input": "Plaid curtains with white background.", "edit": "Change the curtains to striped curtains.", "output": "Striped plaid curtains with white background."}
+{"input": "White vertical blinds with white background.", "edit": "Replace the blinds with shutters.", "output": "White shutters with white background."}
+{"input": "Sheer white curtains with white background.", "edit": "Add tassels to the curtains.", "output": "Sheer white curtains with tassels and white background."}
+{"input": "Blue vertical blinds with white background.", "edit": "Replace the blinds with sheer curtains.", "output": "Blue sheer curtains with white background."}
+{"input": "Brown Roman shades with white background.", "edit": "Change the shades to bamboo blinds.", "output": "Brown bamboo blinds with white background."}
+{"input": "White blackout curtains with white background.", "edit": "Add floral patterns to the curtains.", "output": "White blackout curtains with floral patterns and white background."}
+{"input": "Beige roller blinds with white background.", "edit": "Make the blinds motorized.", "output": "Beige motorized roller blinds with white background."}
+{"input": "Yellow vertical blinds with white background.", "edit": "Remove the blinds.", "output": "White background only."}
+{"input": "Gray blackout curtains with white background.", "edit": "Change the curtains to sheer drapes.", "output": "Gray sheer drapes with white background."}
+{"input": "Purple Roman shades with white background.", "edit": "Replace the shades with wooden blinds.", "output": "Purple wooden blinds with white background."}
+{"input": "Brown roller blinds with white background.", "edit": "Change the blinds to horizontal blinds.", "output": "Brown horizontal blinds with white background."}
+{"input": "Beige sheer curtains with white background.", "edit": "Make the curtains floor-length.", "output": "Beige floor-length sheer curtains with white background."}
+{"input": "Gray blackout curtains with white background.", "edit": "Remove the curtains.", "output": "White background only."}
+{"input": "White horizontal blinds with white background.", "edit": "Add a pattern.", "output": "White horizontal blinds with pattern and white background."}
+{"input": "Yellow roller blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Change the color to white.", "output": "White wooden blinds with white background."}
+{"input": "Purple blackout curtains with white background.", "edit": "Make them sheer curtains.", "output": "Purple sheer curtains with white background."}
+{"input": "Beige Roman shades with white background.", "edit": "Add blackout lining.", "output": "Beige Roman shades with blackout lining and white background."}
+{"input": "Gray panel curtains with white background.", "edit": "Make them floor-length.", "output": "Gray floor-length panel curtains with white background."}
+{"input": "Black vertical blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Pink roller blinds with white background.", "edit": "Change the color to blue.", "output": "Blue roller blinds with white background."}
+{"input": "Coral sheer curtains with white background.", "edit": "Make them opaque.", "output": "Coral opaque curtains with white background."}
+{"input": "Striped Roman shades with white background.", "edit": "Change the pattern to floral.", "output": "Floral Roman shades with white background."}
+{"input": "Blue vertical blinds with white background.", "edit": "Make the blinds thicker.", "output": "Blue thicker vertical blinds with white background."}
+{"input": "Red floral curtains with white background.", "edit": "Add tassels to the curtains.", "output": "Red floral curtains with tassels and white background."}
+{"input": "Beige blackout blinds with white background.", "edit": "Remove the blackout feature.", "output": "Beige blinds with white background."}
+{"input": "Purple sheer curtains with white background.", "edit": "Change the color to pink.", "output": "Pink sheer curtains with white background."}
+{"input": "White horizontal blinds with white background.", "edit": "Make the blinds wooden.", "output": "White wooden horizontal blinds with white background."}
+{"input": "Blue roller blinds with white background.", "edit": "Add pattern to the blinds.", "output": "Blue roller blinds with pattern and white background."}
+{"input": "Gray pleated curtains with white background.", "edit": "Make the curtains floor-length.", "output": "Gray floor-length pleated curtains with white background."}
+{"input": "Yellow roman blinds with white background.", "edit": "Replace the blinds with shades.", "output": "Yellow shades with white background."}
+{"input": "Green silk curtains with white background.", "edit": "Make the curtains shorter.", "output": "Green shorter silk curtains with white background."}
+{"input": "Black vertical blinds with white background.", "edit": "Change the blinds to bamboo.", "output": "Black bamboo vertical blinds with white background."}
+{"input": "Gray horizontal blinds with white background.", "edit": "Add a pattern to the blinds.", "output": "Gray horizontally patterned blinds with white background."}
+{"input": "Beige roller shades with white background.", "edit": "Change the color to black.", "output": "Black roller shades with white background."}
+{"input": "White sheer curtains with white background.", "edit": "Remove the sheerness.", "output": "White curtains with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Make the blinds wider.", "output": "Wide brown wooden blinds with white background."}
+{"input": "Black panel track blinds with white background.", "edit": "Replace the blinds with roman shades.", "output": "Black roman shades with white background."}
+{"input": "Yellow vertical blinds with white background.", "edit": "Add a blackout feature.", "output": "Yellow vertical blinds with blackout feature and white background."}
+{"input": "Orange roller shades with white background.", "edit": "Change the material to bamboo.", "output": "Orange bamboo roller shades with white background."}
+{"input": "Purple velvet curtains with white background.", "edit": "Remove the velvet texture.", "output": "Purple curtains with white background."}
+{"input": "Green horizontal blinds with white background.", "edit": "Replace the blinds with drapes.", "output": "Green drapes with white background."}
+{"input": "Striped roman shades with white background.", "edit": "Change the stripes to polka dots.", "output": "Polka dot roman shades with white background."}
+{"input": "Yellow horizontal blinds with white background.", "edit": "Change the blinds to roller shades.", "output": "Yellow roller shades with white background."}
+{"input": "Brown roller shades with white background.", "edit": "Remove the shades.", "output": "White background."}
+{"input": "Gray blackout curtains with white background.", "edit": "Add sheer curtains behind.", "output": "Gray blackout curtains with white background, with sheer curtains behind."}
+{"input": "Beige roman shades with white background.", "edit": "Make the shades sheer.", "output": "Beige sheer roman shades with white background."}
+{"input": "Striped vertical blinds with white background.", "edit": "Replace the blinds with bamboo shades.", "output": "Striped bamboo shades with white background."}
+{"input": "Purple sheer curtains with white background.", "edit": "Change the curtains to roller blinds.", "output": "Purple roller blinds with white background."}
+{"input": "Gray blackout roller blinds with white background.", "edit": "Make the blinds motorized.", "output": "Gray motorized blackout roller blinds with white background."}
+{"input": "Yellow venetian blinds with white background.", "edit": "Add a decorative valance on top.", "output": "Yellow venetian blinds with white background, with a decorative valance on top."}
+{"input": "Green roman shades with white background.", "edit": "Change the shades to cellular shades.", "output": "Green cellular shades with white background."}
+{"input": "Blackout curtains with white background.", "edit": "Remove the curtains.", "output": "White background."}
+{"input": "Yellow roller blinds with white background.", "edit": "Add pattern to the blinds.", "output": "Yellow patterned roller blinds with white background."}
+{"input": "Brown Venetian blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Orange Roman shades with white background.", "edit": "Change the color to purple.", "output": "Purple Roman shades with white background."}
+{"input": "White sheer curtains with white background.", "edit": "Make the curtains thicker.", "output": "White thicker curtains with white background."}
+{"input": "Purple blackout curtains with white background.", "edit": "Add tassels to the curtains.", "output": "Purple curtains with tassels and white background."}
+{"input": "Gray horizontal blinds with white background.", "edit": "Replace the blinds with shades.", "output": "Gray shades with white background."}
+{"input": "Pink vertical blinds with white background.", "edit": "Make the blinds wider.", "output": "Wide pink vertical blinds with white background."}
+{"input": "Beige roller blinds with white background.", "edit": "Change the blinds to bamboo.", "output": "Beige bamboo roller blinds with white background."}
+{"input": "Green Roman shades with white background.", "edit": "Make the shades translucent.", "output": "Translucent green Roman shades with white background."}
+{"input": "Blue vertical blinds with white background.", "edit": "Remove the background.", "output": "Blue vertical blinds."}
+{"input": "Yellow horizontal blinds with white background.", "edit": "Add a pattern to the blinds.", "output": "Yellow horizontal blinds with pattern and white background."}
+{"input": "Gray vertical blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Change the blinds to bamboo.", "output": "Brown bamboo blinds with white background."}
+{"input": "Beige vertical blinds with white background.", "edit": "Add sheer curtains behind the blinds.", "output": "Beige vertical blinds with sheer curtains and white background."}
+{"input": "Black roller shades with white background.", "edit": "Change the shades to roman shades.", "output": "Black roman shades with white background."}
+{"input": "Purple vertical blinds with white background.", "edit": "Replace the blinds with shutters.", "output": "Purple shutters with white background."}
+{"input": "Pink vertical blinds with white background.", "edit": "Make the blinds translucent.", "output": "Pink translucent vertical blinds with white background."}
+{"input": "Green horizontal blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Orange roller shades with white background.", "edit": "Add valances to the shades.", "output": "Orange roller shades with valances and white background."}
+{"input": "Teal vertical blinds with white background.", "edit": "Change the blinds to pleated shades.", "output": "Teal pleated shades with white background."}
+{"input": "White sheer curtains with white background.", "edit": "Add blackout lining.", "output": "White sheer curtains with blackout lining and white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Replace the blinds with bamboo shades.", "output": "Brown bamboo shades with white background."}
+{"input": "Yellow horizontal blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Beige roller blinds with white background.", "edit": "Make the blinds motorized.", "output": "Beige motorized roller blinds with white background."}
+{"input": "Gray Venetian blinds with white background.", "edit": "Change the blinds to aluminum.", "output": "Gray aluminum Venetian blinds with white background."}
+{"input": "Purple blackout curtains with white background.", "edit": "Add sheer curtain layer.", "output": "Purple blackout curtains with sheer curtain layer and white background."}
+{"input": "Green Roman shades with white background.", "edit": "Make the shades cordless.", "output": "Green cordless Roman shades with white background."}
+{"input": "Navy blue vertical blinds with white background.", "edit": "Make the blinds wider.", "output": "Navy blue wider vertical blinds with white background."}
+{"input": "Pink sheer curtains with white background.", "edit": "Replace the curtains with lace curtains.", "output": "Pink lace curtains with white background."}
+{"input": "Gray roller blinds with white background.", "edit": "Add valance.", "output": "Gray roller blinds with valance and white background."}
+{"input": "Blue roller blinds with white background.", "edit": "Make the blinds pink.", "output": "Pink roller blinds with white background."}
+{"input": "White horizontal blinds with white background.", "edit": "Add a pattern to the blinds.", "output": "White patterned horizontal blinds with white background."}
+{"input": "Beige blackout curtains with white background.", "edit": "Change the curtains to sheer curtains.", "output": "Beige sheer curtains with white background."}
+{"input": "Gray Roman shades with white background.", "edit": "Remove the shades.", "output": "White background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Replace the blinds with bamboo blinds.", "output": "Brown bamboo blinds with white background."}
+{"input": "Purple vertical blinds with white background.", "edit": "Make the blinds translucent.", "output": "Purple translucent vertical blinds with white background."}
+{"input": "Green sheer curtains with white background.", "edit": "Change the curtains to blackout curtains.", "output": "Green blackout curtains with white background."}
+{"input": "Yellow roller blinds with white background.", "edit": "Add a scalloped edge to the blinds.", "output": "Yellow roller blinds with scalloped edge and white background."}
+{"input": "Black vertical blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Patterned Roman shades with white background.", "edit": "Make the shades plain white.", "output": "Plain white Roman shades with white background."}
+{"input": "Yellow roller blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "White horizontal blinds with white background.", "edit": "Change the blinds to wood.", "output": "White horizontal wood blinds with white background."}
+{"input": "Beige sheer curtains with white background.", "edit": "Add blackout blinds behind them.", "output": "Beige sheer curtains with white background and blackout blinds behind."}
+{"input": "Gray vertical blinds with white background.", "edit": "Replace the blinds with shutters.", "output": "Gray shutters with white background."}
+{"input": "Beige horizontal wood blinds with white background.", "edit": "Change the color to brown.", "output": "Brown horizontal wood blinds with white background."}
+{"input": "Green vertical blinds with white background.", "edit": "Add a valance at the top.", "output": "Green vertical blinds with white background and a valance at the top."}
+{"input": "White sheer curtains with white background.", "edit": "Remove the curtains.", "output": "White background."}
+{"input": "Blue roller blinds with white background.", "edit": "Change the blinds to roman shades.", "output": "Blue roman shades with white background."}
+{"input": "Purple curtains with white background.", "edit": "Make the curtains floor-length.", "output": "Purple floor-length curtains with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Add a pattern to the blinds.", "output": "Brown wooden blinds with a pattern and white background."}
+{"input": "Blue horizontal blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Yellow vertical blinds with white background.", "edit": "Add a sheer curtain behind the blinds.", "output": "Yellow vertical blinds with a sheer curtain and white background."}
+{"input": "Brown roller blinds with white background.", "edit": "Change the blinds to roman shades.", "output": "Brown roman shades with white background."}
+{"input": "Green silk curtain with white background.", "edit": "Add blackout lining.", "output": "Green silk curtain with blackout lining and white background."}
+{"input": "Purple vertical blinds with white background.", "edit": "Make the blinds translucent.", "output": "Purple vertical translucent blinds with white background."}
+{"input": "White roller blinds with white background.", "edit": "Change the blinds to bamboo shades.", "output": "White bamboo shades with white background."}
+{"input": "Beige vertical blinds with white background.", "edit": "Remove the background.", "output": "Beige vertical blinds."}
+{"input": "Pink sheer curtain with white background.", "edit": "Change the curtain to a valance.", "output": "Pink valance with white background."}
+{"input": "Gray horizontal blinds with white background.", "edit": "Add a cornice above the blinds.", "output": "Gray horizontal blinds with a cornice and white background."}
+{"input": "Orange roller blinds with white background.", "edit": "Replace the blinds with shades.", "output": "Orange shades with white background."}
+{"input":"Yellow roller blinds with white background.","edit":"Add a floral pattern.","output":"Yellow roller blinds with floral pattern and white background."}
+{"input":"White wooden blinds with white background.","edit":"Change it to bamboo blinds.","output":"White bamboo blinds with white background."}
+{"input":"Blackout curtains with white background.","edit":"Remove the blackout feature.","output":"Curtains with white background."}
+{"input":"Sheer white curtains with white background.","edit":"Add a lace trim.","output":"Sheer white curtains with lace trim and white background."}
+{"input":"Horizontal aluminum blinds with white background.","edit":"Make it vertical.","output":"Vertical aluminum blinds with white background."}
+{"input":"Bamboo shades with white background.","edit":"Replace it with Roman shades.","output":"Roman shades with white background."}
+{"input":"Striped curtains with white background.","edit":"Change the stripes to polka dots.","output":"Polka dot curtains with white background."}
+{"input":"Velvet curtains with white background.","edit":"Make it velvet blackout curtains.","output":"Velvet blackout curtains with white background."}
+{"input":"Roll-up blinds with white background.","edit":"Add a valance.","output":"Roll-up blinds with valance and white background."}
+{"input":"Sheer white curtains with white background.","edit":"Remove the sheerness.","output":"Curtains with white background."}
+{"input": "Purple horizontal blinds with white background.", "edit": "Change the blinds to roller shades.", "output": "Purple roller shades with white background."}
+{"input": "White sheer curtains with white background.", "edit": "Add golden tassels to the curtains.", "output": "White sheer curtains with golden tassels on white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Remove the string mechanism.", "output": "Brown wooden blinds without string mechanism on white background."}
+{"input": "Yellow patterned curtains with white background.", "edit": "Change the curtains to bamboo shades.", "output": "Yellow patterned bamboo shades with white background."}
+{"input": "Gray blackout blinds with white background.", "edit": "Add motorized functionality to the blinds.", "output": "Gray motorized blackout blinds with white background."}
+{"input": "White lace curtains with white background.", "edit": "Replace the curtains with roman shades.", "output": "White roman shades with white background."}
+{"input": "Beige vertical blinds with white background.", "edit": "Make the blinds wider.", "output": "Beige wider vertical blinds with white background."}
+{"input": "Orange patterned curtains with white background.", "edit": "Change the curtains to wooden shutters.", "output": "Orange patterned wooden shutters with white background."}
+{"input": "Blackout roller shades with white background.", "edit": "Remove the blackout feature.", "output": "Roller shades with white background."}
+{"input": "Pink silk curtains with white background.", "edit": "Add a floral pattern to the curtains.", "output": "Pink floral silk curtains with white background."}
+{"input": "Pink roller blinds with white background.", "edit": "Add floral pattern.", "output": "Pink roller blinds with floral pattern and white background."}
+{"input": "Yellow blackout curtains with white background.", "edit": "Remove the blackout feature.", "output": "Yellow curtains with white background."}
+{"input": "White horizontal blinds with white background.", "edit": "Change the blinds to bamboo.", "output": "White horizontal bamboo blinds with white background."}
+{"input": "Gray sheer curtains with white background.", "edit": "Add tiebacks.", "output": "Gray sheer curtains with tiebacks and white background."}
+{"input": "Beige vertical blinds with white background.", "edit": "Make the blinds thicker.", "output": "Beige thick vertical blinds with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Replace the blinds with shutters.", "output": "Brown wooden shutters with white background."}
+{"input": "Green patterned curtains with white background.", "edit": "Remove the pattern.", "output": "Green curtains with white background."}
+{"input": "Blue roller blinds with white background.", "edit": "Add motorized function.", "output": "Blue roller blinds with motorized function and white background."}
+{"input": "White lace curtains with white background.", "edit": "Change the curtains to linen.", "output": "White linen curtains with white background."}
+{"input": "Purple blackout blinds with white background.", "edit": "Make the blinds translucent.", "output": "Purple translucent blinds with white background."}
+{"input": "Yellow horizontal blinds with white background.", "edit": "Add a pattern.", "output": "Yellow horizontal blinds with pattern and white background."}
+{"input": "White sheer curtains with white background.", "edit": "Change the curtains to blackout curtains.", "output": "White blackout curtains with white background."}
+{"input": "Beige roller blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Pink vertical blinds with white background.", "edit": "Make the blinds translucent.", "output": "Pink translucent vertical blinds with white background."}
+{"input": "Brown roman shades with white background.", "edit": "Replace the shades with drapes.", "output": "Brown drapes with white background."}
+{"input": "Gray cellular blinds with white background.", "edit": "Change the blinds to shades.", "output": "Gray cellular shades with white background."}
+{"input": "Black wooden blinds with white background.", "edit": "Paint the blinds white.", "output": "White wooden blinds with white background."}
+{"input": "Orange vertical blinds with white background.", "edit": "Add a valance.", "output": "Orange vertical blinds with valance and white background."}
+{"input": "Purple sheer curtains with white background.", "edit": "Make the curtains longer.", "output": "Purple sheer curtains (longer length) with white background."}
+{"input": "Green roller blinds with white background.", "edit": "Remove the roller mechanism.", "output": "Green panel with white background."}
+{"input": "Blue horizontal blinds with white background.", "edit": "Add a pattern to the blinds.", "output": "Blue horizontal blinds with pattern and white background."}
+{"input": "White roller blinds with white background.", "edit": "Make the blinds transparent.", "output": "Transparent roller blinds with white background."}
+{"input": "Gray blackout roller blinds with white background.", "edit": "Remove the blackout feature.", "output": "Gray roller blinds with white background."}
+{"input": "Beige wooden blinds with white background.", "edit": "Change the blinds to bamboo.", "output": "Beige bamboo blinds with white background."}
+{"input": "Yellow vertical blinds with white background.", "edit": "Add motorized functionality.", "output": "Yellow vertical blinds with motorized functionality and white background."}
+{"input": "Purple sheer curtains with white background.", "edit": "Replace the curtains with blinds.", "output": "Purple blinds with white background."}
+{"input": "Green vertical blinds with white background.", "edit": "Add a valance to the blinds.", "output": "Green vertical blinds with valance and white background."}
+{"input": "Brown roman shades with white background.", "edit": "Make the shades cordless.", "output": "Brown cordless roman shades with white background."}
+{"input": "Pink vertical blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Orange horizontal blinds with white background.", "edit": "Change the blinds to vertical.", "output": "Orange vertical blinds with white background."}
+{"input": "Pink curtains with white background.", "edit": "Add floral pattern.", "output": "Pink curtains with floral pattern and white background."}
+{"input": "Dark grey roller blinds with white background.", "edit": "Change the blinds to bamboo blinds.", "output": "Dark grey bamboo blinds with white background."}
+{"input": "Beige horizontal blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Yellow patterned curtains with white background.", "edit": "Change the pattern to polka dots.", "output": "Yellow curtains with polka dot pattern and white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Make the blinds lighter.", "output": "Light brown wooden blinds with white background."}
+{"input": "Purple sheer curtains with white background.", "edit": "Add blackout lining.", "output": "Purple sheer curtains with blackout lining and white background."}
+{"input": "Turquoise vertical blinds with white background.", "edit": "Replace the blinds with roller shades.", "output": "Turquoise roller shades with white background."}
+{"input": "Gray blackout curtains with white background.", "edit": "Change the curtains to sheer curtains.", "output": "Gray sheer curtains with white background."}
+{"input": "Orange roman shades with white background.", "edit": "Make the shades cordless.", "output": "Orange cordless roman shades with white background."}
+{"input": "Blue plaid curtains with white background.", "edit": "Add tassels.", "output": "Blue plaid curtains with tassels and white background."}
+{"input": "Yellow horizontal blinds with white background.", "edit": "Add wooden slats.", "output": "Yellow horizontal blinds with wooden slats and white background."}
+{"input": "Pink sheer curtains with white background.", "edit": "Remove the sheerness.", "output": "Pink curtains with white background."}
+{"input": "Plaid roller blinds with white background.", "edit": "Change the pattern to stripes.", "output": "Striped roller blinds with white background."}
+{"input": "Gray blackout curtains with white background.", "edit": "Add tassels.", "output": "Gray blackout curtains with tassels and white background."}
+{"input": "Bamboo shades with white background.", "edit": "Replace with Roman shades.", "output": "Roman shades with white background."}
+{"input": "Purple vertical blinds with white background.", "edit": "Make the blinds thicker.", "output": "Thick purple vertical blinds with white background."}
+{"input": "White lace curtains with white background.", "edit": "Change the color to ivory.", "output": "Ivory lace curtains with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Remove the cords.", "output": "Brown wooden blinds without cords and white background."}
+{"input": "Patterned roller shades with white background.", "edit": "Make the pattern bolder.", "output": "Bold patterned roller shades with white background."}
+{"input": "Teal sheer curtains with white background.", "edit": "Add a valance.", "output": "Teal sheer curtains with a valance and white background."}
+{"input": "White roller blinds with white background.", "edit": "Add floral pattern.", "output": "White roller blinds with floral pattern and white background."}
+{"input": "Beige wooden blinds with white background.", "edit": "Remove the cords.", "output": "Beige wooden blinds without cords and white background."}
+{"input": "Brown vertical blinds with white background.", "edit": "Replace with horizontal blinds.", "output": "Brown horizontal blinds with white background."}
+{"input": "Gray blackout curtains with white background.", "edit": "Make it sheer curtains.", "output": "Gray sheer curtains with white background."}
+{"input": "White vertical blinds with white background.", "edit": "Add a valance.", "output": "White vertical blinds with valance and white background."}
+{"input": "Black roller blinds with white background.", "edit": "Change the color to gray.", "output": "Gray roller blinds with white background."}
+{"input": "Red roman shades with white background.", "edit": "Remove the fold lines.", "output": "Red roman shades without fold lines and white background."}
+{"input": "White sheer curtains with white background.", "edit": "Make it blackout curtains.", "output": "White blackout curtains with white background."}
+{"input": "Gray vertical blinds with white background.", "edit": "Replace with bamboo blinds.", "output": "Gray bamboo blinds with white background."}
+{"input": "Cream roller blinds with white background.", "edit": "Add motorized control.", "output": "Cream roller blinds with motorized control and white background."}
+{"input": "Blue horizontal blinds with white background.", "edit": "Make the blinds purple.", "output": "Purple horizontal blinds with white background."}
+{"input": "Yellow roller blinds with white background.", "edit": "Add floral pattern.", "output": "Yellow roller blinds with floral pattern on white background."}
+{"input": "Beige roman blinds with white background.", "edit": "Change the blinds to bamboo shades.", "output": "Beige bamboo shades with white background."}
+{"input": "Gray sheer curtains with white background.", "edit": "Add blackout lining.", "output": "Gray sheer curtains with blackout lining on white background."}
+{"input": "White vertical blinds with white background.", "edit": "Remove the blinds.", "output": "White background only."}
+{"input": "Pink blackout curtains with white background.", "edit": "Make them striped.", "output": "Pink striped blackout curtains with white background."}
+{"input": "Orange roller blinds with white background.", "edit": "Replace the blinds with wooden shutters.", "output": "Orange wooden shutters with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Change the blinds to white fabric blinds.", "output": "White fabric blinds with white background."}
+{"input": "Green vertical blinds with white background.", "edit": "Add floral print.", "output": "Green vertical blinds with floral print on white background."}
+{"input": "Pink sheer curtains with white background.", "edit": "Make them longer.", "output": "Pink sheer curtains (long) with white background."}
+{"input": "Yellow roller blinds with white background.", "edit": "Add a pattern to the blinds.", "output": "Yellow roller blinds with pattern and white background."}
+{"input": "Purple roman shades with white background.", "edit": "Remove the shades.", "output": "Purple blinds with white background."}
+{"input": "Orange sheer curtains with white background.", "edit": "Make them blackout curtains.", "output": "Orange blackout curtains with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Change the blinds to bamboo blinds.", "output": "Brown bamboo blinds with white background."}
+{"input": "White venetian blinds with white background.", "edit": "Make the blinds gray.", "output": "Gray venetian blinds with white background."}
+{"input": "Blackout roller blinds with white background.", "edit": "Add a valance to the blinds.", "output": "Blackout roller blinds with valance and white background."}
+{"input": "Striped vertical blinds with white background.", "edit": "Remove the stripes.", "output": "Vertical blinds with white background."}
+{"input": "Gray sheer curtains with white background.", "edit": "Change the curtains to drapes.", "output": "Gray drapes with white background."}
+{"input": "Pink roller blinds with white background.", "edit": "Replace the blinds with shutters.", "output": "Pink shutters with white background."}
+{"input": "Patterned roman shades with white background.", "edit": "Remove the pattern.", "output": "Roman shades with white background."}
+{"input": "Beige roller blinds with white background.", "edit": "Add a floral pattern.", "output": "Beige floral roller blinds with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Remove the cords.", "output": "Brown wooden blinds without cords with white background."}
+{"input": "White sheer curtains with white background.", "edit": "Change them to blackout curtains.", "output": "White blackout curtains with white background."}
+{"input": "Yellow Roman shades with white background.", "edit": "Make them pleated.", "output": "Yellow pleated Roman shades with white background."}
+{"input": "Gray vertical blinds with white background.", "edit": "Add motorized control.", "output": "Gray motorized vertical blinds with white background."}
+{"input": "Purple blackout curtains with white background.", "edit": "Replace them with drapes.", "output": "Purple drapes with white background."}
+{"input": "Green bamboo blinds with white background.", "edit": "Change the color to black.", "output": "Black bamboo blinds with white background."}
+{"input": "Orange sheer curtains with white background.", "edit": "Add tassels.", "output": "Orange sheer curtains with tassels and white background."}
+{"input": "Pink roller blinds with white background.", "edit": "Remove the bottom hem.", "output": "Pink roller blinds without the bottom hem with white background."}
+{"input": "Blue vertical blinds with white background.", "edit": "Make them horizontal.", "output": "Blue horizontal blinds with white background."}
+{"input": "Gray roller blinds with white background.", "edit": "Add sheer curtains behind.", "output": "Gray roller blinds with sheer curtains behind and white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Change the blinds to bamboo blinds.", "output": "Brown bamboo blinds with white background."}
+{"input": "White sheer curtains with white background.", "edit": "Remove the sheer curtains.", "output": "No curtains with white background."}
+{"input": "Beige roman shades with white background.", "edit": "Make the shades blackout.", "output": "Beige blackout roman shades with white background."}
+{"input": "Green vertical blinds with white background.", "edit": "Remove the blinds.", "output": "No blinds with white background."}
+{"input": "Purple blackout curtains with white background.", "edit": "Add a double curtain rod.", "output": "Purple blackout curtains with double curtain rod and white background."}
+{"input": "Yellow roller blinds with white background.", "edit": "Replace the blinds with cellular shades.", "output": "Yellow cellular shades with white background."}
+{"input": "Orange horizontal blinds with white background.", "edit": "Make the blinds vertical.", "output": "Orange vertical blinds with white background."}
+{"input": "White sheer curtains with white background.", "edit": "Change the curtains to lace curtains.", "output": "White lace curtains with white background."}
+{"input": "Gray vertical blinds with white background.", "edit": "Add valances on top.", "output": "Gray vertical blinds with valances on top and white background."}
+{"input": "Yellow horizontal blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Gray blackout curtains with white background.", "edit": "Add sheer curtains behind.", "output": "Gray blackout curtains with white sheer curtains behind and white background."}
+{"input": "Beige wooden blinds with white background.", "edit": "Change the blinds to bamboo blinds.", "output": "Beige bamboo blinds with white background."}
+{"input": "White roller shades with white background.", "edit": "Make the shades translucent.", "output": "Translucent white roller shades with white background."}
+{"input": "Brown roman shades with white background.", "edit": "Add a valance on top.", "output": "Brown roman shades with white valance on top and white background."}
+{"input": "Purple vertical blinds with white background.", "edit": "Replace the blinds with sheer curtains.", "output": "Purple sheer curtains with white background."}
+{"input": "White pleated blinds with white background.", "edit": "Make the blinds cellular shades.", "output": "White cellular shades with white background."}
+{"input": "Pink blackout curtains with white background.", "edit": "Change the curtains to white lace curtains.", "output": "White lace curtains with white background."}
+{"input": "Cream vertical blinds with white background.", "edit": "Remove the blinds and add drapes.", "output": "Cream drapes with white background."}
+{"input": "Gray roller shades with white background.", "edit": "Make the shades motorized.", "output": "Gray motorized roller shades with white background."}
+{"input": "Blue vertical blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Red vertical blinds with white background.", "edit": "Add sheer curtains behind the blinds.", "output": "Red vertical blinds with sheer curtains and white background."}
+{"input": "Red vertical silk curtain with white background.", "edit": "Change the color to blue.", "output": "Blue vertical silk curtain with white background."}
+{"input": "White horizontal blinds with white background.", "edit": "Add a valance on top of the blinds.", "output": "White horizontal blinds with valance and white background."}
+{"input": "Black roller blinds with white background.", "edit": "Replace the blinds with Roman shades.", "output": "Black Roman shades with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Make the blinds wider.", "output": "Brown wide wooden blinds with white background."}
+{"input": "Beige vertical blinds with white background.", "edit": "Add trim to the blinds.", "output": "Beige vertical blinds with trim and white background."}
+{"input": "Gray roller blinds with white background.", "edit": "Change the blinds to cordless ones.", "output": "Gray cordless roller blinds with white background."}
+{"input": "Green horizontal blinds with white background.", "edit": "Change the orientation to vertical.", "output": "Green vertical blinds with white background."}
+{"input": "White sheer curtains with white background.", "edit": "Make the curtains longer.", "output": "White sheer curtains with extended length and white background."}
+{"input": "White horizontal blinds with white background.", "edit": "Add a pattern to the blinds.", "output": "White horizontal blinds with a pattern and white background."}
+{"input": "Yellow sheer curtains with white background.", "edit": "Make the curtains longer.", "output": "Yellow sheer curtains with white background, longer in length."}
+{"input": "Grey roller blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Blackout curtains with white background.", "edit": "Change the curtains to sheer.", "output": "Sheer curtains with white background."}
+{"input": "Bamboo blinds with white background.", "edit": "Replace the blinds with roman shades.", "output": "White roman shades with white background."}
+{"input": "White vertical blinds with white background.", "edit": "Add a decorative valance.", "output": "White vertical blinds with a decorative valance and white background."}
+{"input": "Pink roller shades with white background.", "edit": "Make the shades translucent.", "output": "Translucent pink roller shades with white background."}
+{"input": "Striped curtains with white background.", "edit": "Make the curtains solid colored.", "output": "Solid colored curtains with white background."}
+{"input": "Wooden blinds with white background.", "edit": "Replace the blinds with shutters.", "output": "White shutters with white background."}
+{"input": "Blue fabric blinds with white background.", "edit": "Change the blinds to cellular shades.", "output": "White cellular shades with white background."}
+{"input": "Grey roller blinds with white background.", "edit": "Add a pattern.", "output": "Grey roller blinds with pattern design and white background."}
+{"input": "Beige Roman shades with white background.", "edit": "Remove the cord.", "output": "Beige cordless Roman shades with white background."}
+{"input": "White sheer curtains with white background.", "edit": "Change to blackout curtains.", "output": "White blackout curtains with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Add motorized functionality.", "output": "Brown motorized wooden blinds with white background."}
+{"input": "Pink vertical blinds with white background.", "edit": "Replace with bamboo blinds.", "output": "Pink bamboo blinds with white background."}
+{"input": "Yellow roller shades with white background.", "edit": "Make them dual-layered.", "output": "Yellow dual-layered roller shades with white background."}
+{"input": "Purple pleated blinds with white background.", "edit": "Change the color to silver.", "output": "Silver pleated blinds with white background."}
+{"input": "Blackout cellular shades with white background.", "edit": "Add motorized functionality.", "output": "Motorized blackout cellular shades with white background."}
+{"input": "Horizontal blinds with white background.", "edit": "Replace with vertical blinds.", "output": "Vertical blinds with white background."}
+{"input": "Sheer white curtains with white background.", "edit": "Replace with lace curtains.", "output": "Lace curtains with white background."}
+{"input": "White horizontal blinds with white background.", "edit": "Add a pattern to the blinds.", "output": "White horizontal blinds with pattern and white background."}
+{"input": "Yellow roller shades with white background.", "edit": "Remove the shades.", "output": "White background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Change the blinds to bamboo.", "output": "Brown bamboo blinds with white background."}
+{"input": "Gray vertical blinds with white background.", "edit": "Make the blinds sheer.", "output": "Gray sheer vertical blinds with white background."}
+{"input": "Black roller shades with white background.", "edit": "Make the shades motorized.", "output": "Black motorized roller shades with white background."}
+{"input": "Purple vertical blinds with white background.", "edit": "Add blackout lining to the blinds.", "output": "Purple vertical blinds with blackout lining and white background."}
+{"input": "Beige roller shades with white background.", "edit": "Replace the shades with roman shades.", "output": "Beige roman shades with white background."}
+{"input": "Green vertical blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Pink sheer curtains with white background.", "edit": "Add tiebacks to the curtains.", "output": "Pink sheer curtains with tiebacks and white background."}
+{"input": "Gray roller shades with white background.", "edit": "Change the shades to solar shades.", "output": "Gray solar shades with white background."}
+{"input": "White curtains with patterned design and white background.", "edit": "Remove the pattern.", "output": "White curtains with plain design and white background."}
+{"input": "Beige blackout curtains with white background.", "edit": "Add floral embroidery.", "output": "Beige blackout curtains with floral embroidery and white background."}
+{"input": "Gray horizontal blinds with white background.", "edit": "Replace the blinds with sheer curtains.", "output": "Gray sheer curtains with white background."}
+{"input": "Yellow roller blinds with white background.", "edit": "Make the blinds translucent.", "output": "Yellow translucent roller blinds with white background."}
+{"input": "Pink vertical blinds with white background.", "edit": "Change blinds to shades.", "output": "Pink shades with white background."}
+{"input": "Brown wood blinds with white background.", "edit": "Make the blinds lighter.", "output": "Light brown wood blinds with white background."}
+{"input": "Blackout curtains with white background.", "edit": "Add a silver satin tieback.", "output": "Blackout curtains with a silver satin tieback and white background."}
+{"input": "Orange roller blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Gray vertical blinds with white background.", "edit": "Replace blinds with sheer shades.", "output": "Gray sheer shades with white background."}
+{"input": "Brown bamboo blinds with white background.", "edit": "Make the blinds darker.", "output": "Dark brown bamboo blinds with white background."}
+{"input": "White roller blinds with white background.", "edit": "Change the blinds to black.", "output": "Black roller blinds with white background."}
+{"input": "Beige horizontal blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Gray sheer curtains with white background.", "edit": "Add opaque curtains behind them.", "output": "Gray sheer curtains with white background, and opaque curtains behind them."}
+{"input": "Pink vertical blinds with white background.", "edit": "Change the blinds to horizontal.", "output": "Pink horizontal blinds with white background."}
+{"input": "Yellow curtains with white background.", "edit": "Replace the curtains with blinds.", "output": "Yellow blinds with white background."}
+{"input": "Brown vertical blinds with white background.", "edit": "Make the blinds translucent.", "output": "Brown translucent vertical blinds with white background."}
+{"input": "Green blackout curtains with white background.", "edit": "Make them sheer.", "output": "Green sheer curtains with white background."}
+{"input": "Purple roller blinds with white background.", "edit": "Add valances on top.", "output": "Purple roller blinds with white background, and valances on top."}
+{"input": "Orange vertical blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Blackout curtains with white background.", "edit": "Change the curtains to blinds.", "output": "Blackout blinds with white background."}
+{"input": "White sheer curtains with white background.", "edit": "Add floral pattern.", "output": "White sheer curtains with floral pattern and white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Make the blinds wider.", "output": "Wide brown wooden blinds with white background."}
+{"input": "Grey roller blinds with white background.", "edit": "Change the blinds to black.", "output": "Black roller blinds with white background."}
+{"input": "Beige roman shades with white background.", "edit": "Add blackout lining.", "output": "Beige roman shades with blackout lining and white background."}
+{"input": "Yellow vertical blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Pink sheer curtains with white background.", "edit": "Add tassels at the edges.", "output": "Pink sheer curtains with tassels at the edges and white background."}
+{"input": "Green roller blinds with white background.", "edit": "Make the blinds translucent.", "output": "Translucent green roller blinds with white background."}
+{"input": "Purple blackout curtains with white background.", "edit": "Change the curtains to striped design.", "output": "Purple striped blackout curtains with white background."}
+{"input": "White lace curtains with white background.", "edit": "Remove the curtains.", "output": "White background."}
+{"input": "Grey vertical blinds with white background.", "edit": "Replace the blinds with bamboo shades.", "output": "Grey bamboo shades with white background."}
+{"input": "Blue vertical blinds with white background.", "edit": "Change the blinds to roller shades.", "output": "Blue roller shades with white background."}
+{"input": "Red vertical blinds with white background.", "edit": "Add sheer curtains behind the blinds.", "output": "Red vertical blinds with sheer curtains and white background."}
+{"input": "Red vertical silk curtain with white background.", "edit": "Remove the silk material.", "output": "Red vertical curtain with white background."}
+{"input": "White horizontal blinds with white background.", "edit": "Make the blinds woodgrain.", "output": "Woodgrain horizontal blinds with white background."}
+{"input": "Black roller shades with white background.", "edit": "Replace the shades with bamboo blinds.", "output": "Black bamboo blinds with white background."}
+{"input": "Gray sheer curtains with white background.", "edit": "Add blackout curtains behind.", "output": "Gray sheer curtains with blackout curtains behind and white background."}
+{"input": "Yellow roller shades with white background.", "edit": "Remove the shades.", "output": "Yellow curtain with white background."}
+{"input": "Vertical blinds with white background.", "edit": "Make the blinds beige.", "output": "Beige vertical blinds with white background."}
+{"input": "Green roller shades with white background.", "edit": "Add valances on top.", "output": "Green roller shades with valances on top and white background."}
+{"input": "Blue curtains with white background.", "edit": "Change the curtains to roman shades.", "output": "Blue roman shades with white background."}
+{"input": "Purple roller blinds with white background.", "edit": "Add a floral pattern.", "output": "Purple roller blinds with floral pattern and white background."}
+{"input": "White sheer curtains with white background.", "edit": "Remove the sheerness.", "output": "White curtains with white background."}
+{"input": "Beige wooden blinds with white background.", "edit": "Replace the blinds with roman shades.", "output": "Beige roman shades with white background."}
+{"input": "Yellow vertical blinds with white background.", "edit": "Make the blinds translucent.", "output": "Yellow vertical translucent blinds with white background."}
+{"input": "Gray blackout curtains with white background.", "edit": "Change the color to navy blue.", "output": "Navy blue blackout curtains with white background."}
+{"input": "Green sheer curtains with white background.", "edit": "Add golden tassels.", "output": "Green sheer curtains with golden tassels and white background."}
+{"input": "Brown bamboo blinds with white background.", "edit": "Replace the blinds with roller shades.", "output": "Brown roller shades with white background."}
+{"input": "Pink blackout curtains with white background.", "edit": "Remove the blackout feature.", "output": "Pink curtains with white background."}
+{"input": "Orange sheer curtains with white background.", "edit": "Add a polka dot pattern.", "output": "Orange sheer curtains with polka dot pattern and white background."}
+{"input": "Black vertical blinds with white background.", "edit": "Make the blinds wider.", "output": "Black wider vertical blinds with white background."}
+{"input": "Gray roller blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Purple roman shades with white background.", "edit": "Add floral pattern.", "output": "Purple roman shades with floral pattern and white background."}
+{"input": "White sheer curtains with white background.", "edit": "Add blackout lining.", "output": "White sheer curtains with blackout lining and white background."}
+{"input": "Beige vertical blinds with white background.", "edit": "Replace the blinds with shutters.", "output": "Beige shutters with white background."}
+{"input": "Yellow roller shades with white background.", "edit": "Make the shades translucent.", "output": "Yellow translucent roller shades with white background."}
+{"input": "Blue plaid curtains with white background.", "edit": "Change the curtains to striped pattern.", "output": "Blue striped curtains with white background."}
+{"input": "Green bamboo blinds with white background.", "edit": "Make the blinds darker.", "output": "Dark green bamboo blinds with white background."}
+{"input": "Pink sheer curtains with white background.", "edit": "Add tassel tiebacks.", "output": "Pink sheer curtains with tassel tiebacks and white background."}
+{"input": "White Venetian blinds with white background.", "edit": "Replace the blinds with roller shades.", "output": "White roller shades with white background."}
+{"input": "Orange blackout curtains with white background.", "edit": "Remove the curtains.", "output": "White background."}
+{"input": "Yellow roller blinds with white background.", "edit": "Add a pattern to the blinds.", "output": "Yellow roller blinds with pattern and white background."}
+{"input": "Black and white striped roman shades with white background.", "edit": "Remove the stripes from the shades.", "output": "Black roman shades with white background."}
+{"input": "Grey sheer curtains with white background.", "edit": "Make the curtains floor-length.", "output": "Grey floor-length sheer curtains with white background."}
+{"input": "Purple blackout blinds with white background.", "edit": "Change the blinds to white.", "output": "White blackout blinds with white background."}
+{"input": "Beige curtain panels with white background.", "edit": "Add tassels to the curtains.", "output": "Beige curtain panels with tassels and white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Replace the blinds with bamboo blinds.", "output": "Brown bamboo blinds with white background."}
+{"input": "White lace curtains with white background.", "edit": "Make the curtains translucent.", "output": "White translucent lace curtains with white background."}
+{"input": "Orange roller shades with white background.", "edit": "Add a border to the shades.", "output": "Orange roller shades with border and white background."}
+{"input": "Pink patterned curtains with white background.", "edit": "Change the pattern of the curtains.", "output": "Pink curtains with a different pattern and white background."}
+{"input": "Grey vertical blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Grey roller shades with white background.", "edit": "Add a pattern to the shades.", "output": "Grey roller shades with pattern and white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Replace the blinds with bamboo shades.", "output": "Brown bamboo shades with white background."}
+{"input": "White sheer curtains with white background.", "edit": "Make the curtains floor-length.", "output": "White floor-length sheer curtains with white background."}
+{"input": "Beige roman shades with white background.", "edit": "Make the shades blackout.", "output": "Beige blackout roman shades with white background."}
+{"input": "Yellow vertical blinds with white background.", "edit": "Remove the blinds.", "output": "Yellow curtains with white background."}
+{"input": "Purple velvet curtains with white background.", "edit": "Add tassel tiebacks.", "output": "Purple velvet curtains with tassel tiebacks and white background."}
+{"input": "Green roller shades with white background.", "edit": "Make the shades motorized.", "output": "Green motorized roller shades with white background."}
+{"input": "Pink horizontal blinds with white background.", "edit": "Change the blinds to vertical.", "output": "Pink vertical blinds with white background."}
+{"input": "Orange sheer curtains with white background.", "edit": "Add a valance to the curtains.", "output": "Orange sheer curtains with valance and white background."}
+{"input": "Blackout curtains with white background.", "edit": "Replace the curtains with blinds.", "output": "Blinds with white background."}
+{"input": "Yellow horizontal blinds with white background.", "edit": "Add blackout feature.", "output": "Yellow horizontal blinds with blackout feature and white background."}
+{"input": "White roller blinds with white background.", "edit": "Add sheer fabric.", "output": "White roller blinds with sheer fabric and white background."}
+{"input": "Beige Roman shades with white background.", "edit": "Remove the shades.", "output": "White background."}
+{"input": "Purple sheer curtains with white background.", "edit": "Make it floral patterned.", "output": "Purple floral patterned sheer curtains with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Change the color to white.", "output": "White wooden blinds with white background."}
+{"input": "Gray blackout curtains with white background.", "edit": "Add grommets.", "output": "Gray blackout curtains with grommets and white background."}
+{"input": "Green vertical blinds with white background.", "edit": "Replace the blinds with bamboo shades.", "output": "Green bamboo shades with white background."}
+{"input": "Cream silk curtains with white background.", "edit": "Change the fabric to linen.", "output": "Cream linen curtains with white background."}
+{"input": "Blackout cellular shades with white background.", "edit": "Remove the blackout feature.", "output": "Blackout cellular shades with white background."}
+{"input": "Patterned roller blinds with white background.", "edit": "Replace the blinds with roller shades.", "output": "Patterned roller shades with white background."}
+{"input": "Blue horizontal blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "White roller blind with white background.", "edit": "Add lace curtains behind it.", "output": "White roller blind with lace curtains and white background."}
+{"input": "Yellow sheer curtains with white background.", "edit": "Change the curtains to pink.", "output": "Pink sheer curtains with white background."}
+{"input": "Bamboo blinds with white background.", "edit": "Replace the blinds with Roman shades.", "output": "White Roman shades with white background."}
+{"input": "Green blackout curtains with white background.", "edit": "Make the curtains longer.", "output": "Green blackout curtains (longer) with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Add valance on top.", "output": "Brown wooden blinds with valance and white background."}
+{"input": "Purple velvet curtains with white background.", "edit": "Change the curtains to sheer.", "output": "Sheer curtains with white background."}
+{"input": "White roller shades with white background.", "edit": "Remove the roller shades.", "output": "White background."}
+{"input": "Gray vertical blinds with white background.", "edit": "Make the blinds darker.", "output": "Darker gray vertical blinds with white background."}
+{"input": "Cream lace curtains with white background.", "edit": "Replace the curtains with cellular shades.", "output": "White cellular shades with white background."}
+{"input": "Black roller blinds with white background.", "edit": "Add a pattern.", "output": "Black roller blinds with pattern and white background."}
+{"input": "Yellow horizontal blinds with white background.", "edit": "Remove the blinds.", "output": "Yellow with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Change the color to white.", "output": "White wooden blinds with white background."}
+{"input": "Gray vertical blinds with white background.", "edit": "Make the blinds translucent.", "output": "Gray translucent vertical blinds with white background."}
+{"input": "Purple velvet curtains with white background.", "edit": "Add tassels.", "output": "Purple velvet curtains with tassels and white background."}
+{"input": "Green roller blinds with white background.", "edit": "Replace the blinds with shutters.", "output": "Green shutters with white background."}
+{"input": "Beige horizontal blinds with white background.", "edit": "Change the material to bamboo.", "output": "Beige bamboo blinds with white background."}
+{"input": "White sheer curtains with white background.", "edit": "Add a floral pattern.", "output": "White sheer curtains with floral pattern and white background."}
+{"input": "Black vertical blinds with white background.", "edit": "Make the blinds wider.", "output": "Black wider vertical blinds with white background."}
+{"input": "Blue roller blinds with white background.", "edit": "Add a fringe at the bottom.", "output": "Blue roller blinds with fringe at the bottom and white background."}
+{"input": "Yellow horizontal blinds with white background.", "edit": "Make the blinds orange.", "output": "Orange horizontal blinds with white background."}
+{"input": "White roller shades with white background.", "edit": "Add a floral pattern.", "output": "White roller shades with floral pattern and white background."}
+{"input": "Brown bamboo blinds with white background.", "edit": "Remove the strings.", "output": "Brown bamboo blinds without strings and white background."}
+{"input": "Gray cellular shades with white background.", "edit": "Replace the shades with shutters.", "output": "Gray shutters with white background."}
+{"input": "Purple vertical blinds with white background.", "edit": "Make the blinds translucent.", "output": "Purple vertical translucent blinds with white background."}
+{"input": "Blackout roller shades with white background.", "edit": "Change the color to gray.", "output": "Gray blackout roller shades with white background."}
+{"input": "Beige sheer curtains with white background.", "edit": "Add a tassel trim.", "output": "Beige sheer curtains with tassel trim and white background."}
+{"input": "Green roman shades with white background.", "edit": "Make the shades cordless.", "output": "Green cordless roman shades with white background."}
+{"input": "Navy blue blackout curtains with white background.", "edit": "Add a geometric pattern.", "output": "Navy blue blackout curtains with geometric pattern and white background."}
+{"input": "Pink vertical blinds with white background.", "edit": "Remove the bottom weights.", "output": "Pink vertical blinds without bottom weights and white background."}
+{"input": "Yellow roller shades with white background.", "edit": "Add a pattern to the roller shades.", "output": "Yellow roller shades with pattern and white background."}
+{"input": "White sheer curtains with white background.", "edit": "Change the curtains to blackout curtains.", "output": "White blackout curtains with white background."}
+{"input": "Beige roman shades with white background.", "edit": "Remove the shades.", "output": "White background."}
+{"input": "Gray vertical blinds with white background.", "edit": "Add a valance to the blinds.", "output": "Gray vertical blinds with valance and white background."}
+{"input": "Purple curtains with white background.", "edit": "Change the curtains to drapes.", "output": "Purple drapes with white background."}
+{"input": "Bamboo blinds with white background.", "edit": "Replace the blinds with cellular shades.", "output": "White cellular shades with white background."}
+{"input": "Striped roller shades with white background.", "edit": "Make the shades solid color.", "output": "Solid color roller shades with white background."}
+{"input": "Pink sheer curtains with white background.", "edit": "Add curtain tiebacks.", "output": "Pink sheer curtains with tiebacks and white background."}
+{"input": "Wooden blinds with white background.", "edit": "Paint the blinds black.", "output": "Black wooden blinds with white background."}
+{"input": "Gray velvet curtains with white background.", "edit": "Change the curtains to sheer curtains.", "output": "Gray sheer curtains with white background."}
+{"input": "Yellow horizontal blinds with white background.", "edit": "Add a valance at the top.", "output": "Yellow horizontal blinds with white valance and background."}
+{"input": "Brown vertical blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Black roller blinds with white background.", "edit": "Change it to bamboo blinds.", "output": "Black bamboo blinds with white background."}
+{"input": "Purple blackout curtains with white background.", "edit": "Add sheer curtains behind.", "output": "Purple blackout curtains with white sheer curtains and background."}
+{"input": "Gray roman shades with white background.", "edit": "Make it cordless.", "output": "Gray cordless roman shades with white background."}
+{"input": "Beige vertical blinds with white background.", "edit": "Replace it with wooden blinds.", "output": "Beige wooden blinds with white background."}
+{"input": "Navy blue roller blinds with white background.", "edit": "Change the color to gray.", "output": "Gray roller blinds with white background."}
+{"input": "Pink sheer curtains with white background.", "edit": "Add tassels to the corners.", "output": "Pink sheer curtains with tassels and white background."}
+{"input": "Green pleated blinds with white background.", "edit": "Make it motorized.", "output": "Green motorized pleated blinds with white background."}
+{"input": "Orange roller shades with white background.", "edit": "Replace with horizontal blinds.", "output": "Orange horizontal blinds with white background."}
+{"input": "Blue vertical blinds with white background.", "edit": "Make the blinds green.", "output": "Green vertical blinds with white background."}
+{"input": "Red vertical blinds with white background.", "edit": "Replace the blinds with curtains.", "output": "Red curtains with white background."}
+{"input": "Red vertical silk curtain with white background.", "edit": "Make it velvet.", "output": "Red vertical velvet curtain with white background."}
+{"input": "White roller blinds with white background.", "edit": "Add floral pattern.", "output": "White roller blinds with floral pattern and white background."}
+{"input": "Gray roman shades with white background.", "edit": "Remove the shades.", "output": "White background."}
+{"input": "Beige vertical blinds with white background.", "edit": "Add blackout feature.", "output": "Beige vertical blinds with blackout feature and white background."}
+{"input": "Yellow roller blinds with white background.", "edit": "Change the color to pink.", "output": "Pink roller blinds with white background."}
+{"input": "Purple pleated curtains with white background.", "edit": "Make it sheer.", "output": "Purple sheer curtains with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Replace with bamboo blinds.", "output": "Brown bamboo blinds with white background."}
+{"input": "Blue sheer curtains with white background.", "edit": "Add tiebacks.", "output": "Blue sheer curtains with tiebacks and white background."}
+{"input": "White horizontal blinds with white background.", "edit": "Change the blinds to roller shades.", "output": "White roller shades with white background."}
+{"input": "White sheer curtains with white background.", "edit": "Add blackout lining.", "output": "White sheer curtains with blackout lining and white background."}
+{"input": "Beige Roman shades with white background.", "edit": "Remove the shades.", "output": "White background."}
+{"input": "Gray vertical blinds with white background.", "edit": "Add motorized feature.", "output": "Gray vertical blinds with motorized feature and white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Make the blinds wider.", "output": "Wide brown wooden blinds with white background."}
+{"input": "Pink roller shades with white background.", "edit": "Change the color to purple.", "output": "Purple roller shades with white background."}
+{"input": "Gray blackout curtains with white background.", "edit": "Add tiebacks.", "output": "Gray blackout curtains with tiebacks and white background."}
+{"input": "White plantation shutters with white background.", "edit": "Remove the shutters.", "output": "White background."}
+{"input": "Black vertical blinds with white background.", "edit": "Replace the blinds with bamboo shades.", "output": "Black bamboo shades with white background."}
+{"input": "Gray venetian blinds with white background.", "edit": "Make the blinds motorized.", "output": "Gray venetian blinds with motorized feature and white background."}
+{"input": "Gray roller shades with white background.", "edit": "Add a pattern.", "output": "Gray roller shades with pattern and white background."}
+{"input": "White horizontal blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Yellow roman shades with white background.", "edit": "Make them blackout shades.", "output": "Yellow blackout roman shades with white background."}
+{"input": "Beige sheer curtains with white background.", "edit": "Change the color to purple.", "output": "Purple sheer curtains with white background."}
+{"input": "Blue blackout curtains with white background.", "edit": "Add a trim.", "output": "Blue blackout curtains with trim and white background."}
+{"input": "Gray venetian blinds with white background.", "edit": "Increase the width of the slats.", "output": "Gray venetian blinds with wider slats and white background."}
+{"input": "White vertical blinds with white background.", "edit": "Make the blinds translucent.", "output": "White translucent vertical blinds with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Replace the blinds with shutters.", "output": "Brown wooden shutters with white background."}
+{"input": "Light blue roller shades with white background.", "edit": "Add motorized functionality.", "output": "Light blue motorized roller shades with white background."}
+{"input": "Cream curtains with white background.", "edit": "Make the curtains longer.", "output": "Cream curtains with longer length and white background."}
+{"input": "White roller blinds with white background.", "edit": "Add horizontal stripes.", "output": "White roller blinds with horizontal stripes and white background."}
+{"input": "Cream blackout curtains with white background.", "edit": "Change the color to beige.", "output": "Beige blackout curtains with white background."}
+{"input": "Patterned sheer curtains with white background.", "edit": "Remove the pattern.", "output": "Sheer curtains with white background."}
+{"input": "Wooden venetian blinds with white background.", "edit": "Replace with bamboo blinds.", "output": "Bamboo blinds with white background."}
+{"input": "Purple roman shades with white background.", "edit": "Make the shades lavender.", "output": "Lavender roman shades with white background."}
+{"input": "Yellow vertical blinds with white background.", "edit": "Add floral print.", "output": "Yellow vertical blinds with floral print and white background."}
+{"input": "Light gray cellular shades with white background.", "edit": "Change the color to dark gray.", "output": "Dark gray cellular shades with white background."}
+{"input": "Blue blackout curtains with white background.", "edit": "Make them sheer curtains.", "output": "Blue sheer curtains with white background."}
+{"input": "Silver aluminum blinds with white background.", "edit": "Replace with vinyl blinds.", "output": "Vinyl blinds with white background."}
+{"input": "Brown bamboo blinds with white background.", "edit": "Remove the strings.", "output": "Brown bamboo blinds without strings and white background."}
+{"input": "Yellow roller shades with white background.", "edit": "Add a floral pattern.", "output": "Yellow roller shades with white background and floral pattern."}
+{"input": "Brown wooden blinds with white background.", "edit": "Change the blinds to bamboo.", "output": "Brown bamboo blinds with white background."}
+{"input": "White sheer curtains with white background.", "edit": "Make them floor-length.", "output": "White floor-length sheer curtains with white background."}
+{"input": "Gray blackout curtains with white background.", "edit": "Add a sheer layer.", "output": "Gray blackout curtains with white background and sheer layer."}
+{"input": "Beige roman shades with white background.", "edit": "Replace them with cellular shades.", "output": "Beige cellular shades with white background."}
+{"input": "Purple vertical blinds with white background.", "edit": "Make the blinds horizontal.", "output": "Purple horizontal blinds with white background."}
+{"input": "Green velvet curtains with white background.", "edit": "Change the curtains to drapes.", "output": "Green velvet drapes with white background."}
+{"input": "White roller shades with white background.", "edit": "Add a fringe trim.", "output": "White roller shades with white background and fringe trim."}
+{"input": "Gray blackout curtains with white background.", "edit": "Remove the blackout feature.", "output": "Gray curtains with white background."}
+{"input": "Brown bamboo blinds with white background.", "edit": "Replace them with wooden blinds.", "output": "Brown wooden blinds with white background."}
+{"input": "Orange blackout roller blinds with white background.", "edit": "Change the color to purple.", "output": "Purple blackout roller blinds with white background."}
+{"input": "Sheer white curtains with white background.", "edit": "Add lace trim to the curtains.", "output": "Sheer white curtains with lace trim and white background."}
+{"input": "Beige roman shades with white background.", "edit": "Remove the shades.", "output": "White background."}
+{"input": "Gray blackout curtains with white background.", "edit": "Replace the curtains with blinds.", "output": "Gray blinds with white background."}
+{"input": "Yellow vertical blinds with white background.", "edit": "Change the blinds to horizontal orientation.", "output": "Yellow horizontal blinds with white background."}
+{"input": "White sheer curtains with white background.", "edit": "Add tassel tiebacks to the curtains.", "output": "White sheer curtains with tassel tiebacks and white background."}
+{"input": "Brown roller blinds with white background.", "edit": "Make the blinds translucent.", "output": "Translucent brown roller blinds with white background."}
+{"input": "Green plantation shutters with white background.", "edit": "Remove the shutters.", "output": "White background."}
+{"input": "Pink blackout curtains with white background.", "edit": "Replace the curtains with blinds.", "output": "Pink blinds with white background."}
+{"input": "Gray vertical blinds with white background.", "edit": "Change the blinds to horizontal orientation.", "output": "Gray horizontal blinds with white background."}
+{"input": "Beige roller blinds with white background.", "edit": "Add sheer curtains behind the blinds.", "output": "Beige roller blinds with sheer curtains and white background."}
+{"input": "Yellow roman shades with white background.", "edit": "Remove the shades.", "output": "White background."}
+{"input": "Blackout curtains with white background.", "edit": "Change the curtains to sheer ones.", "output": "Sheer curtains with white background."}
+{"input": "Bamboo blinds with white background.", "edit": "Replace the blinds with wooden plantation shutters.", "output": "Wooden plantation shutters with white background."}
+{"input": "White sheer curtains with white background.", "edit": "Add a valance on top.", "output": "White sheer curtains with a valance on top and white background."}
+{"input": "Patterned roller blinds with white background.", "edit": "Change the pattern to floral.", "output": "Floral roller blinds with white background."}
+{"input": "Linen curtains with white background.", "edit": "Change the curtains to lace ones.", "output": "Lace curtains with white background."}
+{"input": "Horizontal venetian blinds with white background.", "edit": "Make the blinds metallic silver.", "output": "Horizontal metallic silver blinds with white background."}
+{"input": "Pink blackout curtains with white background.", "edit": "Replace the curtains with sheer pink ones.", "output": "Sheer pink curtains with white background."}
+{"input": "Wooden blinds with white background.", "edit": "Change the blinds to bamboo.", "output": "Bamboo blinds with white background."}
+{"input": "Blue horizontal blinds with white background.", "edit": "Add a pattern to the blinds.", "output": "Blue horizontal blinds with pattern with white background."}
+{"input": "White roller blinds with white background.", "edit": "Change the color of the blinds to black.", "output": "Black roller blinds with white background."}
+{"input": "Beige curtains with white background.", "edit": "Remove the curtains.", "output": "White background."}
+{"input": "Gray sheer curtains with white background.", "edit": "Add blackout lining to the curtains.", "output": "Gray sheer curtains with blackout lining with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Replace the blinds with bamboo blinds.", "output": "Brown bamboo blinds with white background."}
+{"input": "Purple curtains with white background.", "edit": "Add tassel tiebacks to the curtains.", "output": "Purple curtains with tassel tiebacks with white background."}
+{"input": "Yellow roller blinds with white background.", "edit": "Make the blinds translucent.", "output": "Yellow translucent roller blinds with white background."}
+{"input": "Blackout curtains with white background.", "edit": "Change the curtains to sheer curtains.", "output": "Sheer curtains with white background."}
+{"input": "Vertical blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Gray curtain with white background.", "edit": "Add a valance to the curtain.", "output": "Gray curtain with valance with white background."}
+{"input": "Brown curtains with white background.", "edit": "Add lace trim.", "output": "Brown curtains with lace trim and white background."}
+{"input": "White roller blinds with white background.", "edit": "Change them to bamboo blinds.", "output": "Bamboo roller blinds with white background."}
+{"input": "Gray roman shades with white background.", "edit": "Remove the shades.", "output": "Gray background with white background."}
+{"input": "Yellow sheer curtains with white background.", "edit": "Make them blackout curtains.", "output": "Yellow blackout curtains with white background."}
+{"input": "Pink floral curtains with white background.", "edit": "Add tassels.", "output": "Pink floral curtains with tassels and white background."}
+{"input": "Beige venetian blinds with white background.", "edit": "Replace them with wooden blinds.", "output": "Wooden venetian blinds with white background."}
+{"input": "Purple vertical blinds with white background.", "edit": "Change the color to blue.", "output": "Blue vertical blinds with white background."}
+{"input": "White plantation shutters with white background.", "edit": "Add a center divider.", "output": "White plantation shutters with center divider and white background."}
+{"input": "Green floral curtains with white background.", "edit": "Remove the floral pattern.", "output": "Green curtains with white background."}
+{"input": "Gray blackout shades with white background.", "edit": "Make them motorized.", "output": "Gray motorized blackout shades with white background."}
+{"input": "Yellow horizontal blinds with white background.", "edit": "Add a pattern to the blinds.", "output": "Yellow horizontal blinds with pattern and white background."}
+{"input": "Black roller blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Green plaid curtains with white background.", "edit": "Change the curtains to sheer.", "output": "Green sheer curtains with white background."}
+{"input": "White pleated blinds with white background.", "edit": "Make the blinds translucent.", "output": "White translucent pleated blinds with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Make the blinds gray.", "output": "Gray wooden blinds with white background."}
+{"input": "Purple roman shades with white background.", "edit": "Change the shades to blackout.", "output": "Purple blackout roman shades with white background."}
+{"input": "Pink fringed curtains with white background.", "edit": "Remove the fringes.", "output": "Pink curtains with white background."}
+{"input": "Beige vertical blinds with white background.", "edit": "Add a valance to the blinds.", "output": "Beige vertical blinds with valance and white background."}
+{"input": "Striped roller blinds with white background.", "edit": "Make the blinds horizontal.", "output": "Striped horizontal blinds with white background."}
+{"input": "Gray sheer curtains with white background.", "edit": "Replace the curtains with blinds.", "output": "Gray blinds with white background."}
+{"input": "Blue vertical blinds with white background.", "edit": "Replace the blinds with roller shades.", "output": "Blue roller shades with white background."}
+{"input": "Red vertical blinds with white background.", "edit": "Add sheer curtains behind the blinds.", "output": "Red vertical blinds with sheer curtains and white background."}
+{"input": "Red silk curtains with white background.", "edit": "Remove the curtains.", "output": "White background."}
+{"input": "Yellow horizontal blinds with white background.", "edit": "Make the blinds black.", "output": "Black horizontal blinds with white background."}
+{"input": "White sheer curtains with black background.", "edit": "Add blackout lining.", "output": "White sheer curtains with blackout lining and black background."}
+{"input": "Beige roller shades with white background.", "edit": "Make the shades motorized.", "output": "Motorized beige roller shades with white background."}
+{"input": "Vertical wooden blinds with white background.", "edit": "Replace the blinds with bamboo shades.", "output": "Vertical bamboo shades with white background."}
+{"input": "Gray blackout curtains with white background.", "edit": "Change the curtains to white sheer curtains.", "output": "White sheer curtains with white background."}
+{"input": "Brown roller shades with white background.", "edit": "Make the shades cordless.", "output": "Cordless brown roller shades with white background."}
+{"input": "Black vertical blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Blue vertical blinds with white background.", "edit": "Add a pattern to the blinds.", "output": "Blue vertical blinds with pattern and white background."}
+{"input": "Red sheer curtains with white background.", "edit": "Change the curtains to blackout curtains.", "output": "Red blackout curtains with white background."}
+{"input": "White roller blinds with white background.", "edit": "Remove the blinds.", "output": "No blinds with white background."}
+{"input": "Grey horizontal blinds with white background.", "edit": "Make the blinds wooden.", "output": "Grey wooden horizontal blinds with white background."}
+{"input": "Brown vertical blinds with white background.", "edit": "Add a valance to the blinds.", "output": "Brown vertical blinds with valance and white background."}
+{"input": "Yellow roman shades with white background.", "edit": "Change the shades to cellular shades.", "output": "Yellow cellular shades with white background."}
+{"input": "Green vertical blinds with white background.", "edit": "Make the blinds motorized.", "output": "Green motorized vertical blinds with white background."}
+{"input": "Purple sheer curtains with white background.", "edit": "Remove the curtains.", "output": "No curtains with white background."}
+{"input": "Beige roller blinds with white background.", "edit": "Change the blinds to pleated shades.", "output": "Beige pleated shades with white background."}
+{"input": "Black horizontal blinds with white background.", "edit": "Add a decorative trim to the blinds.", "output": "Black horizontal blinds with decorative trim and white background."}
+{"input": "Blue vertical blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Red vertical blinds with white background.", "edit": "Change the blinds to roller blinds.", "output": "Red roller blinds with white background."}
+{"input": "Red vertical silk curtain with white background.", "edit": "Remove the background.", "output": "Red vertical silk curtain."}
+{"input": "Brown wooden blinds with white background.", "edit": "Change the blinds to bamboo blinds.", "output": "Brown bamboo blinds with white background."}
+{"input": "White sheer curtains with white background.", "edit": "Change the curtains to blackout curtains.", "output": "White blackout curtains with white background."}
+{"input": "Beige horizontal blinds with white background.", "edit": "Change the blinds to venetian blinds.", "output": "Beige venetian blinds with white background."}
+{"input": "Gray vertical blinds with white background.", "edit": "Add a pattern to the blinds.", "output": "Gray patterned vertical blinds with white background."}
+{"input": "Teal roller blinds with white background.", "edit": "Change the blinds to roman shades.", "output": "Teal roman shades with white background."}
+{"input": "Yellow curtains with white background.", "edit": "Change the curtains to drapes.", "output": "Yellow drapes with white background."}
+{"input": "Pink sheer curtains with white background.", "edit": "Add a floral pattern to the curtains.", "output": "Pink sheer curtains with floral pattern and white background."}
+{"input": "Beige roller blinds with white background.", "edit": "Add a floral pattern.", "output": "Beige roller blinds with floral pattern and white background."}
+{"input": "White wooden blinds with white background.", "edit": "Make the blinds gray.", "output": "Gray wooden blinds with white background."}
+{"input": "Brown roman shades with white background.", "edit": "Remove the shades.", "output": "White background."}
+{"input": "Yellow sheer curtains with white background.", "edit": "Add blackout lining.", "output": "Yellow sheer curtains with blackout lining and white background."}
+{"input": "Gray vertical blinds with white background.", "edit": "Replace with horizontal blinds.", "output": "Gray horizontal blinds with white background."}
+{"input": "Pink roller blinds with white background.", "edit": "Make the blinds translucent.", "output": "Translucent pink roller blinds with white background."}
+{"input": "Purple velvet curtains with white background.", "edit": "Change the curtains to drapes.", "output": "Purple velvet drapes with white background."}
+{"input": "Green horizontal blinds with white background.", "edit": "Make the blinds narrower.", "output": "Green narrower horizontal blinds with white background."}
+{"input": "Yellow roman shades with white background.", "edit": "Add a scalloped bottom edge.", "output": "Yellow roman shades with scalloped bottom edge and white background."}
+{"input": "Blue sheer curtains with white background.", "edit": "Remove the curtains.", "output": "White background."}
+{"input": "Grey roller blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Yellow blackout curtains with white background.", "edit": "Add tiebacks.", "output": "Yellow blackout curtains with tiebacks and white background."}
+{"input": "Purple Roman shades with white background.", "edit": "Change the color to pink.", "output": "Pink Roman shades with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Make them wider.", "output": "Wide brown wooden blinds with white background."}
+{"input": "Sheer white curtains with white background.", "edit": "Add floral pattern.", "output": "Sheer white curtains with floral pattern and white background."}
+{"input": "Bamboo roll-up shades with white background.", "edit": "Replace with bamboo Roman shades.", "output": "Bamboo Roman shades with white background."}
+{"input": "Striped roller blinds with white background.", "edit": "Make the stripes thinner.", "output": "Thin striped roller blinds with white background."}
+{"input": "Blackout curtains with white background.", "edit": "Remove the blackout feature.", "output": "Curtains with white background."}
+{"input": "Linen vertical blinds with white background.", "edit": "Change the material to silk.", "output": "Silk vertical blinds with white background."}
+{"input": "Patterned Roman shades with white background.", "edit": "Replace with plain shades.", "output": "Plain Roman shades with white background."}
+{"input": "White roller blinds with white background.", "edit": "Add a pattern to the blinds.", "output": "White roller blinds with pattern and white background."}
+{"input": "Beige roman shades with white background.", "edit": "Change the color to gray.", "output": "Gray roman shades with white background."}
+{"input": "Yellow sheer curtains with white background.", "edit": "Remove the sheerness.", "output": "Yellow curtains with white background."}
+{"input": "Striped bamboo blinds with white background.", "edit": "Change the pattern to dots.", "output": "Striped dots blinds with white background."}
+{"input": "Purple blackout blinds with white background.", "edit": "Make the blinds translucent.", "output": "Purple translucent blinds with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Replace the blinds with shutters.", "output": "Brown shutters with white background."}
+{"input": "Pink roller shades with white background.", "edit": "Make the shades dual-layered.", "output": "Pink dual-layered shades with white background."}
+{"input": "Gray vertical blinds with white background.", "edit": "Increase the width of the blinds.", "output": "Gray wider vertical blinds with white background."}
+{"input": "Patterned sheer curtains with white background.", "edit": "Remove the pattern.", "output": "White sheer curtains with white background."}
+{"input": "Green floral curtains with white background.", "edit": "Change the color to blue.", "output": "Blue floral curtains with white background."}
+{"input": "Yellow horizontal blinds with white background.", "edit": "Add a pattern to the blinds.", "output": "Yellow horizontal blinds with pattern and white background."}
+{"input": "White roller blinds with white background.", "edit": "Add a border to the blinds.", "output": "White roller blinds with border and white background."}
+{"input": "Green patterned curtains with white background.", "edit": "Remove the pattern from the curtains.", "output": "Green curtains with white background."}
+{"input": "Beige sheer curtains with white background.", "edit": "Change the color to white.", "output": "White sheer curtains with white background."}
+{"input": "Brown roman shades with white background.", "edit": "Replace the shades with bamboo blinds.", "output": "Brown bamboo blinds with white background."}
+{"input": "Pink blackout curtains with white background.", "edit": "Make the curtains sheer.", "output": "Pink sheer curtains with white background."}
+{"input": "Black vertical blinds with white background.", "edit": "Change the blinds to horizontal.", "output": "Black horizontal blinds with white background."}
+{"input": "Gray cellular shades with white background.", "edit": "Add a motorized feature to the shades.", "output": "Gray motorized cellular shades with white background."}
+{"input": "Purple velvet curtains with white background.", "edit": "Make it double-layered.", "output": "Purple double-layered velvet curtains with white background."}
+{"input": "Navy blue roller blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "White horizontal blinds with white background.", "edit": "Add a pattern to the blinds.", "output": "White horizontal blinds with pattern and white background."}
+{"input": "Yellow roller blinds with white background.", "edit": "Change the blinds to roman blinds.", "output": "Yellow roman blinds with white background."}
+{"input": "Beige wooden blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Gray vertical blinds with white background.", "edit": "Make the blinds translucent.", "output": "Gray translucent vertical blinds with white background."}
+{"input": "Purple blackout blinds with white background.", "edit": "Make the blinds sheer.", "output": "Purple sheer blinds with white background."}
+{"input": "Green vertical blinds with white background.", "edit": "Replace the blinds with shutters.", "output": "Green shutters with white background."}
+{"input": "Brown roller blinds with white background.", "edit": "Add a valance on top.", "output": "Brown roller blinds with valance and white background."}
+{"input": "Orange vertical blinds with white background.", "edit": "Make the blinds cordless.", "output": "Orange cordless vertical blinds with white background."}
+{"input": "Pink horizontal blinds with white background.", "edit": "Change the blinds to pleated shades.", "output": "Pink pleated shades with white background."}
+{"input": "Black vertical blinds with white background.", "edit": "Replace the blinds with bamboo blinds.", "output": "Black bamboo blinds with white background."}
+{"input": "Black roller blinds with white background.", "edit": "Change the blinds to white.", "output": "White roller blinds with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Add a pattern to the blinds.", "output": "Brown wooden blinds with patterned design with white background."}
+{"input": "Gray blackout curtains with white background.", "edit": "Remove the blackout feature.", "output": "Gray curtains with white background."}
+{"input": "White venetian blinds with white background.", "edit": "Make the blinds translucent.", "output": "White translucent venetian blinds with white background."}
+{"input": "Yellow roman shades with white background.", "edit": "Replace the shades with roller blinds.", "output": "Yellow roller blinds with white background."}
+{"input": "Pink sheer curtains with white background.", "edit": "Make the curtains opaque.", "output": "Pink opaque curtains with white background."}
+{"input": "Orange vertical blinds with white background.", "edit": "Add a texture to the blinds.", "output": "Orange vertical blinds with textured design with white background."}
+{"input": "Beige pleated curtains with white background.", "edit": "Change the curtains to drapes.", "output": "Beige pleated drapes with white background."}
+{"input": "Green roller blinds with white background.", "edit": "Remove the blinds.", "output": "Green background."}
+{"input": "Purple sheer blinds with white background.", "edit": "Add a valance to the blinds.", "output": "Purple sheer blinds with valance with white background."}
+{"input": "Red horizontal blinds with white background.", "edit": "Change the blinds to bamboo.", "output": "Bamboo horizontal blinds with white background."}
+{"input": "White roller shades with white background.", "edit": "Add a floral pattern to the shades.", "output": "White roller shades with floral pattern and white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Remove the cords from the blinds.", "output": "Brown wooden blinds cordless with white background."}
+{"input": "Purple sheer curtains with white background.", "edit": "Replace the curtains with roman shades.", "output": "Purple roman shades with white background."}
+{"input": "Beige vertical blinds with white background.", "edit": "Make the blinds blackout.", "output": "Beige vertical blackout blinds with white background."}
+{"input": "Gray horizontal blinds with white background.", "edit": "Add a motorized system to the blinds.", "output": "Gray motorized horizontal blinds with white background."}
+{"input": "Pink roller shades with white background.", "edit": "Change the color to lavender.", "output": "Lavender roller shades with white background."}
+{"input": "White vertical blinds with white background.", "edit": "Replace the blinds with wooden shutters.", "output": "White wooden shutters with white background."}
+{"input": "Blue sheer curtains with white background.", "edit": "Remove the tassels from the curtains.", "output": "Blue sheer curtains without tassels with white background."}
+{"input": "Yellow roller shades with white background.", "edit": "Make the shades cordless.", "output": "Yellow cordless roller shades with white background."}
+{"input": "Pink roller blinds with white background.", "edit": "Change the blinds to sheer curtains.", "output": "Pink sheer curtains with white background."}
+{"input": "Yellow wooden blinds with white background.", "edit": "Add a floral pattern on the blinds.", "output": "Yellow wooden blinds with floral pattern with white background."}
+{"input": "Gray blackout curtains with white background.", "edit": "Make the curtains sheer.", "output": "Gray sheer curtains with white background."}
+{"input": "White vertical blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Beige roman shades with white background.", "edit": "Add a striped pattern on the shades.", "output": "Beige roman shades with striped pattern with white background."}
+{"input": "Orange roller blinds with white background.", "edit": "Change the blinds to bamboo shades.", "output": "Orange bamboo shades with white background."}
+{"input": "Purple silk curtains with white background.", "edit": "Make it satin.", "output": "Purple satin curtains with white background."}
+{"input": "Green vertical blinds with white background.", "edit": "Add a floral pattern on the blinds.", "output": "Green vertical blinds with floral pattern with white background."}
+{"input": "Brown roller blinds with white background.", "edit": "Change the blinds to horizontal blinds.", "output": "Brown horizontal blinds with white background."}
+{"input": "Navy blue curtains with white background.", "edit": "Make the curtains floor-to-ceiling length.", "output": "Navy blue floor-to-ceiling length curtains with white background."}
+{"input": "Yellow roller shades with white background.", "edit": "Remove the shades.", "output": "White background."}
+{"input": "White wooden blinds with white background.", "edit": "Add sheer curtains.", "output": "White wooden blinds with sheer curtains and white background."}
+{"input": "Brown blackout curtains with white background.", "edit": "Change the curtains to white.", "output": "White blackout curtains with white background."}
+{"input": "Beige vertical blinds with white background.", "edit": "Make the blinds wider.", "output": "Wider beige vertical blinds with white background."}
+{"input": "Gray sheer curtains with white background.", "edit": "Replace the curtains with drapes.", "output": "Gray drapes with white background."}
+{"input": "Pink roller shades with white background.", "edit": "Remove the background.", "output": "Pink roller shades with no background."}
+{"input": "Green curtains with white background.", "edit": "Add tiebacks.", "output": "Green curtains with tiebacks and white background."}
+{"input": "Orange blackout blinds with white background.", "edit": "Change the blinds to sheer shades.", "output": "Orange sheer shades with white background."}
+{"input": "Purple sheer curtains with white background.", "edit": "Make the curtains shorter.", "output": "Purple shorter sheer curtains with white background."}
+{"input": "Black roller shades with white background.", "edit": "Replace the shades with blinds.", "output": "Black blinds with white background."}
+{"input": "Blue curtains with white background.", "edit": "Add tassels to the curtains.", "output": "Blue curtains with tassels and white background."}
+{"input": "White roller blinds with white background.", "edit": "Change the blinds to bamboo blinds.", "output": "White bamboo blinds with white background."}
+{"input": "Striped roman shades with white background.", "edit": "Remove the stripes from the shades.", "output": "Plain roman shades with white background."}
+{"input": "Sheer white curtains with white background.", "edit": "Add floral patterns to the curtains.", "output": "Sheer white curtains with floral patterns and white background."}
+{"input": "Gray blackout blinds with white background.", "edit": "Replace the blinds with sheer curtains.", "output": "Gray sheer curtains with white background."}
+{"input": "Beaded string curtains with white background.", "edit": "Make the curtains longer.", "output": "Long beaded string curtains with white background."}
+{"input": "Purple vertical blinds with white background.", "edit": "Change the blinds to horizontal blinds.", "output": "Purple horizontal blinds with white background."}
+{"input": "White lace curtains with white background.", "edit": "Add ruffles to the curtains.", "output": "White lace curtains with ruffles and white background."}
+{"input": "Wooden venetian blinds with white background.", "edit": "Paint the blinds black.", "output": "Black wooden venetian blinds with white background."}
+{"input": "Yellow roller blinds with white background.", "edit": "Remove the roller mechanism from the blinds.", "output": "Yellow blinds with white background."}
+{"input": "Black roller blinds with white background.", "edit": "Add a pattern to the blinds.", "output": "Black roller blinds with pattern and white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Gray sheer curtains with white background.", "edit": "Change the curtains to blackout curtains.", "output": "Gray blackout curtains with white background."}
+{"input": "Cream Roman shades with white background.", "edit": "Make the shades cordless.", "output": "Cream cordless Roman shades with white background."}
+{"input": "Pink floral curtains with white background.", "edit": "Add a valance to the curtains.", "output": "Pink floral curtains with valance and white background."}
+{"input": "Beige vertical blinds with white background.", "edit": "Replace the blinds with shutters.", "output": "Beige shutters with white background."}
+{"input": "Purple blackout curtains with white background.", "edit": "Change the curtains to sheer curtains.", "output": "Purple sheer curtains with white background."}
+{"input": "White wooden blinds with white background.", "edit": "Make the blinds wider.", "output": "Wide white wooden blinds with white background."}
+{"input": "Navy blue roller shades with white background.", "edit": "Add motorized functionality to the shades.", "output": "Navy blue motorized roller shades with white background."}
+{"input": "Green sheer curtains with white background.", "edit": "Remove the curtains.", "output": "White background."}
+{"input": "Yellow horizontal blinds with white background.", "edit": "Add a pattern to the blinds.", "output": "Yellow horizontal blinds with pattern and white background."}
+{"input": "Beige roman shades with white background.", "edit": "Remove the shades.", "output": "White background."}
+{"input": "Purple blackout curtains with white background.", "edit": "Change the curtains to sheer curtains.", "output": "Purple sheer curtains with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Make the blinds darker.", "output": "Dark brown wooden blinds with white background."}
+{"input": "Gray vertical blinds with white background.", "edit": "Add a decorative valance to the blinds.", "output": "Gray vertical blinds with decorative valance and white background."}
+{"input": "White sheer curtains with white background.", "edit": "Replace the curtains with roller shades.", "output": "White roller shades with white background."}
+{"input": "Teal vertical blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Pink ruffled curtains with white background.", "edit": "Change the curtains to plain curtains.", "output": "Pink plain curtains with white background."}
+{"input": "Gray roller shades with white background.", "edit": "Make the shades motorized.", "output": "Gray motorized roller shades with white background."}
+{"input": "Blackout curtains with white background.", "edit": "Make the curtains opaque.", "output": "Opaque curtains with white background."}
+{"input": "Brown roller blinds with white background.", "edit": "Change the blinds to black.", "output": "Black roller blinds with white background."}
+{"input": "White roman shades with white background.", "edit": "Add floral pattern.", "output": "White roman shades with floral pattern and white background."}
+{"input": "Gray blackout blinds with white background.", "edit": "Remove the blackout feature.", "output": "Gray blinds with white background."}
+{"input": "Purple sheer curtains with white background.", "edit": "Replace the curtains with blinds.", "output": "Purple blinds with white background."}
+{"input": "Yellow roller blinds with white background.", "edit": "Make it motorized.", "output": "Yellow motorized roller blinds with white background."}
+{"input": "Beige vertical blinds with white background.", "edit": "Add metallic finish.", "output": "Beige vertical blinds with metallic finish and white background."}
+{"input": "Pink blackout curtains with white background.", "edit": "Change them to sheer curtains.", "output": "Pink sheer curtains with white background."}
+{"input": "Green roman shades with white background.", "edit": "Remove the shades.", "output": "Green blinds with white background."}
+{"input": "Black roller blinds with white background.", "edit": "Replace them with lace curtains.", "output": "Black lace curtains with white background."}
+{"input": "Blue sheer curtains with white background.", "edit": "Make them silk.", "output": "Blue sheer silk curtains with white background."}
+{"input": "Pink roller blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Yellow venetian blinds with white background.", "edit": "Change the blinds to horizontal.", "output": "Yellow horizontal blinds with white background."}
+{"input": "Beige sheer curtains with white background.", "edit": "Add a valance.", "output": "Beige sheer curtains with valance and white background."}
+{"input": "Gray blackout blinds with white background.", "edit": "Make the blinds translucent.", "output": "Gray translucent blinds with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Replace the blinds with fabric blinds.", "output": "Brown fabric blinds with white background."}
+{"input": "White sheer curtains with white background.", "edit": "Change the curtains to drapes.", "output": "White drapes with white background."}
+{"input": "Purple roller blinds with white background.", "edit": "Add a pattern.", "output": "Purple roller blinds with pattern and white background."}
+{"input": "Green venetian blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Blue blackout curtains with white background.", "edit": "Make the curtains sheer.", "output": "Blue sheer curtains with white background."}
+{"input": "Gray vertical blinds with white background.", "edit": "Replace the blinds with shutters.", "output": "Gray shutters with white background."}
+{"input": "Brown roller shades with white background.", "edit": "Change the color to black.", "output": "Black roller shades with white background."}
+{"input": "Yellow roman blinds with white background.", "edit": "Add a pattern.", "output": "Yellow roman blinds with pattern and white background."}
+{"input": "Purple blackout curtains with white background.", "edit": "Remove the blackout feature.", "output": "Purple curtains with white background."}
+{"input": "Beige sheer curtains with white background.", "edit": "Replace the curtains with blinds.", "output": "Beige blinds with white background."}
+{"input": "Gray vertical blinds with white background.", "edit": "Make the blinds horizontal.", "output": "Gray horizontal blinds with white background."}
+{"input": "White wooden blinds with white background.", "edit": "Add decorative tapes.", "output": "White wooden blinds with decorative tapes and white background."}
+{"input": "Green roller shades with white background.", "edit": "Change it to bamboo blinds.", "output": "Green bamboo blinds with white background."}
+{"input": "Blue cellular shades with white background.", "edit": "Remove the cord.", "output": "Blue cordless cellular shades with white background."}
+{"input": "Pink vertical blinds with white background.", "edit": "Make it motorized.", "output": "Pink motorized vertical blinds with white background."}
+{"input": "Gray blackout curtains with white background.", "edit": "Add a valance.", "output": "Gray blackout curtains with valance and white background."}
+{"input": "White horizontal blinds with white background.", "edit": "Add a pattern to the blinds.", "output": "White horizontal blinds with pattern and white background."}
+{"input": "Gray roller shades with white background.", "edit": "Remove the roller shades.", "output": "Gray with white background."}
+{"input": "Sheer white curtains with white background.", "edit": "Make the curtains floor length.", "output": "Sheer white floor length curtains with white background."}
+{"input": "Bamboo roman shades with white background.", "edit": "Change the color to brown.", "output": "Brown bamboo roman shades with white background."}
+{"input": "Gray blackout curtains with white background.", "edit": "Replace the curtains with blinds.", "output": "Gray blackout blinds with white background."}
+{"input": "Cream vertical blinds with white background.", "edit": "Make the blinds wider.", "output": "Cream wider vertical blinds with white background."}
+{"input": "Beige sheer curtains with white background.", "edit": "Remove the sheer fabric.", "output": "Beige curtains with white background."}
+{"input": "Black roller shades with white background.", "edit": "Add a fringe trim to the shades.", "output": "Black roller shades with fringe trim and white background."}
+{"input": "Gray horizontal blinds with white background.", "edit": "Change the blinds to vertical.", "output": "Gray vertical blinds with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Replace the blinds with curtains.", "output": "Brown curtains with white background."}
+{"input": "White roller shades with white background.", "edit": "Add a pattern to the roller shades.", "output": "White roller shades with pattern and white background."}
+{"input": "Beige Roman shades with white background.", "edit": "Remove the shades.", "output": "White background."}
+{"input": "Blackout curtains with white background.", "edit": "Change the curtains to sheer curtains.", "output": "Sheer curtains with white background."}
+{"input": "Striped roller blinds with white background.", "edit": "Make the blinds horizontal.", "output": "Striped horizontal blinds with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Replace the blinds with bamboo blinds.", "output": "Brown bamboo blinds with white background."}
+{"input": "Gray roller shades with white background.", "edit": "Add a valance to the roller shades.", "output": "Gray roller shades with valance and white background."}
+{"input": "White sheer curtains with white background.", "edit": "Add blackout lining to the curtains.", "output": "White blackout curtains with white background."}
+{"input": "Vertical blinds with white background.", "edit": "Make the blinds motorized.", "output": "Motorized vertical blinds with white background."}
+{"input": "Pink roller shades with white background.", "edit": "Change the shades to cellular shades.", "output": "Pink cellular shades with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Make the blinds wider.", "output": "Wide brown wooden blinds with white background."}
+{"input": "Blue vertical blinds with white background.", "edit": "Change the blinds to roller blinds.", "output": "Blue roller blinds with white background."}
+{"input": "Red vertical blinds with white background.", "edit": "Add sheer curtains behind the blinds.", "output": "Red vertical blinds with white sheer curtains and white background."}
+{"input": "Brown horizontal blinds with white background.", "edit": "Change the blinds to wooden blinds.", "output": "Brown wooden horizontal blinds with white background."}
+{"input": "Green roller blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Beige pleated blinds with white background.", "edit": "Change the blinds to roman shades.", "output": "Beige roman shades with white background."}
+{"input": "White vertical blinds with white background.", "edit": "Make the blinds translucent.", "output": "White translucent vertical blinds with white background."}
+{"input": "Yellow roller blinds with white background.", "edit": "Change the blinds to bamboo shades.", "output": "Yellow bamboo shades with white background."}
+{"input": "Gray vertical blinds with white background.", "edit": "Replace the blinds with blackout curtains.", "output": "Gray blackout curtains with white background."}
+{"input": "White horizontal blinds with white background.", "edit": "Make the blinds motorized.", "output": "White motorized horizontal blinds with white background."}
+{"input": "Pink roller blinds with white background.", "edit": "Add valances on top of the blinds.", "output": "Pink roller blinds with white valances and white background."}
+{"input": "Grey roller blinds with white background.", "edit": "Add a pattern to the blinds.", "output": "Grey roller blinds with pattern and white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Beige sheer curtains with white background.", "edit": "Change the curtains to blackout.", "output": "Beige blackout curtains with white background."}
+{"input": "Yellow roman shades with white background.", "edit": "Make the shades translucent.", "output": "Yellow translucent roman shades with white background."}
+{"input": "Purple vertical blinds with white background.", "edit": "Add decorative tassels.", "output": "Purple vertical blinds with decorative tassels and white background."}
+{"input": "White horizontal blinds with white background.", "edit": "Repaint the blinds in brown.", "output": "Brown horizontal blinds with white background."}
+{"input": "Pink lace curtains with white background.", "edit": "Remove the lace.", "output": "Pink curtains with white background."}
+{"input": "Green patterned roller blinds with white background.", "edit": "Change the pattern to stripes.", "output": "Green striped roller blinds with white background."}
+{"input": "Blackout cellular shades with white background.", "edit": "Replace the shades with wooden blinds.", "output": "Wooden blinds with white background."}
+{"input": "Plaid roman shades with white background.", "edit": "Make the shades cordless.", "output": "Plaid cordless roman shades with white background."}
+{"input": "White roller blinds with white background.", "edit": "Add a pattern.", "output": "White roller blinds with pattern and white background."}
+{"input": "Beige sheer curtains with white background.", "edit": "Change the color to gray.", "output": "Gray sheer curtains with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Remove the cords.", "output": "Brown wooden blinds without cords and white background."}
+{"input": "Yellow roman shades with white background.", "edit": "Make it blackout.", "output": "Yellow blackout roman shades with white background."}
+{"input": "Gray vertical blinds with white background.", "edit": "Replace with horizontal blinds.", "output": "Gray horizontal blinds with white background."}
+{"input": "Pink velvet curtains with white background.", "edit": "Change the color to purple.", "output": "Purple velvet curtains with white background."}
+{"input": "Bamboo shades with white background.", "edit": "Add a valance.", "output": "Bamboo shades with valance and white background."}
+{"input": "Blue sheer curtains with white background.", "edit": "Make it thicker.", "output": "Blue thicker curtains with white background."}
+{"input": "Silver metallic blinds with white background.", "edit": "Remove the slats.", "output": "Silver metallic blinds without slats and white background."}
+{"input": "Gray blackout curtains with white background.", "edit": "Change the color to navy blue.", "output": "Navy blue blackout curtains with white background."}
+{"input": "Yellow roller blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Purple sheer curtains with white background.", "edit": "Add tassels to the curtains.", "output": "Purple sheer curtains with tassels and white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Change the blinds to bamboo.", "output": "Brown bamboo blinds with white background."}
+{"input": "Beige roman shades with white background.", "edit": "Add blackout lining to the shades.", "output": "Beige roman shades with blackout lining and white background."}
+{"input": "Gray vertical blinds with white background.", "edit": "Make the blinds motorized.", "output": "Gray motorized vertical blinds with white background."}
+{"input": "Orange roller shades with white background.", "edit": "Replace the shades with shutters.", "output": "Orange shutters with white background."}
+{"input": "Pink lace curtains with white background.", "edit": "Remove the lace trim from the curtains.", "output": "Pink curtains with white background."}
+{"input": "Green bamboo blinds with white background.", "edit": "Change the blinds to matchstick blinds.", "output": "Green matchstick blinds with white background."}
+{"input": "White sheer curtains with white background.", "edit": "Add curtain tiebacks.", "output": "White sheer curtains with curtain tiebacks and white background."}
+{"input": "Blue roller blinds with white background.", "edit": "Make the blinds translucent.", "output": "Blue translucent roller blinds with white background."}
+{"input": "Blue horizontal blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "White roller blinds with white background.", "edit": "Add a pattern to the blinds.", "output": "White roller blinds with pattern and white background."}
+{"input": "Grey blackout curtains with white background.", "edit": "Change the curtains to sheer curtains.", "output": "Grey sheer curtains with white background."}
+{"input": "Beige roman blinds with white background.", "edit": "Make the blinds motorized.", "output": "Beige motorized roman blinds with white background."}
+{"input": "Yellow vertical blinds with white background.", "edit": "Add a valance to the blinds.", "output": "Yellow vertical blinds with valance and white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Replace the blinds with bamboo blinds.", "output": "Brown bamboo blinds with white background."}
+{"input": "White vertical blinds with white background.", "edit": "Shorten the blinds.", "output": "Short white vertical blinds with white background."}
+{"input": "Black roller blinds with white background.", "edit": "Make the blinds sheer.", "output": "Black sheer roller blinds with white background."}
+{"input": "Purple vertical blinds with white background.", "edit": "Add blackout lining to the blinds.", "output": "Purple vertical blinds with blackout lining and white background."}
+{"input": "Green roman shades with white background.", "edit": "Replace the shades with cellular shades.", "output": "Green cellular shades with white background."}
+{"input": "Blue horizontal blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "White venetian blinds with white background.", "edit": "Add a sheer curtain behind.", "output": "White venetian blinds with white background and sheer curtain behind."}
+{"input": "Brown wooden blinds with white background.", "edit": "Change the blinds to bamboo.", "output": "Brown bamboo blinds with white background."}
+{"input": "Gray blackout curtains with white background.", "edit": "Change the curtains to sheer.", "output": "Gray sheer curtains with white background."}
+{"input": "Beige roman shades with white background.", "edit": "Add a valance on top.", "output": "Beige roman shades with white background and valance on top."}
+{"input": "Yellow roller blinds with white background.", "edit": "Replace the blinds with shoji screens.", "output": "Yellow shoji screens with white background."}
+{"input": "Purple vertical blinds with white background.", "edit": "Make the blinds translucent.", "output": "Purple translucent vertical blinds with white background."}
+{"input": "Gray roller shades with white background.", "edit": "Add a decorative trim.", "output": "Gray roller shades with white background and decorative trim."}
+{"input": "Orange horizontal blinds with white background.", "edit": "Change the blinds to cellular shades.", "output": "Orange cellular shades with white background."}
+{"input": "Green curtains with white background.", "edit": "Remove the curtains.", "output": "White background."}
+{"input": "White roller shades with white background.", "edit": "Add patterned design.", "output": "White roller shades with patterned design and white background."}
+{"input": "Beige blackout curtains with white background.", "edit": "Remove the blackout feature.", "output": "Beige curtains with white background."}
+{"input": "Bamboo roman shades with white background.", "edit": "Make it motorized.", "output": "Motorized bamboo roman shades with white background."}
+{"input": "Gray venetian blinds with white background.", "edit": "Change the color to black.", "output": "Black venetian blinds with white background."}
+{"input": "White sheer curtains with white background.", "edit": "Add floral patterns.", "output": "White sheer curtains with floral patterns and white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Add cordless feature.", "output": "Brown wooden blinds with cordless feature and white background."}
+{"input": "Gray vertical blinds with white background.", "edit": "Replace the blinds with drapes.", "output": "Gray drapes with white background."}
+{"input": "White roller blinds with white background.", "edit": "Make it translucent.", "output": "Translucent white roller blinds with white background."}
+{"input": "Beige roman shades with white background.", "edit": "Change the material to linen.", "output": "Beige linen roman shades with white background."}
+{"input": "Blue blackout curtains with white background.", "edit": "Add tie-backs.", "output": "Blue blackout curtains with tie-backs and white background."}
+{"input": "Blue vertical roller blinds with white background.", "edit": "Remove the background.", "output": "Blue vertical roller blinds."}
+{"input": "White horizontal blinds with white background.", "edit": "Change to black.", "output": "Black horizontal blinds with white background."}
+{"input": "Beige vertical curtains with white background.", "edit": "Add red stripes.", "output": "Beige vertical curtains with red stripes and white background."}
+{"input": "Yellow roller blinds with white background.", "edit": "Make them translucent.", "output": "Translucent yellow roller blinds with white background."}
+{"input": "Gray Roman shades with white background.", "edit": "Add a valance.", "output": "Gray Roman shades with a valance and white background."}
+{"input": "Pink sheer curtains with white background.", "edit": "Change to lace curtains.", "output": "Pink lace curtains with white background."}
+{"input": "Blackout curtains with white background.", "edit": "Add a sheer layer.", "output": "Blackout curtains with a sheer layer and white background."}
+{"input": "Purple vertical blinds with white background.", "edit": "Replace with bamboo blinds.", "output": "Purple bamboo blinds with white background."}
+{"input": "Striped roller blinds with white background.", "edit": "Remove the stripes.", "output": "Plain roller blinds with white background."}
+{"input": "Brown vertical curtains with white background.", "edit": "Make them longer.", "output": "Brown vertical curtains with increased length and white background."}
+{"input": "Black roller blinds with white background.", "edit": "Add sheer curtains.", "output": "Black roller blinds with sheer curtains and white background."}
+{"input": "White horizontal blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Beige roman shades with white background.", "edit": "Make the shades patterned.", "output": "Beige patterned roman shades with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Change the blinds to bamboo.", "output": "Brown bamboo blinds with white background."}
+{"input": "Gray vertical blinds with white background.", "edit": "Add a valance on top.", "output": "Gray vertical blinds with valance and white background."}
+{"input": "Pink sheer curtains with white background.", "edit": "Make the curtains longer.", "output": "Pink sheer curtains (longer length) with white background."}
+{"input": "Purple blackout blinds with white background.", "edit": "Add tassels at the ends.", "output": "Purple blackout blinds with tassels and white background."}
+{"input": "Cream roller shades with white background.", "edit": "Replace the shades with shutters.", "output": "Cream shutters with white background."}
+{"input": "Yellow vertical blinds with white background.", "edit": "Make the blinds cordless.", "output": "Yellow cordless vertical blinds with white background."}
+{"input": "Teal roman shades with white background.", "edit": "Change the shades to cellular shades.", "output": "Teal cellular shades with white background."}
+{"input": "Blue horizontal blinds with white background.", "edit": "Add a pattern to the blinds.", "output": "Blue horizontal blinds with pattern and white background."}
+{"input": "White roller shades with white background.", "edit": "Change the shades to bamboo blinds.", "output": "White bamboo blinds with white background."}
+{"input": "Yellow sheer curtains with white background.", "edit": "Remove the sheerness from the curtains.", "output": "Yellow curtains with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Make the blinds wider.", "output": "Wide brown wooden blinds with white background."}
+{"input": "Pink blackout curtains with white background.", "edit": "Add tiebacks to the curtains.", "output": "Pink blackout curtains with tiebacks and white background."}
+{"input": "Gray vertical blinds with white background.", "edit": "Change the blinds to shades.", "output": "Gray shades with white background."}
+{"input": "Beige sheer curtains with white background.", "edit": "Make the curtains floor-length.", "output": "Beige floor-length sheer curtains with white background."}
+{"input": "Black roller shades with white background.", "edit": "Replace the shades with roman shades.", "output": "Black roman shades with white background."}
+{"input": "Purple vertical blinds with white background.", "edit": "Remove the blinds.", "output": "Purple background with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Add a valance to the blinds.", "output": "Brown wooden blinds with valance and white background."}
+{"input": "Brown roller shades with white background.", "edit": "Add a pattern to the shades.", "output": "Brown roller shades with patterned design and white background."}
+{"input": "Beige horizontal blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Sheer white curtains with white background.", "edit": "Change the color to light blue.", "output": "Light blue sheer curtains with white background."}
+{"input": "Gray blackout blinds with white background.", "edit": "Make the blinds motorized.", "output": "Gray motorized blackout blinds with white background."}
+{"input": "Purple vertical blinds with white background.", "edit": "Add a valance on top.", "output": "Purple vertical blinds with valance and white background."}
+{"input": "White venetian blinds with white background.", "edit": "Make the blinds wider.", "output": "Wide white venetian blinds with white background."}
+{"input": "Yellow roller shades with white background.", "edit": "Replace the shades with roman shades.", "output": "Yellow roman shades with white background."}
+{"input": "Navy blue curtains with white background.", "edit": "Add tiebacks to the curtains.", "output": "Navy blue curtains with tiebacks and white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Remove the pull cords.", "output": "Brown wooden blinds without pull cords and white background."}
+{"input": "Cream pleated shades with white background.", "edit": "Change the opacity to 50%.", "output": "Cream semi-transparent pleated shades with white background."}
+{"input": "Beige roller blinds with white background.", "edit": "Add a pattern.", "output": "Beige roller blinds with pattern and white background."}
+{"input": "White Roman shades with white background.", "edit": "Make them translucent.", "output": "Translucent white Roman shades with white background."}
+{"input": "Gray blackout curtains with white background.", "edit": "Change the color to black.", "output": "Black blackout curtains with white background."}
+{"input": "Pink sheer curtains with white background.", "edit": "Add tassels.", "output": "Pink sheer curtains with tassels and white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Replace them with bamboo blinds.", "output": "Bamboo blinds with white background."}
+{"input": "White sheer curtains with white background.", "edit": "Make them floor-length.", "output": "Floor-length white sheer curtains with white background."}
+{"input": "Purple pleated blinds with white background.", "edit": "Change the style to Venetian blinds.", "output": "Purple Venetian blinds with white background."}
+{"input": "Yellow roller shades with white background.", "edit": "Add a border.", "output": "Yellow roller shades with border and white background."}
+{"input": "Blue horizontal blinds with white background.", "edit": "Make them motorized.", "output": "Motorized blue horizontal blinds with white background."}
+{"input": "Green blackout curtains with white background.", "edit": "Remove the blackout feature.", "output": "Green curtains with white background."}
+{"input": "Blue vertical curtains with white background.", "edit": "Change the curtains to blinds.", "output": "Blue vertical blinds with white background."}
+{"input": "Green horizontal blinds with white background.", "edit": "Add sheer curtains.", "output": "Green horizontal blinds with sheer curtains and white background."}
+{"input": "Yellow roller blinds with white background.", "edit": "Remove the blinds.", "output": "No blinds with white background."}
+{"input": "Pink Roman shades with white background.", "edit": "Replace the shades with blackout curtains.", "output": "Pink blackout curtains with white background."}
+{"input": "Purple horizontal blinds with white background.", "edit": "Make the blinds wooden.", "output": "Purple wooden horizontal blinds with white background."}
+{"input": "Gray vertical curtains with white background.", "edit": "Change the curtains to sheer blinds.", "output": "Gray vertical sheer blinds with white background."}
+{"input": "Orange roller blinds with white background.", "edit": "Add valance at the top.", "output": "Orange roller blinds with valance at the top and white background."}
+{"input": "Blackout curtains with white background.", "edit": "Choose beige color.", "output": "Beige blackout curtains with white background."}
+{"input": "Horizontal blinds with white background.", "edit": "Change the blinds to vertical.", "output": "Vertical blinds with white background."}
+{"input": "Sheer curtains with white background.", "edit": "Remove the curtains.", "output": "No curtains with white background."}
+{"input": "White roller blinds with white background.", "edit": "Make them black.", "output": "Black roller blinds with white background."}
+{"input": "Beige curtains with white background.", "edit": "Change the color to blue.", "output": "Blue curtains with white background."}
+{"input": "Zebra blinds with white background.", "edit": "Remove the zebra pattern.", "output": "White blinds with white background."}
+{"input": "Gray blackout curtains with white background.", "edit": "Add sheer curtains.", "output": "Gray blackout curtains with sheer curtains and white background."}
+{"input": "Yellow Roman blinds with white background.", "edit": "Make them horizontal.", "output": "Yellow horizontal blinds with white background."}
+{"input": "Orange sheer curtains with white background.", "edit": "Replace with bamboo blinds.", "output": "Orange bamboo blinds with white background."}
+{"input": "Purple vertical blinds with white background.", "edit": "Add valances on top.", "output": "Purple vertical blinds with valances on top and white background."}
+{"input": "Green blackout curtains with white background.", "edit": "Remove the blackout feature.", "output": "Green curtains with white background."}
+{"input": "Black roller blinds with white background.", "edit": "Replace with wooden blinds.", "output": "Black wooden blinds with white background."}
+{"input": "Red horizontal blinds with white background.", "edit": "Change the blinds to wood.", "output": "Wooden horizontal blinds with white background."}
+{"input": "Brown roller blinds with white background.", "edit": "Add a pattern to the blinds.", "output": "Brown roller blinds with pattern and white background."}
+{"input": "White lace curtains with white background.", "edit": "Remove the lace.", "output": "White curtains with white background."}
+{"input": "Beige roman shades with white background.", "edit": "Replace the shades with blinds.", "output": "Beige blinds with white background."}
+{"input": "Striped grey curtains with white background.", "edit": "Change the curtains to drapes.", "output": "Striped grey drapes with white background."}
+{"input": "Purple blackout blinds with white background.", "edit": "Make the blinds transparent.", "output": "Purple transparent blinds with white background."}
+{"input": "Yellow sheer curtains with white background.", "edit": "Add tassels to the curtains.", "output": "Yellow sheer curtains with tassels and white background."}
+{"input": "Plaid roller shades with white background.", "edit": "Change the shades to curtains.", "output": "Plaid curtains with white background."}
+{"input": "Bamboo blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Cream vertical blinds with white background.", "edit": "Make the blinds horizontal.", "output": "Cream horizontal blinds with white background."}
+{"input": "Blue vertical blinds with white background.", "edit": "Remove the blinds.", "output": "White background."}
+{"input": "Red horizontal blinds with white background.", "edit": "Change the blinds to roller shades.", "output": "Red roller shades with white background."}
+{"input": "White roller shades with white background.", "edit": "Make the shades translucent.", "output": "White translucent roller shades with white background."}
+{"input": "Beige roman shades with white background.", "edit": "Add a pattern to the shades.", "output": "Beige patterned roman shades with white background."}
+{"input": "Striped roller shades with white background.", "edit": "Change the stripes to spots.", "output": "Spotted roller shades with white background."}
+{"input": "Brown wooden blinds with white background.", "edit": "Make the blinds lighter.", "output": "Light brown wooden blinds with white background."}
+{"input": "Blackout curtains with white background.", "edit": "Add a sheer layer behind the curtains.", "output": "Blackout curtains with sheer layer and white background."}
+{"input": "Sheer vertical blinds with white background.", "edit": "Replace the blinds with cellular shades.", "output": "Sheer vertical cellular shades with white background."}
+{"input": "Patterned roman shades with white background.", "edit": "Remove the pattern.", "output": "White roman shades with white background."}
+{"input": "Roller shades with white background.", "edit": "Change the shades to zebra blinds.", "output": "Zebra blinds with white background."}
