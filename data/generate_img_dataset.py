@@ -142,13 +142,13 @@ def main():
     parser.add_argument(
         "--steps",
         type=int,
-        default=100,
+        default=10,
         help="Number of sampling steps.",
     )
     parser.add_argument(
         "--n-samples",
         type=int,
-        default=100,
+        default=10,
         help="Number of samples to generate per prompt (before CLIP filtering).",
     )
     parser.add_argument(
@@ -196,19 +196,19 @@ def main():
     parser.add_argument(
         "--clip-threshold",
         type=float,
-        default=0.2,
+        default=0.0,
         help="CLIP threshold for text-image similarity of each image.",
     )
     parser.add_argument(
         "--clip-dir-threshold",
         type=float,
-        default=0.2,
+        default=0.0,
         help="Directional CLIP threshold for similarity of change between pairs of text and pairs of images.",
     )
     parser.add_argument(
         "--clip-img-threshold",
         type=float,
-        default=0.7,
+        default=0.0,
         help="CLIP threshold for image-image similarity.",
     )
     opt = parser.parse_args()
@@ -299,6 +299,8 @@ def main():
                 and result["clip_sim_1"] >= opt.clip_threshold
             ]
             metadata.sort(reverse=True)
+            if len(metadata):
+                print(metadata)
             for _, seed in metadata[: opt.max_out_samples]:
                 result = results[seed]
                 image_0 = result.pop("image_0")
