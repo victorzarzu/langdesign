@@ -142,13 +142,13 @@ def main():
     parser.add_argument(
         "--steps",
         type=int,
-        default=10,
+        default=25,
         help="Number of sampling steps.",
     )
     parser.add_argument(
         "--n-samples",
         type=int,
-        default=10,
+        default=15,
         help="Number of samples to generate per prompt (before CLIP filtering).",
     )
     parser.add_argument(
@@ -196,19 +196,19 @@ def main():
     parser.add_argument(
         "--clip-threshold",
         type=float,
-        default=0.0,
+        default=0.2,
         help="CLIP threshold for text-image similarity of each image.",
     )
     parser.add_argument(
         "--clip-dir-threshold",
         type=float,
-        default=0.0,
+        default=0.2,
         help="Directional CLIP threshold for similarity of change between pairs of text and pairs of images.",
     )
     parser.add_argument(
         "--clip-img-threshold",
         type=float,
-        default=0.0,
+        default=0.4,
         help="CLIP threshold for image-image similarity.",
     )
     opt = parser.parse_args()
