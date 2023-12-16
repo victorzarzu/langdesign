@@ -1,0 +1,2 @@
+{"sim_0": 0.3107287883758545, "sim_1": 0.2418757736682892, "sim_direction": 0.13824395090341568, "sim_image": 0.7568919420242309, "num_samples": 5, "split": "test", "scale_txt": 7.5, "scale_img": 1.0, "steps": 10, "res": 512, "seed": 0}
+{"sim_0": 0.3107287883758545, "sim_1": 0.24597624838352203, "sim_direction": 0.13825510255992413, "sim_image": 0.7795059204101562, "num_samples": 5, "split": "test", "scale_txt": 7.5, "scale_img": 1.2, "steps": 10, "res": 512, "seed": 0}
