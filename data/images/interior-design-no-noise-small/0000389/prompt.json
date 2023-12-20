@@ -1,0 +1,5 @@
+{
+  "input": "Printed fabric curtains on windows with no other objects or textures in the background.",
+  "edit": "Remove the bed.",
+  "output": "Printed fabric curtains on windows with no other objects or textures in the background."
+}

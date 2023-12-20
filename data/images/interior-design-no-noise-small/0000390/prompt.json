@@ -1,0 +1,5 @@
+{
+  "input": "Linen drapes on windows with no other objects or textures in the background.",
+  "edit": "Remove the couch.",
+  "output": "Linen drapes on windows with no other objects or textures in the background."
+}

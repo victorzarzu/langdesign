@@ -1,0 +1,5 @@
+{
+  "input": "Gray roman blinds on windows with no other objects or textures in the background.",
+  "edit": "Remove the rug.",
+  "output": "Gray roman blinds on windows with no other objects or textures in the background."
+}

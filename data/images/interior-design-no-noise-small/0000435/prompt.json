@@ -1,0 +1,5 @@
+{
+  "input": "Patterned blackout curtains on windows with no other objects or textures in the background.",
+  "edit": "Remove the rug.",
+  "output": "Patterned blackout curtains on windows with no other objects or textures in the background."
+}

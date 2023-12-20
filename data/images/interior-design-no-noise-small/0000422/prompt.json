@@ -1,0 +1,5 @@
+{
+  "input": "Sheer white curtains on windows with no other objects or textures in the background.",
+  "edit": "Remove the rug.",
+  "output": "Sheer white curtains on windows with no other objects or textures in the background."
+}
