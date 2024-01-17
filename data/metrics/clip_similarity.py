@@ -44,6 +44,4 @@ class ClipSimilarity(nn.Module):
         sim_1 = F.cosine_similarity(image_features_1, text_features_1)
         sim_direction = F.cosine_similarity(image_features_1 - image_features_0, text_features_1 - text_features_0)
         sim_image = F.cosine_similarity(image_features_0, image_features_1)
-        #print('clip_image_features_0', image_features_0.shape)
-        #print('sim_direction', sim_direction.shape)
         return sim_0, sim_1, sim_direction, sim_image

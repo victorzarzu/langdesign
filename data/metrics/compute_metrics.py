@@ -26,6 +26,7 @@ sys.path.append("./")
 from clip_similarity import ClipSimilarity
 from dino_similarity import DinoSimilarity
 from edit_dataset import EditDatasetEval
+from l1_norm import L1Norm
 
 sys.path.append("./stable_diffusion")
 
@@ -130,6 +131,7 @@ def compute_metrics(config,
     editor = ImageEditor(config, model_path, vae_ckpt).cuda()
     clip_similarity = ClipSimilarity().cuda()
     dino_similarity = DinoSimilarity().cuda()
+    l1_norm = L1Norm().cuda()
 
 
     outpath = Path(output_path, f"n={num_samples}_p={split}_s={steps}_r={res}_e={seed}.jsonl")
@@ -155,6 +157,7 @@ def compute_metrics(config,
             sim_direction_avg = 0
             sim_image_avg = 0
             dino_sim_avg = 0
+            l1_norm_avg = 0
             count = 0
 
             pbar = tqdm(total=num_samples)
@@ -164,11 +167,15 @@ def compute_metrics(config,
                 sample = dataset[idx]
                 i += 1
 
+                #gen = torch.load('img_tensor.pt')
                 gen = editor(sample["image_0"].cuda(), sample["edit"], scale_txt=scale_txt, scale_img=scale_img, steps=steps)
                 torch.save(gen[None], 'img_tensor.pt')
+                #print(sample["image_0"][None].shape, sample["image_1"][None].shape)
 
+                l1_norm_val = l1_norm(sample["image_0"][None].cuda(), sample["image_1"][None].cuda())
                 dino_sim = dino_similarity(sample["image_0"][None].cuda(), gen[None].cuda())
 
+                #add similarity between the image_0 and image_1
                 sim_0, sim_1, sim_direction, sim_image = clip_similarity(
                     sample["image_0"][None].cuda(), gen[None].cuda(), [sample["input_prompt"]], [sample["output_prompt"]]
                 )
@@ -176,13 +183,15 @@ def compute_metrics(config,
                 sim_1_avg += sim_1.item()
                 sim_direction_avg += sim_direction.item()
                 sim_image_avg += sim_image.item()
-                print(dino_sim.item(), sim_image.item())
                 dino_sim_avg += dino_sim.item()
+                l1_norm_avg += l1_norm_val.item()
+
+                print(dino_sim.item(), sim_image.item(), l1_norm_val.item())
                 count += 1
 
                 write_metrics(dino_sim=dino_sim_avg/count, sim_0=sim_0_avg/count, 
                               sim_1=sim_1_avg/count, sim_direction=sim_direction_avg/count,
-                              sim_image=sim_image_avg/count)
+                              sim_image=sim_image_avg/count, l1_norm=l1_norm/count)
                 pbar.update(count)
             pbar.close()
 
@@ -196,9 +205,10 @@ def compute_metrics(config,
             #    f.write(f"{json.dumps(dict(sim_0=sim_0_avg, sim_1=sim_1_avg, sim_direction=sim_direction_avg, sim_image=sim_image_avg, num_samples=num_samples, split=split, scale_txt=scale_txt, scale_img=scale_img, steps=steps, res=res, seed=seed))}\n")
     return outpath
 
-def write_metrics(self, dino_sim, sim_0, sim_1, sim_direction, sim_image, filename='metrics.txt'):
+def write_metrics(dino_sim, sim_0, sim_1, sim_direction, sim_image, l1_norm, filename='metrics.txt'):
     with open(filename, "w") as file:
         file.write(f"Dino Similarity: {dino_sim}\n")
+        file.write(f"L1 Norm: {l1_norm}\n")
         file.write(f"Clip Similarity 0: {sim_0}\n")
         file.write(f"Clip Similarity 1: {sim_1}\n")
         file.write(f"Clip Directional Similarity: {sim_direction}\n")

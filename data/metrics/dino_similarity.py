@@ -9,9 +9,8 @@ from einops import rearrange
 from transformers import AutoImageProcessor, AutoModel
 
 class DinoSimilarity(nn.Module):
-    def __init__(self, name: str = 'dino_vitb16'):
+    def __init__(self):
         super().__init__()
-        assert name in ('dino_vits16', 'dino_vits8', 'dino_vitb16', 'dino_vitb8')
 
         self.device = torch.device('cuda' if torch.cuda.is_available() else "cpu") 
         self.processor = AutoImageProcessor.from_pretrained('facebook/dinov2-base')
