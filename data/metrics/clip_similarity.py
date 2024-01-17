@@ -25,7 +25,7 @@ class ClipSimilarity(nn.Module):
         text_features = text_features / text_features.norm(dim=1, keepdim=True)
         return text_features
 
-    def encode_image(self, image: torch.Tensor) -> torch.Tensor:  # Input images in range [0, 1].
+    def encode_image(self, image: torch.Tensor) -> torch.Tensor:
         image = F.interpolate(image.float(), size=self.size, mode="bicubic", align_corners=False)
         image = image - rearrange(self.mean, "c -> 1 c 1 1")
         image = image / rearrange(self.std, "c -> 1 c 1 1")
@@ -44,4 +44,6 @@ class ClipSimilarity(nn.Module):
         sim_1 = F.cosine_similarity(image_features_1, text_features_1)
         sim_direction = F.cosine_similarity(image_features_1 - image_features_0, text_features_1 - text_features_0)
         sim_image = F.cosine_similarity(image_features_0, image_features_1)
+        #print('clip_image_features_0', image_features_0.shape)
+        #print('sim_direction', sim_direction.shape)
         return sim_0, sim_1, sim_direction, sim_image

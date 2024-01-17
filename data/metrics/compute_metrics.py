@@ -24,6 +24,7 @@ from pathlib import Path
 sys.path.append("./")
 
 from clip_similarity import ClipSimilarity
+from dino_similarity import DinoSimilarity
 from edit_dataset import EditDatasetEval
 
 sys.path.append("./stable_diffusion")
@@ -87,7 +88,7 @@ class ImageEditor(nn.Module):
         edit: str,
         scale_txt: float = 7.5,
         scale_img: float = 1.0,
-        steps: int = 100,
+        steps: int = 15,
     ) -> torch.Tensor:
         assert image.dim() == 3
         assert image.size(1) % 64 == 0
@@ -121,14 +122,14 @@ def compute_metrics(config,
                     output_path, 
                     scales_img, 
                     scales_txt, 
-                    num_samples = 5000, 
+                    num_samples = 10, 
                     split = "test", 
-                    steps = 50, 
+                    steps = 100, 
                     res = 512, 
                     seed = 0):
     editor = ImageEditor(config, model_path, vae_ckpt).cuda()
     clip_similarity = ClipSimilarity().cuda()
-
+    dino_similarity = DinoSimilarity().cuda()
 
 
     outpath = Path(output_path, f"n={num_samples}_p={split}_s={steps}_r={res}_e={seed}.jsonl")
@@ -141,6 +142,7 @@ def compute_metrics(config,
                     split=split, 
                     res=res
                     )
+            print(len(dataset))
             assert num_samples <= len(dataset)
             print(f'Processing t={scale_txt}, i={scale_img}')
             torch.manual_seed(seed)
@@ -152,16 +154,20 @@ def compute_metrics(config,
             sim_1_avg = 0
             sim_direction_avg = 0
             sim_image_avg = 0
+            dino_sim_avg = 0
             count = 0
 
             pbar = tqdm(total=num_samples)
             while count < num_samples:
-                
+
                 idx = perm[i].item()
                 sample = dataset[idx]
                 i += 1
 
                 gen = editor(sample["image_0"].cuda(), sample["edit"], scale_txt=scale_txt, scale_img=scale_img, steps=steps)
+                torch.save(gen[None], 'img_tensor.pt')
+
+                dino_sim = dino_similarity(sample["image_0"][None].cuda(), gen[None].cuda())
 
                 sim_0, sim_1, sim_direction, sim_image = clip_similarity(
                     sample["image_0"][None].cuda(), gen[None].cuda(), [sample["input_prompt"]], [sample["output_prompt"]]
@@ -170,18 +176,33 @@ def compute_metrics(config,
                 sim_1_avg += sim_1.item()
                 sim_direction_avg += sim_direction.item()
                 sim_image_avg += sim_image.item()
+                print(dino_sim.item(), sim_image.item())
+                dino_sim_avg += dino_sim.item()
                 count += 1
+
+                write_metrics(dino_sim=dino_sim_avg/count, sim_0=sim_0_avg/count, 
+                              sim_1=sim_1_avg/count, sim_direction=sim_direction_avg/count,
+                              sim_image=sim_image_avg/count)
                 pbar.update(count)
             pbar.close()
 
+            dino_sim_avg /= count
             sim_0_avg /= count
             sim_1_avg /= count
-            sim_direction_avg /= count
             sim_image_avg /= count
+            sim_direction_avg /= count
 
-            with open(outpath, "a") as f:
-                f.write(f"{json.dumps(dict(sim_0=sim_0_avg, sim_1=sim_1_avg, sim_direction=sim_direction_avg, sim_image=sim_image_avg, num_samples=num_samples, split=split, scale_txt=scale_txt, scale_img=scale_img, steps=steps, res=res, seed=seed))}\n")
+            #with open(outpath, "a") as f:
+            #    f.write(f"{json.dumps(dict(sim_0=sim_0_avg, sim_1=sim_1_avg, sim_direction=sim_direction_avg, sim_image=sim_image_avg, num_samples=num_samples, split=split, scale_txt=scale_txt, scale_img=scale_img, steps=steps, res=res, seed=seed))}\n")
     return outpath
+
+def write_metrics(self, dino_sim, sim_0, sim_1, sim_direction, sim_image, filename='metrics.txt'):
+    with open(filename, "w") as file:
+        file.write(f"Dino Similarity: {dino_sim}\n")
+        file.write(f"Clip Similarity 0: {sim_0}\n")
+        file.write(f"Clip Similarity 1: {sim_1}\n")
+        file.write(f"Clip Directional Similarity: {sim_direction}\n")
+        file.write(f"Clip Image Similarity: {sim_image}\n")
 
 def plot_metrics(metrics_file, output_path):
     
@@ -213,7 +234,8 @@ def main():
     parser.add_argument("--vae-ckpt", default=None, type=str)
     args = parser.parse_args()
 
-    scales_img = [1.0, 1.2, 1.4, 1.6, 1.8, 2.0, 2.2]
+    #scales_img = [1.0, 1.2, 1.4, 1.6, 1.8, 2.0, 2.2]
+    scales_img = [1.5]
     scales_txt = [7.5]
     
     metrics_file = compute_metrics(
@@ -227,7 +249,7 @@ def main():
             steps = args.steps,
             )
     
-    plot_metrics(metrics_file, args.output_path)
+    #plot_metrics(metrics_file, args.output_path)
         
 
 
