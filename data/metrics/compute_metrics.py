@@ -123,7 +123,7 @@ def compute_metrics(config,
                     output_path, 
                     scales_img, 
                     scales_txt, 
-                    num_samples = 10, 
+                    num_samples = 20, 
                     split = "test", 
                     steps = 100, 
                     res = 512, 
@@ -172,7 +172,7 @@ def compute_metrics(config,
                 torch.save(gen[None], 'img_tensor.pt')
                 #print(sample["image_0"][None].shape, sample["image_1"][None].shape)
 
-                l1_norm_val = l1_norm(sample["image_0"][None].cuda(), sample["image_1"][None].cuda())
+                l1_norm_val = l1_norm(gen[None].cuda(), sample["image_1"][None].cuda())
                 dino_sim = dino_similarity(sample["image_0"][None].cuda(), gen[None].cuda())
 
                 #add similarity between the image_0 and image_1
@@ -191,7 +191,7 @@ def compute_metrics(config,
 
                 write_metrics(dino_sim=dino_sim_avg/count, sim_0=sim_0_avg/count, 
                               sim_1=sim_1_avg/count, sim_direction=sim_direction_avg/count,
-                              sim_image=sim_image_avg/count, l1_norm=l1_norm/count)
+                              sim_image=sim_image_avg/count, l1_norm=l1_norm_avg/count, count=count)
                 pbar.update(count)
             pbar.close()
 
@@ -205,7 +205,7 @@ def compute_metrics(config,
             #    f.write(f"{json.dumps(dict(sim_0=sim_0_avg, sim_1=sim_1_avg, sim_direction=sim_direction_avg, sim_image=sim_image_avg, num_samples=num_samples, split=split, scale_txt=scale_txt, scale_img=scale_img, steps=steps, res=res, seed=seed))}\n")
     return outpath
 
-def write_metrics(dino_sim, sim_0, sim_1, sim_direction, sim_image, l1_norm, filename='metrics.txt'):
+def write_metrics(dino_sim, sim_0, sim_1, sim_direction, sim_image, l1_norm, count, filename='metrics.txt'):
     with open(filename, "w") as file:
         file.write(f"Dino Similarity: {dino_sim}\n")
         file.write(f"L1 Norm: {l1_norm}\n")
@@ -213,6 +213,7 @@ def write_metrics(dino_sim, sim_0, sim_1, sim_direction, sim_image, l1_norm, fil
         file.write(f"Clip Similarity 1: {sim_1}\n")
         file.write(f"Clip Directional Similarity: {sim_direction}\n")
         file.write(f"Clip Image Similarity: {sim_image}\n")
+        file.write(f"Number of samples: {count}\n")
 
 def plot_metrics(metrics_file, output_path):
     

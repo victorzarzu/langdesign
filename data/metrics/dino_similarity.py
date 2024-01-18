@@ -21,11 +21,6 @@ class DinoSimilarity(nn.Module):
         self.register_buffer("std", torch.tensor((0.26862954, 0.26130258, 0.27577711)).to(self.device))
     
     def encode_image(self, image: torch.Tensor) -> torch.Tensor:
-        #print(image.shape)
-        #image = F.interpolate(image.float(), size=self.size, mode="bicubic", align_corners=False)
-        #image = image - rearrange(self.mean, "c -> 1 c 1 1")
-        #image = image / rearrange(self.std, "c -> 1 c 1 1")
-
         maxVal = torch.max(image)
         minVal = torch.min(image)
         image = (image - minVal) / (maxVal - minVal)
@@ -39,6 +34,4 @@ class DinoSimilarity(nn.Module):
         image_features_0 = self.encode_image(image_0)
         image_features_1 = self.encode_image(image_1)
         dino_sim = F.cosine_similarity(image_features_0, image_features_1)
-        #print('din_image_features_0', image_features_0.shape)
-        #print('dino_sim', dino_sim.shape)
         return (torch.mean(dino_sim) + 1) / 2

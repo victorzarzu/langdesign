@@ -32,4 +32,4 @@ class L1Norm(nn.Module):
         image_0 = self.normalize(image_0)
         image_1 = self.normalize(image_1)
 
-        return torch.mean(image_0 - image_1)
+        return torch.mean(torch.abs(image_0 - image_1))
