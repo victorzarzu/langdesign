@@ -4,6 +4,7 @@ import math
 import random
 import sys
 from argparse import ArgumentParser
+import os
 
 import einops
 import k_diffusion as K
@@ -169,13 +170,13 @@ def compute_metrics(config,
 
                 #gen = torch.load('img_tensor.pt')
                 gen = editor(sample["image_0"].cuda(), sample["edit"], scale_txt=scale_txt, scale_img=scale_img, steps=steps)
-                torch.save(gen[None], 'img_tensor.pt')
+                torch.save(gen[None], os.path.join(f'generated_tensors/{sample["seed"]}.pt'))
                 #print(sample["image_0"][None].shape, sample["image_1"][None].shape)
 
                 l1_norm_val = l1_norm(gen[None].cuda(), sample["image_1"][None].cuda())
                 dino_sim = dino_similarity(sample["image_0"][None].cuda(), gen[None].cuda())
 
-                #add similarity between the image_0 and image_1
+                #save the tensor after generation to be computational cheaper afterwards for new metrics
                 sim_0, sim_1, sim_direction, sim_image = clip_similarity(
                     sample["image_0"][None].cuda(), gen[None].cuda(), [sample["input_prompt"]], [sample["output_prompt"]]
                 )

@@ -142,13 +142,13 @@ def main():
     parser.add_argument(
         "--steps",
         type=int,
-        default=25,
+        default=35,
         help="Number of sampling steps.",
     )
     parser.add_argument(
         "--n-samples",
         type=int,
-        default=15,
+        default=50,
         help="Number of samples to generate per prompt (before CLIP filtering).",
     )
     parser.add_argument(

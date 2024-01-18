@@ -20,17 +20,20 @@ You have to generate information for interior design descriptions. You should pr
 data = []
 
 with open(input_filename, "r") as input_file:
+    number = 0
     for line in input_file:
         json_line = json.loads(line)
         data.append(["<s>[INST]{system_prompt}{type}[/INST]{prompt}</s>\n".format(system_prompt=system_prompt,
                                                                                     type=get_description_type(
                                                                                         json_line['input']),
                                                                                     prompt=line[:-1])])
+        number += 1
+        if number >= 1000:
+            break
 
 df = pd.DataFrame(data, columns=["text"])
-df.to_parquet(output_filename)
-exit()
-# Convert DataFrame to Arrow Table
+print(df.size)
+#df.to_parquet(output_filename)
 table = pa.Table.from_pandas(df)
 
 # Save Arrow Table to Parquet file
