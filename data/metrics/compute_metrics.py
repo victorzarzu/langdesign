@@ -117,7 +117,7 @@ class ImageEditor(nn.Module):
             return x
 
 
-def run_metrics(dataset, seed, editor, scale_txt, scale_img, clip_similarity, dino_similarity, l1_norm, filename, steps = 100, res = 512):
+def run_metrics(dataset, seed, editor, scale_txt, scale_img, clip_similarity, dino_similarity, l1_norm, filename, run_type, steps = 100, res = 512):
         print(len(dataset))
         print(f'Processing t={scale_txt}, i={scale_img}')
         torch.manual_seed(seed)
@@ -142,7 +142,7 @@ def run_metrics(dataset, seed, editor, scale_txt, scale_img, clip_similarity, di
 
             #gen = torch.load('img_tensor.pt')
             gen = editor(sample["image_0"].cuda(), sample["edit"], scale_txt=scale_txt, scale_img=scale_img, steps=steps)
-            torch.save(gen[None], os.path.join(f'generated_tensors/{sample["seed"]}.pt'))
+            torch.save(gen[None], os.path.join(f'generated_tensors/{sample["seed"]}_{run_type}.pt'))
             #print(sample["image_0"][None].shape, sample["image_1"][None].shape)
 
             l1_norm_val = l1_norm(gen[None].cuda(), sample["image_1"][None].cuda())
@@ -164,7 +164,7 @@ def run_metrics(dataset, seed, editor, scale_txt, scale_img, clip_similarity, di
 
             write_metrics(dino_sim=dino_sim_avg/count, sim_0=sim_0_avg/count, 
                             sim_1=sim_1_avg/count, sim_direction=sim_direction_avg/count,
-                            sim_image=sim_image_avg/count, l1_norm=l1_norm_avg/count, count=count)
+                            sim_image=sim_image_avg/count, l1_norm=l1_norm_avg/count, count=count, filename=filename)
             pbar.update(count)
         pbar.close()
 
@@ -207,11 +207,11 @@ def compute_metrics(config,
             run_metrics(dataset=train_dataset, seed=seed, editor=editor, 
                         scale_txt=scale_txt, scale_img=scale_img, clip_similarity=clip_similarity,
                         dino_similarity=dino_similarity, l1_norm=l1_norm, filename='./train_metrics.txt', 
-                        steps=steps, res=res)
+                        steps=steps, res=res, run_type='train')
             run_metrics(dataset=test_dataset, seed=seed, editor=editor, 
                         scale_txt=scale_txt, scale_img=scale_img, clip_similarity=clip_similarity,
                         dino_similarity=dino_similarity, l1_norm=l1_norm, filename='./test_metrics.txt', 
-                        steps=steps, res=res)
+                        steps=steps, res=res, run_type='test')
 
 def write_metrics(dino_sim, sim_0, sim_1, sim_direction, sim_image, l1_norm, count, filename='metrics.txt'):
     with open(filename, "w") as file:
