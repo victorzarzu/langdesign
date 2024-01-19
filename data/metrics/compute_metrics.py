@@ -117,6 +117,64 @@ class ImageEditor(nn.Module):
             return x
 
 
+def run_metrics(dataset, seed, editor, scale_txt, scale_img, clip_similarity, dino_similarity, l1_norm, filename, steps = 100, res = 512):
+        print(len(dataset))
+        print(f'Processing t={scale_txt}, i={scale_img}')
+        torch.manual_seed(seed)
+        perm = torch.randperm(len(dataset))
+        count = 0
+        i = 0
+
+        sim_0_avg = 0
+        sim_1_avg = 0
+        sim_direction_avg = 0
+        sim_image_avg = 0
+        dino_sim_avg = 0
+        l1_norm_avg = 0
+        count = 0
+
+        pbar = tqdm(total=len(dataset))
+        while count < len(dataset):
+
+            idx = perm[i].item()
+            sample = dataset[idx]
+            i += 1
+
+            #gen = torch.load('img_tensor.pt')
+            gen = editor(sample["image_0"].cuda(), sample["edit"], scale_txt=scale_txt, scale_img=scale_img, steps=steps)
+            torch.save(gen[None], os.path.join(f'generated_tensors/{sample["seed"]}.pt'))
+            #print(sample["image_0"][None].shape, sample["image_1"][None].shape)
+
+            l1_norm_val = l1_norm(gen[None].cuda(), sample["image_1"][None].cuda())
+            dino_sim = dino_similarity(sample["image_0"][None].cuda(), gen[None].cuda())
+
+            #save the tensor after generation to be computational cheaper afterwards for new metrics
+            sim_0, sim_1, sim_direction, sim_image = clip_similarity(
+                sample["image_0"][None].cuda(), gen[None].cuda(), [sample["input_prompt"]], [sample["output_prompt"]]
+            )
+            sim_0_avg += sim_0.item()
+            sim_1_avg += sim_1.item()
+            sim_direction_avg += sim_direction.item()
+            sim_image_avg += sim_image.item()
+            dino_sim_avg += dino_sim.item()
+            l1_norm_avg += l1_norm_val.item()
+
+            print(dino_sim.item(), sim_image.item(), l1_norm_val.item())
+            count += 1
+
+            write_metrics(dino_sim=dino_sim_avg/count, sim_0=sim_0_avg/count, 
+                            sim_1=sim_1_avg/count, sim_direction=sim_direction_avg/count,
+                            sim_image=sim_image_avg/count, l1_norm=l1_norm_avg/count, count=count)
+            pbar.update(count)
+        pbar.close()
+
+        dino_sim_avg /= count
+        sim_0_avg /= count
+        sim_1_avg /= count
+        sim_image_avg /= count
+        sim_direction_avg /= count
+
+ 
 def compute_metrics(config,
                     model_path, 
                     vae_ckpt,
@@ -124,7 +182,6 @@ def compute_metrics(config,
                     output_path, 
                     scales_img, 
                     scales_txt, 
-                    num_samples = 20, 
                     split = "test", 
                     steps = 100, 
                     res = 512, 
@@ -135,76 +192,26 @@ def compute_metrics(config,
     l1_norm = L1Norm().cuda()
 
 
-    outpath = Path(output_path, f"n={num_samples}_p={split}_s={steps}_r={res}_e={seed}.jsonl")
-    Path(output_path).mkdir(parents=True, exist_ok=True)
-
     for scale_txt in scales_txt:
         for scale_img in scales_img:
-            dataset = EditDatasetEval(
+            train_dataset = EditDatasetEval(
                     path=data_path, 
-                    split=split, 
+                    split='train', 
                     res=res
                     )
-            print(len(dataset))
-            assert num_samples <= len(dataset)
-            print(f'Processing t={scale_txt}, i={scale_img}')
-            torch.manual_seed(seed)
-            perm = torch.randperm(len(dataset))
-            count = 0
-            i = 0
-
-            sim_0_avg = 0
-            sim_1_avg = 0
-            sim_direction_avg = 0
-            sim_image_avg = 0
-            dino_sim_avg = 0
-            l1_norm_avg = 0
-            count = 0
-
-            pbar = tqdm(total=num_samples)
-            while count < num_samples:
-
-                idx = perm[i].item()
-                sample = dataset[idx]
-                i += 1
-
-                #gen = torch.load('img_tensor.pt')
-                gen = editor(sample["image_0"].cuda(), sample["edit"], scale_txt=scale_txt, scale_img=scale_img, steps=steps)
-                torch.save(gen[None], os.path.join(f'generated_tensors/{sample["seed"]}.pt'))
-                #print(sample["image_0"][None].shape, sample["image_1"][None].shape)
-
-                l1_norm_val = l1_norm(gen[None].cuda(), sample["image_1"][None].cuda())
-                dino_sim = dino_similarity(sample["image_0"][None].cuda(), gen[None].cuda())
-
-                #save the tensor after generation to be computational cheaper afterwards for new metrics
-                sim_0, sim_1, sim_direction, sim_image = clip_similarity(
-                    sample["image_0"][None].cuda(), gen[None].cuda(), [sample["input_prompt"]], [sample["output_prompt"]]
-                )
-                sim_0_avg += sim_0.item()
-                sim_1_avg += sim_1.item()
-                sim_direction_avg += sim_direction.item()
-                sim_image_avg += sim_image.item()
-                dino_sim_avg += dino_sim.item()
-                l1_norm_avg += l1_norm_val.item()
-
-                print(dino_sim.item(), sim_image.item(), l1_norm_val.item())
-                count += 1
-
-                write_metrics(dino_sim=dino_sim_avg/count, sim_0=sim_0_avg/count, 
-                              sim_1=sim_1_avg/count, sim_direction=sim_direction_avg/count,
-                              sim_image=sim_image_avg/count, l1_norm=l1_norm_avg/count, count=count)
-                pbar.update(count)
-            pbar.close()
-
-            dino_sim_avg /= count
-            sim_0_avg /= count
-            sim_1_avg /= count
-            sim_image_avg /= count
-            sim_direction_avg /= count
-
-            #with open(outpath, "a") as f:
-            #    f.write(f"{json.dumps(dict(sim_0=sim_0_avg, sim_1=sim_1_avg, sim_direction=sim_direction_avg, sim_image=sim_image_avg, num_samples=num_samples, split=split, scale_txt=scale_txt, scale_img=scale_img, steps=steps, res=res, seed=seed))}\n")
-    return outpath
+            test_dataset = EditDatasetEval(
+                    path=data_path, 
+                    split='test', 
+                    res=res
+                    )
+            run_metrics(dataset=train_dataset, seed=seed, editor=editor, 
+                        scale_txt=scale_txt, scale_img=scale_img, clip_similarity=clip_similarity,
+                        dino_similarity=dino_similarity, l1_norm=l1_norm, filename='./train_metrics.txt', 
+                        steps=steps, res=res)
+            run_metrics(dataset=test_dataset, seed=seed, editor=editor, 
+                        scale_txt=scale_txt, scale_img=scale_img, clip_similarity=clip_similarity,
+                        dino_similarity=dino_similarity, l1_norm=l1_norm, filename='./test_metrics.txt', 
+                        steps=steps, res=res)
 
 def write_metrics(dino_sim, sim_0, sim_1, sim_direction, sim_image, l1_norm, count, filename='metrics.txt'):
     with open(filename, "w") as file:
@@ -247,10 +254,10 @@ def main():
     args = parser.parse_args()
 
     #scales_img = [1.0, 1.2, 1.4, 1.6, 1.8, 2.0, 2.2]
-    scales_img = [1.5]
-    scales_txt = [7.5]
+    scales_img = [1.5] #paper value
+    scales_txt = [7.5] #paper value
     
-    metrics_file = compute_metrics(
+    compute_metrics(
             args.config,
             args.ckpt, 
             args.vae_ckpt,

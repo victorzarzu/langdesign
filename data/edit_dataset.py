@@ -78,34 +78,44 @@ class EditDatasetEval(Dataset):
         self,
         path: str,
         split: str = "train",
-        splits: tuple[float, float, float] = (0.8, 0.1, 0.1),
+        splits: tuple[float, float, float] = (0.8, 0.2),
         res: int = 256,
     ):
         assert split in ("train", "val", "test")
         assert sum(splits) == 1
         self.path = path
         self.res = res
+        if split == "val":
+            split = "test"
 
         with open(Path(self.path, "seeds.json")) as f:
             self.seeds = json.load(f)
 
         split_0, split_1 = {
             "train": (0.0, splits[0]),
-            "val": (splits[0], splits[0] + splits[1]),
-            "test": (splits[0] + splits[1], 1.0),
+            "test": (splits[0], 1.0),
         }[split]
+        print(len(self.seeds))
 
         idx_0 = math.floor(split_0 * len(self.seeds))
         idx_1 = math.floor(split_1 * len(self.seeds))
+        #print('before dict', self.seeds)
         self.seeds = self.seeds[idx_0:idx_1]
+        self.seeds = dict({el[0]: el[1] for el in self.seeds})
+        print('after dict', self.seeds)
+        self.seeds = [(key, value) for key, values in self.seeds.items() for value in values]
+        #self.seeds = [item for sublist in list_values for item in sublist]
+        print(self.seeds)
+        print(len(self.seeds))
 
     def __len__(self) -> int:
         return len(self.seeds)
 
     def __getitem__(self, i: int) -> dict[str, Any]:
-        name, seeds = self.seeds[i]
+        name, seed = self.seeds[i]
         propt_dir = Path(self.path, name)
-        seed = seeds[torch.randint(0, len(seeds), ()).item()]
+        #seed = seeds[torch.randint(0, len(seeds), ()).item()]
+        print(seed)
         with open(propt_dir.joinpath("prompt.json")) as fp:
             prompt = json.load(fp)
             edit = prompt["edit"]
