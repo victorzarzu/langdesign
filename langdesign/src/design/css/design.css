@@ -1,0 +1,13 @@
+.sign-out-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.design {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

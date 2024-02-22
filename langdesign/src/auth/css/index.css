@@ -1,0 +1,6 @@
+.get-started, .login, .sign-up {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
