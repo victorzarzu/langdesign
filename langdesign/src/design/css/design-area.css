@@ -4,7 +4,7 @@
     min-width: 90%; 
     min-height: 55em;
     background-color: #e4e4e4; 
-    border-radius: 10px; 
+    border-radius: 1em; 
     margin-top: 50px; 
     display: flex;
     justify-content: center;
@@ -35,20 +35,19 @@
 .prompt-area {
     position: absolute;
     bottom: 1em;
-    width: 80%;
+    width: 60%;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .prompt-input {
     padding: 0 10px; 
-    min-height: 48px; 
-    line-height: 38px; 
+    min-height: 1em; 
+    line-height: 2.5em; 
     border-radius: 16px; 
-    border: none; 
     width: 100%;
-    height: 50%;
-    font-size: 18px;
+    font-size: 1em;
 }
 
 .prompt-input:hover {
@@ -78,7 +77,7 @@
     max-height: 65%;
     position: absolute;
     display: flex;
-    top: 16em;
+    top: 10em;
     right: 4em;
     align-items: center;
 }
@@ -90,6 +89,7 @@
     top: 0;
     right: 0;
     width: 80%;
+    height: 100%;
 }
 
 .presented-image-design {
@@ -111,14 +111,37 @@
     right: 4em;
 }
 
+.toolbar-button {
+    margin-left: 0.5em;
+}
+
 #design-title {
     color: grey;
     position: absolute;
     left: 1em;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
-.desings-list-area {
+.design-list-element {
+    color: black;
+}
+
+#start-new-button {
+    border-radius: 1em 0 0 0;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+#start-new-button:hover {
+    background-color: rgba(33, 32, 32, 0.9);
+    border-color: transparent;
+}
+
+.desings-history-area {
     display: flex;
     flex-direction: column;
     position: absolute; 
@@ -127,8 +150,54 @@
     width: 20%;
     height: 100%;
     overflow-y: scroll;
+    background-color: black;
+    border-radius: 1em 0 0 1em;
 }
 
-.design-list-element {
-    color: black;
+.history-design {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 2.5em;
+    width: 95%;
+    margin-left: 0.5em;
+}
+
+.history-design-content {
+    margin-left: 1em;
+}
+
+.history-design:hover {
+    background-color: rgba(33, 32, 32, 0.90);
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.next-design-area {
+    z-index: 100;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+}
+
+.forward-design-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forward-design-card:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.toolbar-next-design-area {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#close-next-design-area-button {
+    background-color: transparent;
+    border-color: transparent;
 }

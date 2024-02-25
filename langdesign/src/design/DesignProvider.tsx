@@ -14,12 +14,14 @@ const log = getLogger('DesignProvider');
 type UploadFn = (image: File, uid: string) => Promise<string>;
 type DesignFn = (image: string, prompt: string, uid: string) => Promise<string>;
 type UndoFn = () => void;
+type ForwardFn = (imageUrl: string) => void;
 type LoadDesignFn = (designName: string) => void;
+type StartNewFn = () => void;
 
 export interface DesignImage {
     imageUrl: string;
     parentImageUrl: string;
-    parentPrompt?: string;
+    creationPrompt?: string;
     children?: DesignImage[];
 }
 
@@ -30,17 +32,19 @@ export interface DesignProps {
     currentImageIndex: number;
 }
 
-export interface ExistentDesignProps {
+export interface HistoryDesignProps {
     name: string;
 }
 
 export interface DesignsState {
-    designs: ExistentDesignProps[];
+    designs: HistoryDesignProps[];
     currentDesign: DesignProps;
     upload?: UploadFn;
     design?: DesignFn;
     undo?: UndoFn;
+    forward?: ForwardFn;
     loadDesign?: LoadDesignFn;
+    startNew?: StartNewFn;
 }
 
 const initialState: DesignsState = {
@@ -61,8 +65,10 @@ export const DesignProvider: React.FC<DesignProviderProps> = ({ children }) => {
     const upload = useCallback<UploadFn>(uploadCallback, [designs, uid]);
     const design = useCallback<DesignFn>(designCallback, [currentDesign]);
     const undo = useCallback<UndoFn>(undoCallback, [currentDesign]);
+    const forward = useCallback<ForwardFn>(forwardCallback, [currentDesign]);
     const loadDesign = useCallback<LoadDesignFn>(loadDesignCallback, [currentDesign]);
-    const value = { currentDesign, designs, upload, design, undo, loadDesign };
+    const startNew = useCallback<StartNewFn>(startNewCallback, [currentDesign]);
+    const value = { currentDesign, designs, upload, design, undo, loadDesign, startNew, forward };
     const newDesignName = 'New design';
     log('render');
 
@@ -119,7 +125,13 @@ export const DesignProvider: React.FC<DesignProviderProps> = ({ children }) => {
                 { name: designName, lastUpdated: lastUpdated, currentImageIndex: 0 },
                 ...prevState.designs,
             ],
-            currentDesign: { name: designName, lastUpdated: lastUpdated, currentImageIndex: 0, images: [{ imageUrl: firstImageUrl, parentImageUrl: 'startImage' }] }
+            currentDesign: { 
+                name: designName, 
+                lastUpdated: lastUpdated, 
+                currentImageIndex: 0, 
+                images: [{ imageUrl: firstImageUrl, parentImageUrl: 'startImage' }], 
+                children: [] 
+            }
         }));
 
         return designName
@@ -133,6 +145,13 @@ export const DesignProvider: React.FC<DesignProviderProps> = ({ children }) => {
         })
     }
 
+    function startNewCallback() {
+        setState(prevState => ({
+            ...prevState,
+            currentDesign: initialState.currentDesign
+        }));
+    }
+
     function uploadCallback(image: File, uid: string): Promise<string> {
         const imageRef = ref(storage, `designs/${uid}/${image.name + v4()}`);
         return new Promise((resolve, reject) => {
@@ -144,6 +163,17 @@ export const DesignProvider: React.FC<DesignProviderProps> = ({ children }) => {
                 }).catch(reject); 
             }).catch(reject); 
         });
+    }
+
+    function forwardCallback(imageUrl: string): void {
+        const forwardIndex = currentDesign.images?.findIndex(image => currentDesign.images && image.imageUrl == imageUrl) || 0
+        setState(prevState => ({
+            ...prevState,
+            currentDesign: { 
+                ...prevState.currentDesign,
+                currentImageIndex: forwardIndex, 
+            }
+        }));
     }
 
     async function loadDesignCallback(designName: string) {
@@ -194,23 +224,40 @@ export const DesignProvider: React.FC<DesignProviderProps> = ({ children }) => {
         }
     }
 
-    async function addImageToDesign(designName: string, imageUrl: string, parentImageUrl: string) {
+    async function addImageToDesign(designName: string, imageUrl: string, parentImageUrl: string, prompt: string) {
         const designRef = dbRef(database, 'designs/' + designName);
         
         try {
-            const designSnapshot = await get(designRef);
-            const currentDesign = designSnapshot.val();
+            //const designSnapshot = await get(designRef);
+            //const currentDesign = designSnapshot.val();
             const lastUpdated = getCurrentTimestamp()
             
             if (currentDesign !== null) {
                 const currentImages: DesignImage[] = currentDesign.images || [];
-                //const parentIndex = currentImages.findIndex(image => image.imageUrl == currentDesign.images[currentDesign.currentImageIndex].parentImageUrl) || 0
+                const parentIndex = currentDesign.currentImageIndex;
                 
+                const newImage = { imageUrl: imageUrl, parentImageUrl: parentImageUrl, children: [], creationPrompt: prompt}
                 const updatedImages = [
                     ...currentImages,
-                    { imageUrl: imageUrl, parentImageUrl: parentImageUrl }
+                    newImage
                 ];
-                //updatedImages[parentIndex] = {...updatedImages[parentIndex], }
+                
+                // add the result image as children to the current image
+                const children = updatedImages[parentIndex].children
+                console.log('parentIndex', parentIndex)
+                console.log('children before', children)
+                if(children) {
+                    const newChildren = [...children, newImage]
+                    updatedImages[parentIndex] = {
+                        ...updatedImages[parentIndex], 
+                        children: newChildren
+                    }
+                } else {
+                    updatedImages[parentIndex] = {
+                        ...updatedImages[parentIndex], 
+                        children: [newImage] 
+                    }
+                }
 
                 await set(designRef, {
                     images: updatedImages,
@@ -220,6 +267,8 @@ export const DesignProvider: React.FC<DesignProviderProps> = ({ children }) => {
                     ...prevState,
                     currentDesign: { name: designName, lastUpdated: lastUpdated, currentImageIndex: updatedImages.length - 1, images: updatedImages }
                 }));
+                
+                console.log('parent children', updatedImages[parentIndex].children)
             } else {
                 console.error('Design document does not exist');
             }
@@ -263,7 +312,7 @@ export const DesignProvider: React.FC<DesignProviderProps> = ({ children }) => {
                 const imageRef = ref(storage, `designs/${uid}/${imageFile.name + v4()}`);
                 uploadBytes(imageRef, designedImageBlob).then((snapshot) => {
                     getDownloadURL(snapshot.ref).then((url) => {
-                        addImageToDesign(currentDesign?.name || "", url, imageUrl);
+                        addImageToDesign(currentDesign?.name || "", url, imageUrl, prompt);
                         resolve(url); 
                     }).catch(reject); 
                 }).catch(reject);
