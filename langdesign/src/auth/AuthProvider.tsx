@@ -24,6 +24,7 @@ export interface AuthState {
     uid?: string;
     email?: string;
     authenticationError?: string;
+    registeringError?: string;
 }
 
 const initialState: AuthState = {
@@ -39,7 +40,7 @@ interface AuthProviderProps {
 
 export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     const [state, setState] = useState<AuthState>(initialState);
-    const { isAuthenticated, pendingLogout,  token, uid } = state;
+    const { isAuthenticated, pendingLogout,  token, uid, authenticationError,registeringError } = state;
     const provider = new GoogleAuthProvider();
     const googleLogin = useCallback<LoginFn>(loginGoogleCallback, []);
     const emailLogin = useCallback<EmailLoginFn>(emailLoginCallback, []);
@@ -48,7 +49,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     const logout = useCallback<LogoutFn>(logoutCallback, []);
     useEffect(checkAuthenticateEffect, []);
     useEffect(logoutEffect, [pendingLogout])
-    const value = { isAuthenticated, pendingLogout, googleLogin, logout, emailLogin, emailSignUp, token, uid };
+    const value = { isAuthenticated, pendingLogout, authenticationError, registeringError, googleLogin, logout, emailLogin, emailSignUp, token, uid };
     log('render');
 
     return (
@@ -175,18 +176,23 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
                     token,
                     uid: user.uid,
                     email: user.email || "",
-                    isAuthenticated: true
+                    isAuthenticated: true,
+                    authenticationError: undefined
                 })
             })
             .catch((error) => {
                 const errorCode = error.code;
                 const errorMessage = error.message;
                 console.error("An error occurred during sign-in:", errorMessage);
+                setState({
+                    ...state,
+                    authenticationError: 'Invalid email or password.' 
+                })
             });
     }
 
     function emailSignupCallback(email: string, password: string): void {
-        log('Email log in')
+        log('Email sign up')
         createUserWithEmailAndPassword(auth, email, password)
             .then((userCredential) => {
                 const token = userCredential?.accessToken;
@@ -208,13 +214,17 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
                     token,
                     uid: user.uid,
                     email: user.email || "",
-                    isAuthenticated: true
+                    isAuthenticated: true,
+                    registeringError: undefined
                 })
             })
             .catch((error) => {
                 const errorCode = error.code;
                 const errorMessage = error.message;
-                console.error("An error occurred during sign-in:", errorMessage);
+                setState({
+                    ...state,
+                    registeringError: 'There already exists an account with the given email address.'
+                })
             });
     }
 

@@ -23,6 +23,8 @@ export const Login: React.FC = () => {
     async function handleLoginEmail() {
         log('Logging in email')
         try{
+            console.log(email)
+            console.log(password)
             emailLogin && emailLogin(email, password);
         } catch (e) {
             log(e);
@@ -54,7 +56,6 @@ export const Login: React.FC = () => {
         <div className='login'>
             <div className='login-area'>
                 <h1>Welcome back</h1>
-                {authenticationError && <p>Error authenticating</p>}
                 <div className='login-data-area'>
                     <input 
                         type="text"
@@ -62,13 +63,17 @@ export const Login: React.FC = () => {
                         className='login-input'
                         onChange={(e) => setEmail(e.target.value)}
                     />
-                    {errors.email && <span>Invalid email</span>}
                     <input 
                         type="password"
                         placeholder='Password'
                         className='login-input'
                         onChange={(e) => setPassword(e.target.value)}
                     />
+                    {authenticationError && 
+                        <div className='auth-error-area'>
+                            <p className='auth-error-text'>{authenticationError}</p>
+                        </div>
+                    }
                     <LoginButton text='Log in' onLogin={handleLoginEmail}/>
                     <div className="or-container">
                         <div className="or-line"></div>

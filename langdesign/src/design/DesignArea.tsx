@@ -5,12 +5,13 @@ import { DesignContext } from "./DesignProvider";
 import { getLogger } from "../core";
 import { FaArrowRotateLeft, FaArrowRotateRight, FaX, FaDownload, FaRegPenToSquare, FaCheck } from "react-icons/fa6";
 import { saveAs } from 'file-saver';
+import Image from 'react-bootstrap/Image';
 
 import './css/design-area.css'
-import { ToolbarDesignArea } from "./ToolbardDesignArea";
 import { AuthContext } from "../auth/AuthProvider";
 import { HistoryDesign } from "./HistoryDesign";
 import { ForwardDesignCard } from "./ForwardDesignCard";
+import { ToolbarDesignArea } from "./ToolbarDesignArea";
 
 const log = getLogger('DesignArea');
 
@@ -19,7 +20,7 @@ export const DesignArea: React.FC = () => {
     const [editedName, setEditedName] = useState('');
     const [isNameEditing, setIsNameEditing] = useState(false);
     const [isNextVisible, setIsNextVisible] = useState(false)
-    const { upload, design, undo, loadDesign, startNew, forward, rename, currentDesign, designs } = useContext(DesignContext);
+    const { upload, design, undo, loadDesign, startNew, forward, rename, currentDesign, designs, designLoading, designError } = useContext(DesignContext);
     const { uid } = useContext(AuthContext);
 
     function handleImageUpload(image: File) {
@@ -42,11 +43,6 @@ export const DesignArea: React.FC = () => {
         });
     }
 
-    function handleUndo() {
-        log('Undo')
-        undo && undo();
-    }
-
     function handleStartNewDesign() {
         log('Start new design')
         startNew && startNew();
@@ -60,38 +56,6 @@ export const DesignArea: React.FC = () => {
         setIsNextVisible(false);
     }
 
-    function forwardDisabled() {
-        return currentDesign && currentDesign.images && 
-        (currentDesign.images[currentDesign.currentImageIndex].children == undefined || currentDesign.images[currentDesign.currentImageIndex].children?.length == 0)
-    }
-
-    function handleSaveImage() {
-        if (currentDesign && currentDesign.images) {
-            const imageUrl = currentDesign.images[currentDesign.currentImageIndex].imageUrl;
-            fetch(imageUrl)
-                .then(response => response.blob())
-                .then(blob => {
-                    saveAs(blob, `${currentDesign.name}.png`);
-                })
-                .catch(error => {
-                    console.error('Error saving image:', error);
-                });
-        }
-    }
-
-    function handleRename() {
-        if(!isNameEditing) {
-            setEditedName(currentDesign.name);
-            setIsNameEditing(true);
-            if(designTitleInputRef.current) {
-                console.log('focus');
-            }
-            designTitleInputRef.current && designTitleInputRef.current.focus();
-            return;
-        }
-        rename && rename(editedName, currentDesign.code);
-        setIsNameEditing(false);
-    }
 
     return (
         <div className="design-area">
@@ -115,9 +79,20 @@ export const DesignArea: React.FC = () => {
             </div>
             {currentDesign.images && 
                 <div className='current-design-area'>
-                    <ToolbarDesignArea />
+                    <ToolbarDesignArea setNextVisible={setIsNextVisible}/> 
                     <div className="current-image-area">
-                        <img className='presented-image-design' src={currentDesign && currentDesign.images && currentDesign.images[currentDesign.currentImageIndex].imageUrl}/>
+                        {!designLoading && 
+                            <div className="design-error">
+                                <p className="design-error-text">{designError}</p>
+                            </div>
+                        }
+                        {!designLoading && <Image className='presented-image-design' src={currentDesign && currentDesign.images && currentDesign.images[currentDesign.currentImageIndex].imageUrl}/>}
+                        {designLoading && 
+                            <div className="design-loading">
+                                <h2>Designing...</h2>
+                                <div className="loading-spinner"></div> 
+                            </div>
+                        }
                     </div>
                     <div className="prompt-area">
                         <input 

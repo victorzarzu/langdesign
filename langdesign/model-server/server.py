@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify, send_file
 from PIL import Image
 import io
 from flask_cors import CORS
+import time
 
 app = Flask(__name__)
 CORS(app)
@@ -26,6 +27,7 @@ def design():
     transposed_image.save(img_byte_array, format='JPEG')
 
     #filepath = './da.jpeg'
+    time.sleep(30)
     
     # Save the image
     #transposed_image.save(filepath, format='JPEG')

@@ -15,3 +15,11 @@
     justify-content: center;
     align-items: center;
 }
+
+.top-main-design {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+}

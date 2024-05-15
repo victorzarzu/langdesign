@@ -8,7 +8,7 @@ import './css/index.css';
 const log = getLogger('Login');
 
 export const SignUp: React.FC = () => {    
-    const { googleLogin, emailSignUp, isAuthenticated, authenticationError } = useContext(AuthContext);
+    const { googleLogin, emailSignUp, isAuthenticated, registeringError } = useContext(AuthContext);
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
@@ -45,23 +45,26 @@ export const SignUp: React.FC = () => {
 
     return (
         <div className='sign-up'>
-            <div className='login-area'>
+            <div className='sign-up-area'>
                 <h1>Welcome back</h1>
-                {authenticationError && <p>Error authenticating</p>}
-                <div className='login-data-area'>
+                <div className='sign-up-data-area'>
                     <input 
                         type="text"
                         placeholder='Email'
                         className='sign-up-input'
                         onChange={(e) => setEmail(e.target.value)}
                     />
-                    {authenticationError && <span>Invalid email</span>}
                     <input 
                         type="password"
                         placeholder='Password'
                         onChange={(e) => setPassword(e.target.value)}
                         className='sign-up-input'
                     />
+                    {registeringError && 
+                        <div className='auth-error-area'>
+                            <p className='auth-error-text'>{registeringError}</p>
+                        </div>
+                    }
                     <LoginButton text='Sign-up' onLogin={handleSignupEmail}/>
                     <div className="or-container">
                         <div className="or-line"></div>

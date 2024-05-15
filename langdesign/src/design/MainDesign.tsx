@@ -20,9 +20,11 @@ export const MainDesign: React.FC = () => {
 
     return (
         <div className='main-design'>
-            {isAuthenticated && (
-                <button className="sign-out-button" onClick={handleSignOut}>Sign Out</button>
-            )}
+            <div className='top-main-design'>
+                {isAuthenticated && (
+                    <button className="sign-out-button" onClick={handleSignOut}>Sign Out</button>
+                )}
+            </div>
             <div className='design'>
                 <DesignArea />
             </div>

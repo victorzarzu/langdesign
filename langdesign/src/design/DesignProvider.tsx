@@ -16,6 +16,7 @@ type DesignFn = (image: string, prompt: string, uid: string) => Promise<string>;
 type UndoFn = () => void;
 type ForwardFn = (imageUrl: string) => void;
 type LoadDesignFn = (designCode: string, designName: string) => void;
+type DeleteDesignFn = (designCode: string) => void;
 type StartNewFn = () => void;
 type RenameFn = (name: string, designCode: string) => void;
 
@@ -42,6 +43,8 @@ export interface HistoryDesignProps {
 export interface DesignsState {
     designs: HistoryDesignProps[];
     currentDesign: DesignProps;
+    designLoading: boolean;
+    designError?: string;
     upload?: UploadFn;
     design?: DesignFn;
     undo?: UndoFn;
@@ -49,10 +52,12 @@ export interface DesignsState {
     loadDesign?: LoadDesignFn;
     startNew?: StartNewFn;
     rename?: RenameFn;
+    deleteDesign?: DeleteDesignFn;
 }
 
 const initialState: DesignsState = {
     designs: [],
+    designLoading: false,
     currentDesign: {name: '', code: '', lastUpdated: 1, currentImageIndex: 0}
 };
 
@@ -65,7 +70,7 @@ interface DesignProviderProps {
 export const DesignProvider: React.FC<DesignProviderProps> = ({ children }) => {
     const [state, setState] = useState<DesignsState>(initialState);
     const {uid, isAuthenticated} = useContext(AuthContext);
-    const { currentDesign, designs } = state;
+    const { currentDesign, designs, designLoading, designError } = state;
     const upload = useCallback<UploadFn>(uploadCallback, [designs, uid]);
     const design = useCallback<DesignFn>(designCallback, [currentDesign]);
     const undo = useCallback<UndoFn>(undoCallback, [currentDesign]);
@@ -73,7 +78,8 @@ export const DesignProvider: React.FC<DesignProviderProps> = ({ children }) => {
     const loadDesign = useCallback<LoadDesignFn>(loadDesignCallback, [currentDesign]);
     const startNew = useCallback<StartNewFn>(startNewCallback, [currentDesign]);
     const rename = useCallback<RenameFn>(renameCallback, [currentDesign]);
-    const value = { currentDesign, designs, upload, design, undo, loadDesign, startNew, forward, rename };
+    const deleteDesign = useCallback<DeleteDesignFn>(deleteDesignCallback, [currentDesign]);
+    const value = { currentDesign, designs, designLoading, designError, upload, design, undo, loadDesign, startNew, forward, rename, deleteDesign };
     const newDesignName = 'New design';
     log('render');
 
@@ -241,6 +247,33 @@ export const DesignProvider: React.FC<DesignProviderProps> = ({ children }) => {
         }
     }
 
+    async function deleteDesignCallback(designCode: string) {
+        try {
+            const userDesignsRef = dbRef(database, `users/${uid}/designs`);
+            const userDesignsSnapshot = await get(userDesignsRef);
+            const userDesings = userDesignsSnapshot.val();
+    
+            const designIndex = Object.keys(userDesings).findIndex(key => userDesings[key].code === designCode);
+    
+            if (designIndex !== -1) {
+                const designKey = Object.keys(userDesings)[designIndex];
+                delete userDesings[designKey];
+    
+                await set(userDesignsRef, userDesings);
+    
+                setState(prevState => ({
+                    ...prevState,
+                    designs: prevState.designs.filter(design => design.code !== designCode),
+                    currentDesign: initialState.currentDesign
+                }));
+            } else {
+                console.error('Design not found.');
+            }
+        } catch (error) {
+
+        }
+    }
+
     function undoCallback(): void {
         const undoIndex = currentDesign.images?.findIndex(image => currentDesign.images && image.imageUrl == currentDesign.images[currentDesign.currentImageIndex].parentImageUrl) || 0
         console.log('undo', undoIndex);
@@ -321,6 +354,10 @@ export const DesignProvider: React.FC<DesignProviderProps> = ({ children }) => {
     }
     
     async function sendForDesign(image: File, prompt: string): Promise<any> {
+        setState(prevState => ({
+            ...prevState,
+            designLoading: true
+        }));
         const formData = new FormData();
         formData.append('image', image);
     
@@ -339,7 +376,11 @@ export const DesignProvider: React.FC<DesignProviderProps> = ({ children }) => {
     
             return blob;
         } catch (error) {
-            console.error('Error:', error);
+            setState(prevState => ({
+                ...prevState,
+                designLoading: false,
+                designError: 'There was an error designing the image. Please try again.'
+            }));
             throw error; 
         }
     }
@@ -358,8 +399,19 @@ export const DesignProvider: React.FC<DesignProviderProps> = ({ children }) => {
                         resolve(url); 
                     }).catch(reject); 
                 }).catch(reject);
+
+                setState(prevState => ({
+                    ...prevState,
+                    designLoading: false,
+                    designError: undefined
+                }));
             } catch (error) {
                 reject(error);
+                setState(prevState => ({
+                    ...prevState,
+                    designLoading: false,
+                    designError: 'There was an error deisgning the image. Please try again.'
+                }));
             }
         });
     }

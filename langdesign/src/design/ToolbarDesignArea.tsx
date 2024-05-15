@@ -8,11 +8,14 @@ import { FaArrowRotateLeft, FaArrowRotateRight, FaX, FaDownload, FaRegPenToSquar
 
 const log = getLogger('FileUploader')
 
-export const ToolbarDesignArea: React.FC = ({  }) => {
-    const { upload, design, undo, loadDesign, startNew, forward, rename, currentDesign, designs } = useContext(DesignContext);
+export interface ToolbarDesignProps {
+    setNextVisible: (value : boolean) => void;
+}
+
+export const ToolbarDesignArea: React.FC<ToolbarDesignProps> = ({ setNextVisible }) => {
+    const { undo, rename, deleteDesign, currentDesign } = useContext(DesignContext);
     const [isNameEditing, setIsNameEditing] = useState(false);
     const [confirmDelete, setConfirmDelete] = useState(false);
-    const [isNextVisible, setIsNextVisible] = useState(false);
     const [editedName, setEditedName] = useState('');
     const designTitleInputRef = useRef<HTMLInputElement>(null);
 
@@ -55,7 +58,12 @@ export const ToolbarDesignArea: React.FC = ({  }) => {
     }
 
     function handleDeleteDesign() {
-
+        if(!confirmDelete) {
+            setConfirmDelete(true);
+            return;
+        }
+        deleteDesign && deleteDesign(currentDesign.code);
+        setConfirmDelete(false);
     }
 
   return (
@@ -96,7 +104,7 @@ export const ToolbarDesignArea: React.FC = ({  }) => {
             <button className="toolbar-button" onClick={handleUndo} disabled={currentDesign.currentImageIndex == 0}>
                 <FaArrowRotateLeft />
             </button>
-            <button className="toolbar-button" onClick={() => {setIsNextVisible(true)}} disabled={forwardDisabled()}>
+            <button className="toolbar-button" onClick={() => {setNextVisible(true)}} disabled={forwardDisabled()}>
                 <FaArrowRotateRight />
             </button>
         </div>
