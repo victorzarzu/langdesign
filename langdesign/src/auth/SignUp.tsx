@@ -1,27 +1,76 @@
-import { useContext, useEffect } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { AuthContext } from './AuthProvider';
 import { getLogger } from '../core';
 import { useNavigate } from "react-router-dom";
+import LoginButton from './LoginButton';
+import './css/index.css';
 
-const log = getLogger('SignUp');
+const log = getLogger('Login');
 
 export const SignUp: React.FC = () => {    
-    const { loginGoogle, isAuthenticated, authenticationError } = useContext(AuthContext);
+    const { googleLogin, emailSignUp, isAuthenticated, authenticationError } = useContext(AuthContext);
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+
     let navigate = useNavigate();
     useEffect(() => {
         if (isAuthenticated) {
             navigate("/");
         }
     }, [isAuthenticated]);
-    async function handleLoginGoogle() {
-        log('Signing up')
-        loginGoogle && loginGoogle()
+
+    async function handleSignupEmail() {
+        log('Logging in email')
+        try{
+            emailSignUp && emailSignUp(email, password);
+        } catch (e) {
+            log(e);
+        }
     }
+
+    const onSubmit = async () => {
+        try {
+            if(emailSignUp) {
+                await emailSignUp(email, password);
+            }
+        } catch (e) {
+            log(e);
+        }
+    };
+
+    async function handleLoginGoogle() {
+        log('Logging in Google')
+        googleLogin && googleLogin();
+    }
+
     return (
         <div className='sign-up'>
-            <h1>Create your account</h1>
-            {authenticationError && <p>Error authenticating</p>}
-            <button onClick={handleLoginGoogle}>Continue with Google</button>
+            <div className='login-area'>
+                <h1>Welcome back</h1>
+                {authenticationError && <p>Error authenticating</p>}
+                <div className='login-data-area'>
+                    <input 
+                        type="text"
+                        placeholder='Email'
+                        className='sign-up-input'
+                        onChange={(e) => setEmail(e.target.value)}
+                    />
+                    {authenticationError && <span>Invalid email</span>}
+                    <input 
+                        type="password"
+                        placeholder='Password'
+                        onChange={(e) => setPassword(e.target.value)}
+                        className='sign-up-input'
+                    />
+                    <LoginButton text='Sign-up' onLogin={handleSignupEmail}/>
+                    <div className="or-container">
+                        <div className="or-line"></div>
+                        <div className="or-text">or</div>
+                        <div className="or-line"></div>
+                    </div>
+                    <LoginButton text='Continue with Google' onLogin={handleLoginGoogle}/>
+                </div>
+            </div>
         </div>
     )
 }

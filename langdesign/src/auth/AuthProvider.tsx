@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import { getLogger } from '../core';
-import { signInWithPopup, GoogleAuthProvider, signOut, FacebookAuthProvider } from "firebase/auth";
+import { signInWithPopup, GoogleAuthProvider, signOut, FacebookAuthProvider, signInWithEmailAndPassword, createUserWithEmailAndPassword } from "firebase/auth";
 import { auth, database } from '../configs/firebase'
 import { ref, set, onValue } from "firebase/database";
 
@@ -9,12 +9,16 @@ const log = getLogger('AuthProvider');
 
 type LoginFn = () => void;
 type LogoutFn = () => void;
+type EmailLoginFn = (email : string, password : string) => void;
+type EmailSignUpFn = (email : string, password : string) => void;
 
 export interface AuthState {
     isAuthenticated: boolean;
     pendingLogout: boolean;
-    loginGoogle?: LoginFn;
-    loginFacebook?: LoginFn;
+    googleLogin?: LoginFn;
+    emailLogin?: EmailLoginFn;
+    emailSignUp?: EmailLoginFn;
+    facebookLogin?: LoginFn;
     logout?: LogoutFn;
     token?: string;
     uid?: string;
@@ -37,12 +41,14 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     const [state, setState] = useState<AuthState>(initialState);
     const { isAuthenticated, pendingLogout,  token, uid } = state;
     const provider = new GoogleAuthProvider();
-    const loginGoogle = useCallback<LoginFn>(loginGoogleCallback, []);
-    const loginFacebook = useCallback<LoginFn>(loginFacebookCallback, []);
+    const googleLogin = useCallback<LoginFn>(loginGoogleCallback, []);
+    const emailLogin = useCallback<EmailLoginFn>(emailLoginCallback, []);
+    const emailSignUp = useCallback<EmailSignUpFn>(emailSignupCallback, []);
+    //const facebookLogin = useCallback<LoginFn>(loginFacebookCallback, []);
     const logout = useCallback<LogoutFn>(logoutCallback, []);
     useEffect(checkAuthenticateEffect, []);
     useEffect(logoutEffect, [pendingLogout])
-    const value = { isAuthenticated, pendingLogout, loginGoogle, loginFacebook, logout, token, uid };
+    const value = { isAuthenticated, pendingLogout, googleLogin, logout, emailLogin, emailSignUp, token, uid };
     log('render');
 
     return (
@@ -145,6 +151,73 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
                 */
             });
     }
+
+    function emailLoginCallback(email: string, password: string): void {
+        log('Email log in')
+        signInWithEmailAndPassword(auth, email, password)
+            .then((userCredential) => {
+                const token = userCredential?.accessToken;
+                const user = userCredential.user;
+                if(token) {
+                    localStorage.setItem('token', token);
+                }
+                if(user) {
+                    localStorage.setItem('uid', user.uid);
+                }
+                if(user.email) {
+                    localStorage.setItem('email', user.email);
+                }
+                if(user.uid && user.email) {
+                    writeUserDataIfNew(user.uid, user.email);
+                }
+                setState({
+                    ...state,
+                    token,
+                    uid: user.uid,
+                    email: user.email || "",
+                    isAuthenticated: true
+                })
+            })
+            .catch((error) => {
+                const errorCode = error.code;
+                const errorMessage = error.message;
+                console.error("An error occurred during sign-in:", errorMessage);
+            });
+    }
+
+    function emailSignupCallback(email: string, password: string): void {
+        log('Email log in')
+        createUserWithEmailAndPassword(auth, email, password)
+            .then((userCredential) => {
+                const token = userCredential?.accessToken;
+                const user = userCredential.user;
+                if(token) {
+                    localStorage.setItem('token', token);
+                }
+                if(user) {
+                    localStorage.setItem('uid', user.uid);
+                }
+                if(user.email) {
+                    localStorage.setItem('email', user.email);
+                }
+                if(user.uid && user.email) {
+                    writeUserDataIfNew(user.uid, user.email);
+                }
+                setState({
+                    ...state,
+                    token,
+                    uid: user.uid,
+                    email: user.email || "",
+                    isAuthenticated: true
+                })
+            })
+            .catch((error) => {
+                const errorCode = error.code;
+                const errorMessage = error.message;
+                console.error("An error occurred during sign-in:", errorMessage);
+            });
+    }
+
 
     function logoutCallback(): void {
         log('logout');
