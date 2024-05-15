@@ -7,6 +7,7 @@ import { FaArrowRotateLeft, FaArrowRotateRight, FaX, FaDownload, FaRegPenToSquar
 import { saveAs } from 'file-saver';
 
 import './css/design-area.css'
+import { ToolbarDesignArea } from "./ToolbardDesignArea";
 import { AuthContext } from "../auth/AuthProvider";
 import { HistoryDesign } from "./HistoryDesign";
 import { ForwardDesignCard } from "./ForwardDesignCard";
@@ -18,7 +19,6 @@ export const DesignArea: React.FC = () => {
     const [editedName, setEditedName] = useState('');
     const [isNameEditing, setIsNameEditing] = useState(false);
     const [isNextVisible, setIsNextVisible] = useState(false)
-    const designTitleInputRef = useRef<HTMLInputElement>(null);
     const { upload, design, undo, loadDesign, startNew, forward, rename, currentDesign, designs } = useContext(DesignContext);
     const { uid } = useContext(AuthContext);
 
@@ -115,40 +115,7 @@ export const DesignArea: React.FC = () => {
             </div>
             {currentDesign.images && 
                 <div className='current-design-area'>
-                    <div className="toolbar-design-area">
-                        <div className="toolbar-title">
-                            {!isNameEditing ? 
-                                <div className="design-title"><h1 id="design-title">{currentDesign.name}</h1></div>
-                                :
-                                    <input 
-                                        id="design-title-input" 
-                                        ref={designTitleInputRef} 
-                                        value={editedName} 
-                                        type="text" 
-                                        onChange={(e: any) => setEditedName(e.target.value)}
-                                        onKeyDown={(e) => {
-                                            if(e.key === 'Enter') {
-                                                handleRename();
-                                            }
-                                        }}
-                                    />                            
-                            }
-                            <button className="toolbar-buttton" id='design-title-button' onClick={handleRename}>
-                                {!isNameEditing ? <FaRegPenToSquare /> : <FaCheck />} 
-                            </button>
-                        </div>
-                        <div className="toolbar-buttons">
-                            <button className="toolbar-button" onClick={handleSaveImage}>
-                                <FaDownload />
-                            </button>
-                            <button className="toolbar-button" onClick={handleUndo} disabled={currentDesign.currentImageIndex == 0}>
-                                <FaArrowRotateLeft />
-                            </button>
-                            <button className="toolbar-button" onClick={() => {setIsNextVisible(true)}} disabled={forwardDisabled()}>
-                                <FaArrowRotateRight />
-                            </button>
-                        </div>
-                    </div>
+                    <ToolbarDesignArea />
                     <div className="current-image-area">
                         <img className='presented-image-design' src={currentDesign && currentDesign.images && currentDesign.images[currentDesign.currentImageIndex].imageUrl}/>
                     </div>

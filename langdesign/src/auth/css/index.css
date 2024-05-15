@@ -55,3 +55,9 @@
     left: 100%;
     margin-left: 10px;
 }
+
+.get-started-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

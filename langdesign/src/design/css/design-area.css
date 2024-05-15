@@ -1,11 +1,10 @@
 .design-area {
-    max-width: 90%;
+    width: 90vw;
+    height: 90vh;
     max-height: 90%;
-    min-width: 90%; 
-    min-height: 55em;
+    min-height: 55vh;
     background-color: #e4e4e4; 
     border-radius: 1em; 
-    margin-top: 50px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,8 +33,9 @@
 
 .prompt-area {
     position: absolute;
-    bottom: 1em;
+    bottom: 0;
     width: 100%;
+    height: 10%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -100,7 +100,8 @@
 .toolbar-design-area {
     width: 100%;
     position: absolute;
-    top: 2.5em;
+    top: 0;
+    height: 10%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -108,7 +109,10 @@
 
 .toolbar-buttons {
     position: absolute;
-    right: 4em;
+    display: flex;
+    right: 3em;
+    height: 100%;
+    align-items: center;
 }
 
 .toolbar-title {
@@ -119,7 +123,8 @@
     align-items: center;
     justify-content: flex-start;
     align-content: center;
-    width: 75%;
+    width: 50%;
+    height: 100%;
 }
 
 .toolbar-button {
@@ -196,28 +201,27 @@
     border-radius: 1em 0 0 1em;
 }
 
-.desings-history-area {
-    display: flex;
-    flex-direction: column;
-    position: absolute; 
-    top: 0;
-    left: 0;
-    width: 20%; /* Initial width */
-    height: 100%;
-    overflow-y: scroll;
-    background-color: black;
-    border-radius: 1em 0 0 1em;
-}
-
 @media (max-width: 768px) {
     .desings-history-area {
-        width: 30%; /* Adjust width for smaller screens */
+        width: 30%; 
+    }
+    .current-design-area {
+        width: 70%;     
+    }
+    .toolbar-buttons {
+        flex-direction: column;
     }
 }
 
 @media (max-width: 576px) {
     .desings-history-area {
-        width: 40%; /* Adjust width for even smaller screens */
+        width: 30%; 
+    }
+    .current-design-area {
+        width: 70%; 
+    }
+    .toolbar-buttons {
+        flex-direction: column;
     }
 }
 
@@ -256,29 +260,53 @@
 .forward-design-area {
     z-index: 1;
     background-color: black;
-    overflow-x: auto;
-    display: flex;
+    overflow-y: hidden;
+    display: flex; 
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center; /* Align cards to the center */
+    border-radius: 0 1em 1em 0;
 }
 
 .forward-design-card {
-    flex: 0 0 calc(25% - 2vw); /* Adjusted width with margin */
-    margin: 1vw; /* Adjust spacing between cards */
+    flex: 1 1 calc(25% - 2vw); /* Change flex property to allow for flexible height */
+    margin: 1vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 25vh;
+    max-width: calc(25% - 2vw);
+}
+
+@media (max-width: 1200px) {
+    .forward-design-card {
+        flex-basis: calc(33.333% - 2vw); 
+        max-width: calc(33.333% - 2vw);     
+    }
+}
+
+@media (max-width: 768px) {
+    .forward-design-card {
+        flex-basis: calc(50% - 2vw); 
+        max-width: calc(50% - 2vw); 
+    }
+}
+
+@media (max-width: 576px) {
+    .forward-design-card {
+        flex-basis: calc(100% - 2vw); 
+        max-width: calc(100% - 2vw); 
+    }
 }
 
 .forward-card-prompt-area {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 5%;
+    height: 20%;
+    overflow: hidden;
+    text-align: center; /* Horizontally center the text */
 }
 
 .forward-design-card-image {
@@ -286,7 +314,7 @@
     height: 80%;
     position: relative;
     top: 0;
-    border: 5px solid transparent;
+    border: 5% solid transparent;
 }
 
 .forward-design-card-image:hover {
@@ -295,7 +323,6 @@
     border-style: solid;
     cursor: pointer;
 }
-
 
 .toolbar-forward-design-area {
     display: flex;
@@ -310,10 +337,13 @@
     height: 95%;
     width: 100%;
     display: flex;
+    flex-wrap: wrap; 
+    justify-content: flex-start; 
+    align-content: flex-start; 
     position: absolute;
     bottom: 0;
+    overflow: auto;
 }
-
 #close-forward-design-area-button {
     background-color: transparent;
     border-color: transparent;

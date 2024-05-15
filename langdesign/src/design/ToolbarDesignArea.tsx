@@ -1,10 +1,10 @@
 import React, { useState, useRef, useContext } from 'react';
 import './css/design-area.css';
 import { getLogger } from '../core';
-import { FaDownload, FaCheck } from 'react-icons/fa';
 import { DesignContext } from './DesignProvider';
 import { saveAs } from 'file-saver';
 import Form from 'react-bootstrap/Form';
+import { FaArrowRotateLeft, FaArrowRotateRight, FaX, FaDownload, FaRegPenToSquare, FaCheck, FaRegTrashCan } from "react-icons/fa6";
 
 const log = getLogger('FileUploader')
 
@@ -52,6 +52,10 @@ export const ToolbarDesignArea: React.FC = ({  }) => {
     function handleUndo() {
         log('Undo')
         undo && undo();
+    }
+
+    function handleDeleteDesign() {
+
     }
 
   return (

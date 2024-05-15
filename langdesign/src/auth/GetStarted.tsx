@@ -14,9 +14,9 @@ export const GetStarted: React.FC = () => {
     return (
         <div className='get-started'>
             <h1>Get started</h1>
-            <div style={{display: 'flex', flexDirection: 'row'}}>
-                <button onClick={() => navigate('/login')}>Log in</button>
-                <button onClick={() => navigate('/sign-up')}>Sign up</button>
+            <div className='get-started-area'>
+                <button className='get-started-button' onClick={() => navigate('/login')}>Log in</button>
+                <button className='get-started-button' onClick={() => navigate('/sign-up')}>Sign up</button>
             </div>
         </div>
     )
