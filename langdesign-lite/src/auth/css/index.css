@@ -1,0 +1,114 @@
+.get-started, .login, .sign-up {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.get-started-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.get-started-button {
+    width: 100%;
+    margin-top: 0.5em;
+}
+
+.login, .signup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-area, .signup-area {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-data-area, .signup-data-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login-input, .signup-input {
+    padding: 0 10px; 
+    min-height: 1em; 
+    line-height: 2.5em; 
+    border-radius: 9px; 
+    width: 100%;
+    font-size: 1em;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.25em;
+}
+
+.login-input:focus .signup-input:focus {
+    outline: none;
+}
+
+.login-button, .signup-button {
+    margin: 0.5rem 0;
+    width: 100%;
+    border-radius: 9px; 
+}
+
+.or-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.or-line {
+    flex: 1;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.or-text {
+    margin: 0 10px;
+    color: #ccc;
+    position: relative;
+}
+
+.or-text::before,
+.or-text::after {
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 1px;
+    background-color: #ccc;
+    position: absolute;
+    top: 50%;
+}
+
+.or-text::before {
+    right: 100%;
+    margin-right: 10px;
+}
+
+.or-text::after {
+    left: 100%;
+    margin-left: 10px;
+}
+
+.auth-error-area {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.auth-error-text {
+    color: rgb(173, 101, 101);
+    font-size: 0.9em;
+}

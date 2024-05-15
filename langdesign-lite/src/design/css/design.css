@@ -1,0 +1,21 @@
+.sign-out-button:hover {
+    border-color: transparent
+}
+
+.main-topbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100vw;
+    top: 0;
+}
+
+.design {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 95vh;
+}
