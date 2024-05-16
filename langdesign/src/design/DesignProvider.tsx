@@ -360,14 +360,12 @@ export const DesignProvider: React.FC<DesignProviderProps> = ({ children }) => {
         }));
         const formData = new FormData();
         formData.append('image', image);
+        formData.append('prompt', prompt)
     
         try {
             const response = await axios.post('http://127.0.0.1:5000/design', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data'
-                },
-                params: {
-                    prompt: prompt
                 },
                 responseType: 'arraybuffer'
             });

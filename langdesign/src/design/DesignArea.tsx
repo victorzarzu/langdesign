@@ -66,7 +66,7 @@ export const DesignArea: React.FC = () => {
                 </div>
             }
             <div className="desings-history-area">
-                    <button id="start-new-button" onClick={handleStartNewDesign} disabled={!currentDesign.images}>Start new design</button>
+                    <button id="start-new-button" onClick={handleStartNewDesign} disabled={!currentDesign.images}>New design</button>
                     {designs && designs.map(design => (
                         <HistoryDesign key={design.code} name={design.name || "New design"} onClick={() => {
                                 loadDesign && loadDesign(design.code, design.name)
