@@ -45,4 +45,15 @@ To be able to integrate ReLA in the editing pipeline, we propose the solution sh
 
 ![gres_enhance_results-2-1](https://github.com/user-attachments/assets/be69683b-3f5a-411b-a644-3d338c20dad4)
 
+# LanDesign platform
+
+<img width="1800" alt="design_image" src="https://github.com/user-attachments/assets/097462ec-b009-4479-89eb-0eb3ca2a8cb2">
+
+## Tree-like organization
+
+Every design is organized as a tree, the user being able to navigate through the tree based on the desired prompts.
+
+![licenta-7-1](https://github.com/user-attachments/assets/cfdd6d44-c2a1-410f-9211-850201554b10)
+
+
 This repo is based on the [InstructPix2Pix](https://github.com/timothybrooks/instruct-pix2pix) and [ReLA](https://github.com/henghuiding/ReLA).
